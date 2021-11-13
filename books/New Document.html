@@ -17,21 +17,20 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>Dailycode | Hexo</title>
-  <meta name="description" content="###82. 删除排序链表中的重复元素 II存在一个按升序排列的链表，给你这个链表的头节点 head ，请你删除链表中所有存在数字重复情况的节点，只保留原始链表中 没有重复出现 的数字。 返回同样按升序排列的结果链表。示例 1：输入：head &#x3D; [1,2,3,3,4,4,5]输出：[1,2,5] 12345678910111213141516171819202122232425262728293">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Dailycode">
-<meta property="og:url" content="http://spcablast.club/2021/11/06/20211106/index.html">
+  <title>Hexo</title>
+  <meta name="description" content="test book">
+<meta property="og:type" content="website">
+<meta property="og:title" content="YP Blog">
+<meta property="og:url" content="http://spcablast.club/books/New%20Document.html">
 <meta property="og:site_name" content="YP Blog">
-<meta property="og:description" content="###82. 删除排序链表中的重复元素 II存在一个按升序排列的链表，给你这个链表的头节点 head ，请你删除链表中所有存在数字重复情况的节点，只保留原始链表中 没有重复出现 的数字。 返回同样按升序排列的结果链表。示例 1：输入：head &#x3D; [1,2,3,3,4,4,5]输出：[1,2,5] 12345678910111213141516171819202122232425262728293">
+<meta property="og:description" content="test book">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-11-05T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-11-13T10:47:09.248Z">
+<meta property="article:published_time" content="2021-11-13T12:54:38.690Z">
+<meta property="article:modified_time" content="2021-11-13T12:54:38.690Z">
 <meta property="article:author" content="YP">
-<meta property="article:tag" content="算法题">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://spcablast.club/2021/11/06/20211106/index.html">
+  <link rel="canonical" href="http://spcablast.club/books/New%20Document.html">
   
     <link rel="alternate" href="/atom.xml" title="YP Blog" type="application/atom+xml">
   
@@ -341,53 +340,30 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="post-20211106" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="page-" class="article article-type-page" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
-      
-        
-  
-    <h1 class="article-title" itemprop="name">
-      Dailycode
-    </h1>
-  
-
       
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2021/11/06/20211106/" class="article-date">
-	  <time datetime="2021-11-05T16:00:00.000Z" itemprop="datePublished">2021-11-06</time>
+	<a href="/books/New%20Document.html" class="article-date">
+	  <time datetime="2021-11-13T12:54:38.690Z" itemprop="datePublished">2021-11-13</time>
 	</a>
 </span>
         
         
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>
-	<a class="article-tag-link" href="/tags/%E7%AE%97%E6%B3%95%E9%A2%98/" rel="tag">算法题</a>
-  </span>
-
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/11/06/20211106/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/books/New%20Document.html#comments" class="article-comment-link">评论</a></span>
         
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <p>###82. 删除排序链表中的重复元素 II<br>存在一个按升序排列的链表，给你这个链表的头节点 head ，请你删除链表中所有存在数字重复情况的节点，只保留原始链表中 没有重复出现 的数字。</p>
-<p>返回同样按升序排列的结果链表。<br>示例 1：<br>输入：head = [1,2,3,3,4,4,5]<br>输出：[1,2,5]</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * struct ListNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     ListNode *next;</span></span><br><span class="line"><span class="comment"> *     ListNode() : val(0), next(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x) : val(x), next(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x, ListNode *next) : val(x), next(next) &#123;&#125;</span></span><br><span class="line"><span class="comment"> * &#125;;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">deleteDuplicates</span><span class="params">( ListNode*  head)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(!head)</span><br><span class="line">        <span class="keyword">return</span> head;</span><br><span class="line">        ListNode* singleNode = <span class="keyword">new</span> ListNode(<span class="number">0</span>,head);</span><br><span class="line">        ListNode* flagHeader = singleNode;</span><br><span class="line">        <span class="keyword">while</span>(flagHeader-&gt;next &amp;&amp; flagHeader-&gt;next-&gt;next)&#123;</span><br><span class="line">            <span class="keyword">if</span>(flagHeader-&gt;next-&gt;val == flagHeader-&gt;next-&gt;next-&gt;val)&#123;</span><br><span class="line">                <span class="keyword">int</span> temp = flagHeader-&gt;next-&gt;val;</span><br><span class="line">                <span class="keyword">while</span>( flagHeader-&gt;next &amp;&amp; flagHeader-&gt;next-&gt;val == temp )&#123;</span><br><span class="line">                    flagHeader-&gt;next = flagHeader-&gt;next-&gt;next;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span>&#123;</span><br><span class="line">                flagHeader = flagHeader-&gt;next;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> singleNode-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+        <p>test book</p>
 
-<hr>
-<p>###剑指 Offer 39. 数组中出现次数超过一半的数字</p>
-<p><a href="https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof" target="_blank" rel="noopener">链接</a></p>
-<p>数组中有一个数字出现的次数超过数组长度的一半，请找出这个数字。</p>
-<p>你可以假设数组是非空的，并且给定的数组总是存在多数元素。</p>
-<p>示例 1:</p>
-<p>输入: [1, 2, 3, 2, 2, 2, 5, 4, 2]<br>输出: 2</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">majorityElement</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//来个map?</span></span><br><span class="line">        <span class="built_in">unordered_map</span>&lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt; myMap;</span><br><span class="line">        <span class="keyword">int</span> temp = <span class="number">0</span>, maxNum = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> num : nums)&#123;</span><br><span class="line">            ++myMap[num];</span><br><span class="line">            <span class="keyword">if</span>(myMap[num] &gt; maxNum)&#123;</span><br><span class="line">                temp = num;</span><br><span class="line">                maxNum = myMap[num];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
       
     </div>
     <div class="article-footer">
@@ -396,7 +372,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://spcablast.club/2021/11/06/20211106/" title="Dailycode" target="_blank" rel="external">http://spcablast.club/2021/11/06/20211106/</a>
+      <a href="http://spcablast.club/books/New%20Document.html" title="" target="_blank" rel="external">http://spcablast.club/books/New%20Document.html</a>
     </li>
     
     <li class="post-copyright-license">
@@ -439,20 +415,6 @@
 
   <nav class="bar bar-footer clearfix" data-stick-bottom>
   <div class="bar-inner">
-  
-  <ul class="pager pull-left">
-    
-    <li class="prev">
-      <a href="/2021/11/07/20211107/" title="Dailycode"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
-    </li>
-    
-    
-    <li class="next">
-      <a href="/2021/08/28/%E6%8A%A5%E7%9A%84%E9%94%99/" title="报的错"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
-    </li>
-    
-    
-  </ul>
   
   
   <!-- Button trigger modal -->
@@ -572,10 +534,6 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
-
-
-
-   
 
 
 
