@@ -18,20 +18,20 @@
   
   
   <title>Dailycode | Hexo</title>
-  <meta name="description" content="###67. 二进制求和给你两个二进制字符串，返回它们的和（用二进制表示）。 输入为 非空 字符串且只包含数字 1 和 0。 示例 1: 输入: a &#x3D; “11”, b &#x3D; “1”输出: “100”示例 2: 输入: a &#x3D; “1010”, b &#x3D; “1011”输出: “10101” 提示： 每个字符串仅由字符 ‘0’ 或 ‘1’ 组成。1 &lt;&#x3D; a.length, b.length &amp;lt">
+  <meta name="description" content="###剑指 Offer 10- I. 斐波那契数列写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项（即 F(N)）。斐波那契数列的定义如下： F(0) &#x3D; 0,   F(1) &#x3D; 1F(N) &#x3D; F(N - 1) + F(N - 2), 其中 N &gt; 1.斐波那契数列由 0 和 1 开始，之后的斐波那契数就是由之前的两数相加而得出。 答案需要取模 1e9+7（1000">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Dailycode">
-<meta property="og:url" content="http://spcablast.club/2021/11/16/20211116/index.html">
+<meta property="og:url" content="http://spcablast.club/2021/11/19/20211120/index.html">
 <meta property="og:site_name" content="YP Blog">
-<meta property="og:description" content="###67. 二进制求和给你两个二进制字符串，返回它们的和（用二进制表示）。 输入为 非空 字符串且只包含数字 1 和 0。 示例 1: 输入: a &#x3D; “11”, b &#x3D; “1”输出: “100”示例 2: 输入: a &#x3D; “1010”, b &#x3D; “1011”输出: “10101” 提示： 每个字符串仅由字符 ‘0’ 或 ‘1’ 组成。1 &lt;&#x3D; a.length, b.length &amp;lt">
+<meta property="og:description" content="###剑指 Offer 10- I. 斐波那契数列写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项（即 F(N)）。斐波那契数列的定义如下： F(0) &#x3D; 0,   F(1) &#x3D; 1F(N) &#x3D; F(N - 1) + F(N - 2), 其中 N &gt; 1.斐波那契数列由 0 和 1 开始，之后的斐波那契数就是由之前的两数相加而得出。 答案需要取模 1e9+7（1000">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-11-15T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-11-17T04:57:58.142Z">
+<meta property="article:published_time" content="2021-11-18T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-11-20T13:22:56.305Z">
 <meta property="article:author" content="YP">
 <meta property="article:tag" content="算法题">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://spcablast.club/2021/11/16/20211116/index.html">
+  <link rel="canonical" href="http://spcablast.club/2021/11/19/20211120/index.html">
   
     <link rel="alternate" href="/atom.xml" title="YP Blog" type="application/atom+xml">
   
@@ -342,9 +342,18 @@
 
   
   
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <nav id="toc" class="article-toc">
+      <h3 class="toc-title">文章目录</h3>
+      
+    </nav>
+  </div>
+</aside>
+
 <main class="main" role="main">
   <div class="content">
-  <article id="post-20211116" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-20211120" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
@@ -359,8 +368,8 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2021/11/16/20211116/" class="article-date">
-	  <time datetime="2021-11-15T16:00:00.000Z" itemprop="datePublished">2021-11-16</time>
+	<a href="/2021/11/19/20211120/" class="article-date">
+	  <time datetime="2021-11-18T16:00:00.000Z" itemprop="datePublished">2021-11-19</time>
 	</a>
 </span>
         
@@ -378,42 +387,29 @@
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/11/16/20211116/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/11/19/20211120/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 1.2k(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 854(字)</span>
 	
 	
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 5(分)</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 4(分)</span>
 	
 
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <p>###67. 二进制求和<br>给你两个二进制字符串，返回它们的和（用二进制表示）。</p>
-<p>输入为 非空 字符串且只包含数字 1 和 0。</p>
+        <p>###剑指 Offer 10- I. 斐波那契数列<br>写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项（即 F(N)）。斐波那契数列的定义如下：</p>
+<p>F(0) = 0,   F(1) = 1<br>F(N) = F(N - 1) + F(N - 2), 其中 N &gt; 1.<br>斐波那契数列由 0 和 1 开始，之后的斐波那契数就是由之前的两数相加而得出。</p>
+<p>答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    int fib(int n) &#123;</span><br><span class="line">        int i &#x3D; 0, j &#x3D; 1, temp, ans;</span><br><span class="line">        if(n &#x3D;&#x3D; 0) return 0;</span><br><span class="line">        if(n &#x3D;&#x3D; 1) return 1;</span><br><span class="line">        for(int k &#x3D; 1; k&lt;n;k++)&#123;</span><br><span class="line">            ans &#x3D; i + j;</span><br><span class="line">            temp &#x3D; k;</span><br><span class="line">            i &#x3D; j;</span><br><span class="line">            j &#x3D; ans % (1000000007);</span><br><span class="line">        &#125;</span><br><span class="line">        ans &#x3D; ans % (1000000007);</span><br><span class="line">        return ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>###29. 两数相除<br>给定两个整数，被除数 dividend 和除数 divisor。将两数相除，要求不使用乘法、除法和 mod 运算符。</p>
+<p>返回被除数 dividend 除以除数 divisor 得到的商。</p>
+<p>整数除法的结果应当截去（truncate）其小数部分，例如：truncate(8.345) = 8 以及 truncate(-2.7335) = -2</p>
 <p>示例 1:</p>
-<p>输入: a = “11”, b = “1”<br>输出: “100”<br>示例 2:</p>
-<p>输入: a = “1010”, b = “1011”<br>输出: “10101”</p>
-<p>提示：</p>
-<p>每个字符串仅由字符 ‘0’ 或 ‘1’ 组成。<br>1 &lt;= a.length, b.length &lt;= 10^4<br>字符串如果不是 “0” ，就都不含前导零。</p>
-<p>题解<br>分四种情况不如官方题解直接分两种情况，优化代码，不可能优化的，字符串的操作还得多学</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    string addBinary(string a, string b) &#123;</span><br><span class="line">        &#x2F;&#x2F;先把字符串倒过来，用两个数存长度，</span><br><span class="line">        &#x2F;&#x2F;a &#x3D; a.reverse();</span><br><span class="line">        &#x2F;&#x2F;b &#x3D; b.reverse();</span><br><span class="line">        reverse(a.begin(),a.end());</span><br><span class="line">        reverse(b.begin(),b.end());</span><br><span class="line">        string ans;</span><br><span class="line">        int acc &#x3D; 0;</span><br><span class="line">        char tempa, tempb;</span><br><span class="line">        int la &#x3D; a.size(), lb &#x3D; b.size();</span><br><span class="line">        for(int i &#x3D; 0; (i &lt; la || i &lt; lb); i++)&#123;</span><br><span class="line">            if(i&lt;la) tempa &#x3D; a[i];</span><br><span class="line">            else tempa &#x3D; &#39;0&#39;;</span><br><span class="line">            if(i&lt;lb) tempb &#x3D; b[i];</span><br><span class="line">            else tempb &#x3D; &#39;0&#39;;</span><br><span class="line">            if(tempa - &#39;0&#39; + tempb - &#39;0&#39; + acc &#x3D;&#x3D; 3) &#123;</span><br><span class="line">                ans.push_back(&#39;1&#39;);</span><br><span class="line">                acc &#x3D; 1;</span><br><span class="line">            &#125;</span><br><span class="line">            else if(tempa - &#39;0&#39; + tempb - &#39;0&#39; + acc &#x3D;&#x3D; 2) &#123;</span><br><span class="line">                ans.push_back(&#39;0&#39;);</span><br><span class="line">                acc &#x3D; 1;</span><br><span class="line">            &#125;</span><br><span class="line">            else if(tempa - &#39;0&#39; + tempb - &#39;0&#39; + acc &#x3D;&#x3D; 1) &#123;</span><br><span class="line">                ans.push_back(&#39;1&#39;);</span><br><span class="line">                acc &#x3D; 0;</span><br><span class="line">            &#125;</span><br><span class="line">            else if(tempa - &#39;0&#39; + tempb - &#39;0&#39; + acc &#x3D;&#x3D; 0) &#123;</span><br><span class="line">                ans.push_back(&#39;0&#39;);</span><br><span class="line">                acc &#x3D; 0;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        if(acc &#x3D;&#x3D; 1)&#123;</span><br><span class="line">            ans.push_back(&#39;1&#39;);</span><br><span class="line">        &#125;</span><br><span class="line">        reverse(ans.begin(),ans.end());</span><br><span class="line">        return ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<p>看看人家</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    string addBinary(string a, string b) &#123;</span><br><span class="line">        string ans;</span><br><span class="line">        reverse(a.begin(), a.end());</span><br><span class="line">        reverse(b.begin(), b.end());</span><br><span class="line">        int n &#x3D; max(a.size(), b.size()), carry &#x3D; 0;</span><br><span class="line">        for (size_t i &#x3D; 0; i &lt; n; ++i) &#123;</span><br><span class="line">            carry +&#x3D; i &lt; a.size() ? (a.at(i) &#x3D;&#x3D; &#39;1&#39;) : 0;</span><br><span class="line">            carry +&#x3D; i &lt; b.size() ? (b.at(i) &#x3D;&#x3D; &#39;1&#39;) : 0;</span><br><span class="line">            ans.push_back((carry % 2) ? &#39;1&#39; : &#39;0&#39;);</span><br><span class="line">            carry &#x2F;&#x3D; 2;</span><br><span class="line">        &#125;</span><br><span class="line">        if (carry) &#123;</span><br><span class="line">            ans.push_back(&#39;1&#39;);</span><br><span class="line">        &#125;</span><br><span class="line">        reverse(ans.begin(), ans.end());</span><br><span class="line">        return ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line">作者：LeetCode-Solution</span><br><span class="line">链接：https:&#x2F;&#x2F;leetcode-cn.com&#x2F;problems&#x2F;add-binary&#x2F;solution&#x2F;er-jin-zhi-qiu-he-by-leetcode-solution&#x2F;</span><br><span class="line">来源：力扣（LeetCode）</span><br><span class="line">著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</span><br></pre></td></tr></table></figure>
-
-<p>###299. 猜数字游戏<a href="https://leetcode-cn.com/problems/bulls-and-cows" target="_blank" rel="noopener">链接</a><br>你在和朋友一起玩 猜数字（Bulls and Cows）游戏，该游戏规则如下：</p>
-<p>写出一个秘密数字，并请朋友猜这个数字是多少。朋友每猜测一次，你就会给他一个包含下述信息的提示：</p>
-<p>猜测数字中有多少位属于数字和确切位置都猜对了（称为 “Bulls”, 公牛），<br>有多少位属于数字猜对了但是位置不对（称为 “Cows”, 奶牛）。也就是说，这次猜测中有多少位非公牛数字可以通过重新排列转换成公牛数字。<br>给你一个秘密数字 secret 和朋友猜测的数字 guess ，请你返回对朋友这次猜测的提示。</p>
-<p>提示的格式为 “xAyB” ，x 是公牛个数， y 是奶牛个数，A 表示公牛，B 表示奶牛。</p>
-<p>请注意秘密数字和朋友猜测的数字都可能含有重复数字。</p>
-<p>示例 1:</p>
-<p>输入: secret = “1807”, guess = “7810”<br>输出: “1A3B”<br>解释: 数字和位置都对（公牛）用 ‘|’ 连接，数字猜对位置不对（奶牛）的采用斜体加粗标识。<br>“1807”<br>  |<br>“7810”<br>示例 2:</p>
-<p>输入: secret = “1123”, guess = “0111”<br>输出: “1A1B”<br>解释: 数字和位置都对（公牛）用 ‘|’ 连接，数字猜对位置不对（奶牛）的采用斜体加粗标识。<br>“1123”        “1123”<br>  |      or     |<br>“0111”        “0111”<br>注意，两个不匹配的 1 中，只有一个会算作奶牛（数字猜对位置不对）。通过重新排列非公牛数字，其中仅有一个 1 可以成为公牛数字。</p>
-<p>题解（吐槽）：中等题的难度也是有区别的，这个算简单吧，而且阅读理解可能是大问题，阅读理解对了之后就是怎么把已知信息用算法表现出来了，欸，思想，就是思想。优化，是不可能优化的，就是从这里跳下去，我也不会优</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    string getHint(string secret, string guess) &#123;</span><br><span class="line">        &#x2F;&#x2F;简单的方法应该是遍历一遍，把公牛数字找出来，不如排序，或者用map，0到9分别有几个，对应数量相减，再减去公牛数字就是奶牛数字个数，直接用数组就行了</span><br><span class="line">        int cow &#x3D; 0, bull &#x3D; 0;</span><br><span class="line">        int counts[10] &#x3D; &#123;0&#125;,countg[10] &#x3D; &#123;0&#125;; </span><br><span class="line">        for(int i &#x3D; 0;i &lt; secret.size();++i)&#123;</span><br><span class="line">            if(secret[i] &#x3D;&#x3D; guess[i]) bull++;</span><br><span class="line">            else&#123;</span><br><span class="line">                counts[secret[i] - &#39;0&#39;]++;</span><br><span class="line">                countg[guess[i] - &#39;0&#39;]++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        for(int i &#x3D; 0;i&lt;10;i++)&#123;</span><br><span class="line">            cow +&#x3D; min(countg[i],counts[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        return to_string(bull) + &#39;A&#39; + to_string(cow)+&#39;B&#39;;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>输入: dividend = 10, divisor = 3<br>输出: 3<br>解释: 10/3 = truncate(3.33333..) = truncate(3) = 3<br>题（吐）解（槽）：这题也太离谱了，我提交了16次，边界情况这么多,以及我写的方法又死了</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    int divide(int dividend, int divisor) &#123;</span><br><span class="line">        &#x2F;&#x2F;被除数为最小值，除数分别为1和-1</span><br><span class="line">        if (dividend &#x3D;&#x3D; INT_MIN) &#123;</span><br><span class="line">            if (divisor &#x3D;&#x3D; 1) &#123;</span><br><span class="line">                return INT_MIN;</span><br><span class="line">            &#125;</span><br><span class="line">            if (divisor &#x3D;&#x3D; -1) &#123;</span><br><span class="line">                return INT_MAX;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        if(divisor &#x3D;&#x3D; INT_MIN)&#123;</span><br><span class="line">            if(dividend &#x3D;&#x3D; INT_MIN)&#123;</span><br><span class="line">                return 1;</span><br><span class="line">            &#125;</span><br><span class="line">            return 0;</span><br><span class="line">        &#125;</span><br><span class="line">        if(divisor &#x3D;&#x3D; 0 ) </span><br><span class="line">        return 0;</span><br><span class="line">        &#x2F;&#x2F;一定要转成负的，因为如果被除数是INT_MIN不好表示</span><br><span class="line">        bool flag &#x3D; false;</span><br><span class="line">        int m_dividend &#x3D; 0, m_divisor &#x3D; 0, ans &#x3D; 0;</span><br><span class="line">        if(dividend &gt; 0)&#123;</span><br><span class="line">            m_dividend &#x3D; -dividend;</span><br><span class="line">            flag &#x3D; !flag;</span><br><span class="line">        &#125;</span><br><span class="line">        else m_dividend &#x3D; dividend;</span><br><span class="line">        if(divisor &gt; 0)&#123;</span><br><span class="line">            m_divisor &#x3D; -divisor;</span><br><span class="line">            flag &#x3D; !flag;</span><br><span class="line">        &#125;</span><br><span class="line">        else m_divisor &#x3D; divisor;</span><br><span class="line">        &#x2F;&#x2F;我知道了，我一直把这个数乘2，到某一次乘2会大于等于被除数的时候，说明我到一半了</span><br><span class="line">        &#x2F;&#x2F;然后再用被除数减去这个时候的数，再重复之前的操作，直到某一次刚好等于或者被除数已经大于剩下的这个数了</span><br><span class="line">        vector&lt;int&gt; listDividend &#x3D; &#123;m_divisor&#125;;</span><br><span class="line">        while(m_dividend - m_divisor &lt;&#x3D; m_divisor)&#123;</span><br><span class="line">            m_divisor +&#x3D; m_divisor;</span><br><span class="line">             listDividend.push_back(m_divisor);</span><br><span class="line">        &#125;</span><br><span class="line">        for(int i &#x3D; listDividend.size() -1; i&gt;&#x3D;0 ; i--)&#123;</span><br><span class="line">            if(listDividend[i] &gt;&#x3D; m_dividend)&#123;</span><br><span class="line">                ans +&#x3D; 1 &lt;&lt; i;</span><br><span class="line">                m_dividend -&#x3D; listDividend[i];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        return flag?-ans:ans;</span><br><span class="line">        &#x2F;&#x2F; if(divisor &#x3D;&#x3D; 1 )return dividend;</span><br><span class="line">        &#x2F;&#x2F; if(divisor &#x3D;&#x3D; -1)return -dividend;</span><br><span class="line">        &#x2F;&#x2F; int ans &#x3D; 0, temp &#x3D; abs(divisor), totle &#x3D; 0, m_dividend &#x3D; abs(dividend);</span><br><span class="line">        &#x2F;&#x2F; while(m_dividend -totle &gt;&#x3D; temp)&#123;</span><br><span class="line">        &#x2F;&#x2F;     totle +&#x3D; temp;</span><br><span class="line">        &#x2F;&#x2F;     ans++;</span><br><span class="line">        &#x2F;&#x2F; &#125;</span><br><span class="line">        &#x2F;&#x2F; if((dividend &lt; 0 &amp;&amp; divisor &lt; 0) || (dividend &gt; 0 &amp;&amp; divisor &gt; 0))</span><br><span class="line">        &#x2F;&#x2F;     return ans;</span><br><span class="line">        &#x2F;&#x2F; else </span><br><span class="line">        &#x2F;&#x2F;     return -(ans);</span><br><span class="line">        &#x2F;&#x2F; long m_dividend  &#x3D; abs(dividend), m_divisor &#x3D; abs(divisor);</span><br><span class="line">        &#x2F;&#x2F; if(divisor &#x3D; 1 )return dividend;</span><br><span class="line">        &#x2F;&#x2F; if(divisor &#x3D; -1)return -dividend;</span><br><span class="line">        &#x2F;&#x2F; int temp &#x3D; divisor, itera &#x3D; 1;</span><br><span class="line">        &#x2F;&#x2F; &#x2F;&#x2F;我知道了，我一直把这个数乘2，到某一次乘2会大于等于被除数的时候，说明我到一半了</span><br><span class="line">        &#x2F;&#x2F; &#x2F;&#x2F;然后再用被除数减去这个时候的数，再重复之前的操作，直到某一次刚好等于或者被除数已经大于剩下的这个数了</span><br><span class="line">        &#x2F;&#x2F; while(m_divisor &lt; m_dividend)&#123;</span><br><span class="line">        &#x2F;&#x2F;     temp &#x3D; m_divisor;</span><br><span class="line">        &#x2F;&#x2F;     itera++;</span><br><span class="line">        &#x2F;&#x2F;     m_divisor +&#x3D; m_divisor;</span><br><span class="line">        &#x2F;&#x2F; &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
       
     </div>
     <div class="article-footer">
@@ -422,7 +418,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://spcablast.club/2021/11/16/20211116/" title="Dailycode" target="_blank" rel="external">http://spcablast.club/2021/11/16/20211116/</a>
+      <a href="http://spcablast.club/2021/11/19/20211120/" title="Dailycode" target="_blank" rel="external">http://spcablast.club/2021/11/19/20211120/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -469,14 +465,23 @@
   <ul class="pager pull-left">
     
     <li class="prev">
-      <a href="/2021/11/17/20211117/" title="Dailycode"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
+      <a href="/2021/11/19/20211119/" title="Dailycode"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
     </li>
     
     
     <li class="next">
-      <a href="/2021/11/15/20211115/" title="Dailycode"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/2021/11/18/%E8%AE%BA%E9%81%93%E5%BE%B7%E5%92%8C%E8%87%AA%E7%94%B1/" title="论意欲的自由"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
+    
+    <li class="toggle-toc">
+      <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false" title="文章目录" role="button">
+        <span>[&nbsp;</span><span>文章目录</span>
+        <i class="text-collapsed icon icon-anchor"></i>
+        <i class="text-in icon icon-close"></i>
+        <span>]</span>
+      </a>
+    </li>
     
   </ul>
   
