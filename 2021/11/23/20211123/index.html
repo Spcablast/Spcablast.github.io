@@ -18,20 +18,20 @@
   
   
   <title>Dailycode | Hexo</title>
-  <meta name="description" content="###48. 旋转图像给定一个 n × n 的二维矩阵 matrix 表示一个图像。请你将图像顺时针旋转 90 度。 你必须在 原地 旋转图像，这意味着你需要直接修改输入的二维矩阵。请不要 使用另一个矩阵来旋转图像。 题（吐）解（槽）：今天无力吐槽，干活 123456789101112131415161718192021class Solution &amp;#123;public:    void ro">
+  <meta name="description" content="###1389. 按既定顺序创建目标数组给你两个整数数组 nums 和 index。你需要按照以下规则创建目标数组： 目标数组 target 最初为空。按从左到右的顺序依次读取 nums[i] 和 index[i]，在 target 数组中的下标 index[i] 处插入值 nums[i] 。重复上一步，直到在 nums 和 index 中都没有要读取的元素。请你返回目标数组。 题目保证数字插入位">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Dailycode">
-<meta property="og:url" content="http://spcablast.club/2021/11/18/20211118/index.html">
+<meta property="og:url" content="http://spcablast.club/2021/11/23/20211123/index.html">
 <meta property="og:site_name" content="YP Blog">
-<meta property="og:description" content="###48. 旋转图像给定一个 n × n 的二维矩阵 matrix 表示一个图像。请你将图像顺时针旋转 90 度。 你必须在 原地 旋转图像，这意味着你需要直接修改输入的二维矩阵。请不要 使用另一个矩阵来旋转图像。 题（吐）解（槽）：今天无力吐槽，干活 123456789101112131415161718192021class Solution &amp;#123;public:    void ro">
+<meta property="og:description" content="###1389. 按既定顺序创建目标数组给你两个整数数组 nums 和 index。你需要按照以下规则创建目标数组： 目标数组 target 最初为空。按从左到右的顺序依次读取 nums[i] 和 index[i]，在 target 数组中的下标 index[i] 处插入值 nums[i] 。重复上一步，直到在 nums 和 index 中都没有要读取的元素。请你返回目标数组。 题目保证数字插入位">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-11-17T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-11-18T11:55:18.810Z">
+<meta property="article:published_time" content="2021-11-22T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-11-23T12:11:49.828Z">
 <meta property="article:author" content="YP">
-<meta property="article:tag" content="算法题">
+<meta property="article:tag" content="vector操作和 - 算法题">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://spcablast.club/2021/11/18/20211118/index.html">
+  <link rel="canonical" href="http://spcablast.club/2021/11/23/20211123/index.html">
   
     <link rel="alternate" href="/atom.xml" title="YP Blog" type="application/atom+xml">
   
@@ -353,7 +353,7 @@
 
 <main class="main" role="main">
   <div class="content">
-  <article id="post-20211118" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-20211123" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
@@ -368,8 +368,8 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2021/11/18/20211118/" class="article-date">
-	  <time datetime="2021-11-17T16:00:00.000Z" itemprop="datePublished">2021-11-18</time>
+	<a href="/2021/11/23/20211123/" class="article-date">
+	  <time datetime="2021-11-22T16:00:00.000Z" itemprop="datePublished">2021-11-23</time>
 	</a>
 </span>
         
@@ -381,16 +381,16 @@
         
   <span class="article-tag">
     <i class="icon icon-tags"></i>
-	<a class="article-tag-link" href="/tags/%E7%AE%97%E6%B3%95%E9%A2%98/" rel="tag">算法题</a>
+	<a class="article-tag-link" href="/tags/vector%E6%93%8D%E4%BD%9C%E5%92%8C-%E7%AE%97%E6%B3%95%E9%A2%98/" rel="tag">vector操作和 - 算法题</a>
   </span>
 
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/11/18/20211118/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/11/23/20211123/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 424(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 533(字)</span>
 	
 	
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 2(分)</span>
@@ -400,16 +400,21 @@
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <p>###48. 旋转图像<br>给定一个 n × n 的二维矩阵 matrix 表示一个图像。请你将图像顺时针旋转 90 度。</p>
-<p>你必须在 原地 旋转图像，这意味着你需要直接修改输入的二维矩阵。请不要 使用另一个矩阵来旋转图像。</p>
-<p>题（吐）解（槽）：今天无力吐槽，干活</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    void rotate(vector&lt;vector&lt;int&gt;&gt;&amp; matrix) &#123;</span><br><span class="line">        &#x2F;&#x2F;外圈到内圈轮流换位置</span><br><span class="line">        &#x2F;&#x2F;圈数等于n&#x2F;2</span><br><span class="line">        &#x2F;&#x2F;1      1</span><br><span class="line">        &#x2F;&#x2F;      </span><br><span class="line">        &#x2F;&#x2F;3      4 </span><br><span class="line">        &#x2F;&#x2F;转起来（0+1，0）（0+1，n-1）(n-1,n-1-1)(0,n-1-1)</span><br><span class="line">        int n &#x3D; matrix.size();</span><br><span class="line">        for (int i &#x3D; 0; i &lt; n &#x2F; 2; ++i) &#123;</span><br><span class="line">            for (int j &#x3D; 0; j &lt; (n + 1) &#x2F; 2; ++j) &#123;</span><br><span class="line">                int temp &#x3D; matrix[i][j];</span><br><span class="line">                matrix[i][j] &#x3D; matrix[n - j - 1][i];</span><br><span class="line">                matrix[n - j - 1][i] &#x3D; matrix[n - i - 1][n - j - 1];</span><br><span class="line">                matrix[n - i - 1][n - j - 1] &#x3D; matrix[j][n - i - 1];</span><br><span class="line">                matrix[j][n - i - 1] &#x3D; temp;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<p>###771. 宝石与石头<br> 给你一个字符串 jewels 代表石头中宝石的类型，另有一个字符串 stones 代表你拥有的石头。 stones 中每个字符代表了一种你拥有的石头的类型，你想知道你拥有的石头中有多少是宝石。</p>
-<p>字母区分大小写，因此 “a” 和 “A” 是不同类型的石头。</p>
-<p>示例 1：</p>
-<p>输入：jewels = “aA”, stones = “aAAbbbb”<br>输出：3<br>示例 2：</p>
-<p>输入：jewels = “z”, stones = “ZZ”<br>输出：0</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    int numJewelsInStones(string jewels, string stones) &#123;</span><br><span class="line">        int ans &#x3D; 0;</span><br><span class="line">        for(int i &#x3D; 0;i&lt;jewels.size();i++)&#123;</span><br><span class="line">            int cur &#x3D; jewels[i] - &#39;0&#39;;</span><br><span class="line">            for(int j &#x3D; 0; j&lt;stones.size();j++)&#123;</span><br><span class="line">                if(stones[j] - &#39;0&#39; &#x3D;&#x3D; cur)&#123;</span><br><span class="line">                    ans++;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        return ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+        <p>###1389. 按既定顺序创建目标数组<br>给你两个整数数组 nums 和 index。你需要按照以下规则创建目标数组：</p>
+<p>目标数组 target 最初为空。<br>按从左到右的顺序依次读取 nums[i] 和 index[i]，在 target 数组中的下标 index[i] 处插入值 nums[i] 。<br>重复上一步，直到在 nums 和 index 中都没有要读取的元素。<br>请你返回目标数组。</p>
+<p>题目保证数字插入位置总是存在。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; createTargetArray(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums, <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; index) &#123;</span><br><span class="line">        <span class="comment">//这题目可太绕了，在新数组index[i]的值的序号处，插入nums[i]</span></span><br><span class="line">        <span class="built_in">vector</span> &lt;<span class="keyword">int</span>&gt; r;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">unsigned</span> i = <span class="number">0</span>; i &lt; nums.<span class="built_in">size</span>(); ++i) &#123;</span><br><span class="line">            r.insert(r.<span class="built_in">begin</span>() + index[i], nums[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> r;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>###面试题 05.02. 二进制数转字符串<br>二进制数转字符串。给定一个介于0和1之间的实数（如0.72），类型为double，打印它的二进制表达式。如果该数字无法精确地用32位以内的二进制表示，则打印“ERROR”。</p>
+<p>示例1:</p>
+<p> 输入：0.625<br> 输出：”0.101”<br>示例2:</p>
+<p> 输入：0.1<br> 输出：”ERROR”<br> 提示：0.1无法被二进制准确表示<br>提示：</p>
+<p>32位包括输出中的”0.”这两位。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="built_in">string</span> <span class="title">printBin</span><span class="params">(<span class="keyword">double</span> num)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//从2的-1次方开始减，减到2的-32次方，如果中间都大于这个2的多少次放，说明那一次能减，如果有一次减到了0，说明能表示，如果不能，error</span></span><br><span class="line">        <span class="comment">//那这样就可以从2的-1次方加，能加就加，给个1，不能加给个0，加到2的-32次方，0.1010001</span></span><br><span class="line">        <span class="built_in">string</span> ans = <span class="string">"0."</span>;</span><br><span class="line">        <span class="keyword">while</span>(num != <span class="number">0</span>)&#123;<span class="comment">//怪了，double怎么能判断!=0的</span></span><br><span class="line">            num*=<span class="number">2</span>;</span><br><span class="line">            <span class="keyword">if</span>(num&gt;=<span class="number">1</span>)&#123;</span><br><span class="line">                ans += <span class="string">"1"</span>;</span><br><span class="line">                num -= <span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">                ans+=<span class="string">"0"</span>;</span><br><span class="line">            <span class="keyword">if</span>(ans.<span class="built_in">size</span>()&gt;<span class="number">32</span>) <span class="keyword">return</span> <span class="string">"ERROR"</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>正经吐槽：<br>怎么还能拿double和0 == 的，这合适吗，这一点都不合适，不应该double - 0 &gt; 1.79E+308嘛</p>
+<blockquote>
+<p>float的范围为-2^128 ~ +2^128，也即-3.40E+38 ~ +3.40E+38；double的范围为-2^1024 ~ +2^1024，也即-1.79E+308 ~ +1.79E+308。</p>
+</blockquote>
+
       
     </div>
     <div class="article-footer">
@@ -418,7 +423,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://spcablast.club/2021/11/18/20211118/" title="Dailycode" target="_blank" rel="external">http://spcablast.club/2021/11/18/20211118/</a>
+      <a href="http://spcablast.club/2021/11/23/20211123/" title="Dailycode" target="_blank" rel="external">http://spcablast.club/2021/11/23/20211123/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -464,13 +469,9 @@
   
   <ul class="pager pull-left">
     
-    <li class="prev">
-      <a href="/2021/11/18/%E8%AE%BA%E9%81%93%E5%BE%B7%E5%92%8C%E8%87%AA%E7%94%B1/" title="论意欲的自由"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
-    </li>
-    
     
     <li class="next">
-      <a href="/2021/11/18/ffmpeg%E6%93%8D%E4%BD%9C/" title="ffmpeg操作"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/2021/11/22/20211122/" title="Dailycode"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
     
