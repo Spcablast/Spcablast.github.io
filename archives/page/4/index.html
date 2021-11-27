@@ -17,21 +17,18 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>Dailycode | Hexo</title>
-  <meta name="description" content="###1105. 填充书架附近的家居城促销，你买回了一直心仪的可调节书架，打算把自己的书都整理到新的书架上。 你把要摆放的书 books 都整理好，叠成一摞：从上往下，第 i 本书的厚度为 books[i][0]，高度为 books[i][1]。 按顺序 将这些书摆放到总宽度为 shelf_width 的书架上。 先选几本书放在书架上（它们的厚度之和小于等于书架的宽度 shelf_width），然">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Dailycode">
-<meta property="og:url" content="http://spcablast.club/2021/11/08/20211108/index.html">
+  <title>归档 | Hexo</title>
+  <meta name="description" content="Study without thinking is labour lost. Thinking without study is perilous.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="YP Blog">
+<meta property="og:url" content="http://spcablast.club/archives/page/4/index.html">
 <meta property="og:site_name" content="YP Blog">
-<meta property="og:description" content="###1105. 填充书架附近的家居城促销，你买回了一直心仪的可调节书架，打算把自己的书都整理到新的书架上。 你把要摆放的书 books 都整理好，叠成一摞：从上往下，第 i 本书的厚度为 books[i][0]，高度为 books[i][1]。 按顺序 将这些书摆放到总宽度为 shelf_width 的书架上。 先选几本书放在书架上（它们的厚度之和小于等于书架的宽度 shelf_width），然">
+<meta property="og:description" content="Study without thinking is labour lost. Thinking without study is perilous.">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-11-07T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-11-17T08:48:31.915Z">
 <meta property="article:author" content="YP">
-<meta property="article:tag" content="算法题">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://spcablast.club/2021/11/08/20211108/index.html">
+  <link rel="canonical" href="http://spcablast.club/archives/page/4/index.html">
   
     <link rel="alternate" href="/atom.xml" title="YP Blog" type="application/atom+xml">
   
@@ -343,194 +340,74 @@
   
   
 <main class="main" role="main">
-  <div class="content">
-  <article id="post-20211108" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  	<article class="content article article-archives article-type-list" itemscope="">
+	    <header class="article-header">
+	      <h1 itemprop="title">归档</h1>
+	      <p class="text-muted">共 1 篇文章</p>
+	    </header>
+	    <div class="article-body">
+	      
+  
+  
     
-    <div class="article-header">
+    
       
-        
-  
-    <h1 class="article-title" itemprop="name">
-      Dailycode
-    </h1>
-  
-
       
-      <div class="article-meta">
-        <span class="article-date">
-    <i class="icon icon-calendar-check"></i>
-	<a href="/2021/11/08/20211108/" class="article-date">
-	  <time datetime="2021-11-07T16:00:00.000Z" itemprop="datePublished">2021-11-08</time>
-	</a>
-</span>
-        
-  <span class="article-category">
-    <i class="icon icon-folder"></i>
-    <a class="article-category-link" href="/categories/Dailycode/">Dailycode</a>
-  </span>
-
-        
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>
-	<a class="article-tag-link" href="/tags/%E7%AE%97%E6%B3%95%E9%A2%98/" rel="tag">算法题</a>
-  </span>
-
-
-        
-
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/11/08/20211108/#comments" class="article-comment-link">评论</a></span>
-        
-	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 670(字)</span>
-	
-	
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3(分)</span>
-	
-
-      </div>
-    </div>
-    <div class="article-entry marked-body" itemprop="articleBody">
-      
-        <p>###1105. 填充书架<br>附近的家居城促销，你买回了一直心仪的可调节书架，打算把自己的书都整理到新的书架上。</p>
-<p>你把要摆放的书 books 都整理好，叠成一摞：从上往下，第 i 本书的厚度为 books[i][0]，高度为 books[i][1]。</p>
-<p>按顺序 将这些书摆放到总宽度为 shelf_width 的书架上。</p>
-<p>先选几本书放在书架上（它们的厚度之和小于等于书架的宽度 shelf_width），然后再建一层书架。重复这个过程，直到把所有的书都放在书架上。</p>
-<p>需要注意的是，在上述过程的每个步骤中，摆放书的顺序与你整理好的顺序相同。 例如，如果这里有 5 本书，那么可能的一种摆放情况是：第一和第二本书放在第一层书架上，第三本书放在第二层书架上，第四和第五本书放在最后一层书架上。</p>
-<p>每一层所摆放的书的最大高度就是这一层书架的层高，书架整体的高度为各层高之和。</p>
-<p>以这种方式布置书架，返回书架整体可能的最小高度。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    int minHeightShelves(vector&lt;vector&lt;int&gt;&gt;&amp; books, int shelfWidth) &#123;</span><br><span class="line">    &#x2F;&#x2F;我大受震撼，且我不理解，下次让我做我还不会</span><br><span class="line">    &#x2F;&#x2F;    vector&lt;int&gt; d(books.size()+1,INT_MAX);</span><br><span class="line">    &#x2F;&#x2F;    d[books.size()] &#x3D; 0;</span><br><span class="line">    &#x2F;&#x2F;    for(int i &#x3D; books.size() - 1; i &gt;&#x3D; 0 ; --i)&#123;</span><br><span class="line">    &#x2F;&#x2F;        int MaxHeight &#x3D; 0;</span><br><span class="line">    &#x2F;&#x2F;        int leftWith &#x3D; shelfWidth;</span><br><span class="line">    &#x2F;&#x2F;        for(int j &#x3D; i; j &lt; books.size() &amp;&amp; leftWith &gt; books[j][0]; ++j)&#123;</span><br><span class="line">    &#x2F;&#x2F;            MaxHeight &#x3D; max(books[j][1], MaxHeight);</span><br><span class="line">    &#x2F;&#x2F;            d[i] &#x3D; min(MaxHeight + d[j+1],d[i]);</span><br><span class="line">    &#x2F;&#x2F;            leftWith -&#x3D; books[j][0];</span><br><span class="line">    &#x2F;&#x2F;        &#125;</span><br><span class="line">    &#x2F;&#x2F;    &#125;</span><br><span class="line">    &#x2F;&#x2F;    return d[0];</span><br><span class="line">    vector&lt;int&gt; dp(books.size() + 1, INT_MAX);</span><br><span class="line">    dp[books.size()] &#x3D; 0;</span><br><span class="line">    for (int i &#x3D; books.size() - 1; i &gt;&#x3D; 0; --i) &#123;</span><br><span class="line">        int max_book_height &#x3D; 0;</span><br><span class="line">        int left_width &#x3D; shelfWidth;</span><br><span class="line">        &#x2F;&#x2F; 把第 j 本书拿到第 i 本书后面</span><br><span class="line">        for (int j &#x3D; i; j &lt; books.size() &amp;&amp; left_width &gt;&#x3D; books[j][0]; ++j) &#123;</span><br><span class="line">            max_book_height &#x3D; max(max_book_height, books[j][1]);</span><br><span class="line">            dp[i] &#x3D; min(dp[i], max_book_height + dp[j+1]);</span><br><span class="line">            left_width -&#x3D; books[j][0];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    return dp[0];</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>###1822. 数组元素积的符号<br>已知函数 signFunc(x) 将会根据 x 的正负返回特定值：</p>
-<p>如果 x 是正数，返回 1 。<br>如果 x 是负数，返回 -1 。<br>如果 x 是等于 0 ，返回 0 。<br>给你一个整数数组 nums 。令 product 为数组 nums 中所有元素值的乘积。</p>
-<p>返回 signFunc(product) 。</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">arraySign</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> product = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> num : nums)&#123;</span><br><span class="line">            <span class="keyword">if</span>(num == <span class="number">0</span>)</span><br><span class="line">                <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">if</span>(num &lt; <span class="number">0</span>)</span><br><span class="line">                product *= <span class="number">-1</span>; </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> product;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-      
-    </div>
-    <div class="article-footer">
-      <blockquote class="mt-2x">
-  <ul class="post-copyright list-unstyled">
-    
-    <li class="post-copyright-link hidden-xs">
-      <strong>本文链接：</strong>
-      <a href="http://spcablast.club/2021/11/08/20211108/" title="Dailycode" target="_blank" rel="external">http://spcablast.club/2021/11/08/20211108/</a>
-    </li>
-    
-    <li class="post-copyright-license">
-      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
-    </li>
-  </ul>
-</blockquote>
-
-
-<div class="panel panel-default panel-badger">
-  <div class="panel-body">
-    <figure class="media">
-      <div class="media-left">
-        <a href="https://github.com/Spcabalst" target="_blank" class="img-burn thumb-sm visible-lg">
-          <img src="/images/avatar.jpg" class="img-rounded w-full" alt="">
-        </a>
-      </div>
-      <div class="media-body">
-        <h3 class="media-heading"><a href="https://github.com/Spcabalst" target="_blank"><span class="text-dark">SPCA</span><small class="ml-1x">Human</small></a></h3>
-        <div>know yourself!</div>
-      </div>
-    </figure>
-  </div>
-</div>
-
-
-    </div>
-  </article>
-  
-    
-  <section id="comments">
-  	
-      <div id="vcomments"></div>
-    
-  </section>
-
-
-  
-</div>
-
-  <nav class="bar bar-footer clearfix" data-stick-bottom>
-  <div class="bar-inner">
-  
-  <ul class="pager pull-left">
-    
-    <li class="prev">
-      <a href="/2021/11/09/20211109/" title="Dailycode"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
-    </li>
-    
-    
-    <li class="next">
-      <a href="/2021/11/07/20211107/" title="Dailycode"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
-    </li>
-    
-    
-  </ul>
-  
-  
-  <!-- Button trigger modal -->
-  <button type="button" class="btn btn-fancy btn-donate pop-onhover bg-gradient-warning" data-toggle="modal" data-target="#donateModal"><span>赏</span></button>
-  <!-- <div class="wave-icon wave-icon-danger btn-donate" data-toggle="modal" data-target="#donateModal">
-    <div class="wave-circle"><span class="icon"><i class="icon icon-bill"></i></span></div>
-  </div> -->
-  
-  
-  <div class="bar-right">
-    
-    <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter" data-mobile-sites="weibo,qq,qzone"></div>
-    
-  </div>
-  </div>
-</nav>
-  
-<!-- Modal -->
-<div class="modal modal-center modal-small modal-xs-full fade" id="donateModal" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content donate">
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      <div class="modal-body">
-        <div class="donate-box">
-          <div class="donate-head">
-            <p>感谢您的支持，我会继续努力的!</p>
-          </div>
-          <div class="tab-content">
-            <div role="tabpanel" class="tab-pane fade active in" id="alipay">
-              <div class="donate-payimg">
-                <img src="/images/donate/alipayimg.png" alt="扫码支持" title="扫一扫" />
-              </div>
-              <p class="text-muted mv">扫码打赏，你说多少就多少</p>
-              <p class="text-grey">打开支付宝扫一扫，即可进行扫码打赏哦</p>
-            </div>
-            <div role="tabpanel" class="tab-pane fade" id="wechatpay">
-              <div class="donate-payimg">
-                <img src="/images/donate/wechatpayimg.png" alt="扫码支持" title="扫一扫" />
-              </div>
-              <p class="text-muted mv">扫码打赏，你说多少就多少</p>
-              <p class="text-grey">打开微信扫一扫，即可进行扫码打赏哦</p>
-            </div>
-          </div>
-          <div class="donate-footer">
-            <ul class="nav nav-tabs nav-justified" role="tablist">
-              <li role="presentation" class="active">
-                <a href="#alipay" id="alipay-tab" role="tab" data-toggle="tab" aria-controls="alipay" aria-expanded="true"><i class="icon icon-alipay"></i> 支付宝</a>
-              </li>
-              <li role="presentation" class="">
-                <a href="#wechatpay" role="tab" id="wechatpay-tab" data-toggle="tab" aria-controls="wechatpay" aria-expanded="false"><i class="icon icon-wepay"></i> 微信支付</a>
-              </li>
-            </ul>
-          </div>
+      <section class="panel panel-default b-no">
+        <div class="panel-heading" role="tab">
+          <h3 class="panel-title">
+            <a data-toggle="collapse" href="#collapse2020" aria-expanded="true">
+              <i class="icon icon-calendar-plus text-active"></i><i class="icon icon-calendar-minus text"></i>
+              2020
+            </a>
+            <!-- <a href="/archives/2020" class="archive-year">2020</a> -->
+          </h3>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
+        <div id="collapse2020" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2020">
+        <div class="panel-body">
+          <div class="collection">
+    
+    
+<a href="/2020/01/08/SLAM%E5%88%9D%E5%A7%8B%E5%8C%96%E7%82%B9%E4%BA%91%E4%BD%8D%E5%A7%BF%E6%B5%81%E7%A8%8B/" class="collection-item" target="_blank" itemprop="url">
+  <time datetime="2020-01-07T16:00:00.000Z" itemprop="datePublished">2020-01-08</time>
+  <span>&nbsp;&nbsp;&nbsp;</span> 2021-4-29 ORB-SLAM2源码
+</a>
 
 
+  
+  
+    </div></div></div></section>
+  
 
+	    </div>
+  	</article>
+  	
+    
+    <nav class="bar bar-footer clearfix" data-stick-bottom>
+        <div class="bar-inner">
+        <ul class="pager pull-left">
+            
+            <li class="prev">
+                <a href="/archives/page/3/">
+                    <i class="icon icon-angle-left"></i>
+                    上一页
+                </a>
+            </li>
+            
+            
+            <li class="next disabled">
+                <a href="javascript:;">
+                    下一页
+                    <i class="icon icon-angle-right"></i>                    
+                </a>
+            </li>
+            
+        </ul>
+        <div class="total-article bar-right">Page 4 of 4</div>
+        </div>
+    </nav>
+    
+ 	
 </main>
 
   <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
@@ -587,36 +464,6 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
-
-   
-
-
-
-
-   
-    
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/valine"></script>
-  <script type="text/javascript">
-  var GUEST = ['nick', 'mail', 'link'];
-  var meta = 'nick,mail,link';
-  meta = meta.split(',').filter(function(item) {
-    return GUEST.indexOf(item) > -1;
-  });
-  new Valine({
-    el: '#vcomments',
-    verify: false,
-    notify: false,
-    appId: 'hsaJ5cJR7JeNndFXLpUut3Bj-gzGzoHsz',
-    appKey: 'VQQFVxzpopnD2jyMtgWLgwWL',
-    placeholder: 'Say you wanna dance',
-    avatar: 'mm',
-    meta: meta,
-    pageSize: '10' || 10,
-    visitor: false
-  });
-  </script>
-     
 
 
 

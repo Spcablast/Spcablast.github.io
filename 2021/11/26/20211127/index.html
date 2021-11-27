@@ -18,20 +18,20 @@
   
   
   <title>Dailycode | Hexo</title>
-  <meta name="description" content="###1105. 填充书架附近的家居城促销，你买回了一直心仪的可调节书架，打算把自己的书都整理到新的书架上。 你把要摆放的书 books 都整理好，叠成一摞：从上往下，第 i 本书的厚度为 books[i][0]，高度为 books[i][1]。 按顺序 将这些书摆放到总宽度为 shelf_width 的书架上。 先选几本书放在书架上（它们的厚度之和小于等于书架的宽度 shelf_width），然">
+  <meta name="description" content="最小路径和给定一个包含非负整数的 m x n 网格 grid ，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。  说明：每次只能向下或者向右移动一步。 1234567891011121314151617181920212223242526272829303132333435363738class Solution &amp;#123;public:int minPathSum(vecto">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Dailycode">
-<meta property="og:url" content="http://spcablast.club/2021/11/08/20211108/index.html">
+<meta property="og:url" content="http://spcablast.club/2021/11/26/20211127/index.html">
 <meta property="og:site_name" content="YP Blog">
-<meta property="og:description" content="###1105. 填充书架附近的家居城促销，你买回了一直心仪的可调节书架，打算把自己的书都整理到新的书架上。 你把要摆放的书 books 都整理好，叠成一摞：从上往下，第 i 本书的厚度为 books[i][0]，高度为 books[i][1]。 按顺序 将这些书摆放到总宽度为 shelf_width 的书架上。 先选几本书放在书架上（它们的厚度之和小于等于书架的宽度 shelf_width），然">
+<meta property="og:description" content="最小路径和给定一个包含非负整数的 m x n 网格 grid ，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。  说明：每次只能向下或者向右移动一步。 1234567891011121314151617181920212223242526272829303132333435363738class Solution &amp;#123;public:int minPathSum(vecto">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-11-07T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-11-17T08:48:31.915Z">
+<meta property="article:published_time" content="2021-11-25T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-11-27T15:33:08.155Z">
 <meta property="article:author" content="YP">
-<meta property="article:tag" content="算法题">
+<meta property="article:tag" content="动态规划 - 算法题">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://spcablast.club/2021/11/08/20211108/index.html">
+  <link rel="canonical" href="http://spcablast.club/2021/11/26/20211127/index.html">
   
     <link rel="alternate" href="/atom.xml" title="YP Blog" type="application/atom+xml">
   
@@ -342,9 +342,18 @@
 
   
   
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <nav id="toc" class="article-toc">
+      <h3 class="toc-title">文章目录</h3>
+      
+    </nav>
+  </div>
+</aside>
+
 <main class="main" role="main">
   <div class="content">
-  <article id="post-20211108" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-20211127" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
@@ -359,8 +368,8 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2021/11/08/20211108/" class="article-date">
-	  <time datetime="2021-11-07T16:00:00.000Z" itemprop="datePublished">2021-11-08</time>
+	<a href="/2021/11/26/20211127/" class="article-date">
+	  <time datetime="2021-11-25T16:00:00.000Z" itemprop="datePublished">2021-11-26</time>
 	</a>
 </span>
         
@@ -372,39 +381,35 @@
         
   <span class="article-tag">
     <i class="icon icon-tags"></i>
-	<a class="article-tag-link" href="/tags/%E7%AE%97%E6%B3%95%E9%A2%98/" rel="tag">算法题</a>
+	<a class="article-tag-link" href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92-%E7%AE%97%E6%B3%95%E9%A2%98/" rel="tag">动态规划 - 算法题</a>
   </span>
 
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/11/08/20211108/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/11/26/20211127/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 670(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 409(字)</span>
 	
 	
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3(分)</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 1(分)</span>
 	
 
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <p>###1105. 填充书架<br>附近的家居城促销，你买回了一直心仪的可调节书架，打算把自己的书都整理到新的书架上。</p>
-<p>你把要摆放的书 books 都整理好，叠成一摞：从上往下，第 i 本书的厚度为 books[i][0]，高度为 books[i][1]。</p>
-<p>按顺序 将这些书摆放到总宽度为 shelf_width 的书架上。</p>
-<p>先选几本书放在书架上（它们的厚度之和小于等于书架的宽度 shelf_width），然后再建一层书架。重复这个过程，直到把所有的书都放在书架上。</p>
-<p>需要注意的是，在上述过程的每个步骤中，摆放书的顺序与你整理好的顺序相同。 例如，如果这里有 5 本书，那么可能的一种摆放情况是：第一和第二本书放在第一层书架上，第三本书放在第二层书架上，第四和第五本书放在最后一层书架上。</p>
-<p>每一层所摆放的书的最大高度就是这一层书架的层高，书架整体的高度为各层高之和。</p>
-<p>以这种方式布置书架，返回书架整体可能的最小高度。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    int minHeightShelves(vector&lt;vector&lt;int&gt;&gt;&amp; books, int shelfWidth) &#123;</span><br><span class="line">    &#x2F;&#x2F;我大受震撼，且我不理解，下次让我做我还不会</span><br><span class="line">    &#x2F;&#x2F;    vector&lt;int&gt; d(books.size()+1,INT_MAX);</span><br><span class="line">    &#x2F;&#x2F;    d[books.size()] &#x3D; 0;</span><br><span class="line">    &#x2F;&#x2F;    for(int i &#x3D; books.size() - 1; i &gt;&#x3D; 0 ; --i)&#123;</span><br><span class="line">    &#x2F;&#x2F;        int MaxHeight &#x3D; 0;</span><br><span class="line">    &#x2F;&#x2F;        int leftWith &#x3D; shelfWidth;</span><br><span class="line">    &#x2F;&#x2F;        for(int j &#x3D; i; j &lt; books.size() &amp;&amp; leftWith &gt; books[j][0]; ++j)&#123;</span><br><span class="line">    &#x2F;&#x2F;            MaxHeight &#x3D; max(books[j][1], MaxHeight);</span><br><span class="line">    &#x2F;&#x2F;            d[i] &#x3D; min(MaxHeight + d[j+1],d[i]);</span><br><span class="line">    &#x2F;&#x2F;            leftWith -&#x3D; books[j][0];</span><br><span class="line">    &#x2F;&#x2F;        &#125;</span><br><span class="line">    &#x2F;&#x2F;    &#125;</span><br><span class="line">    &#x2F;&#x2F;    return d[0];</span><br><span class="line">    vector&lt;int&gt; dp(books.size() + 1, INT_MAX);</span><br><span class="line">    dp[books.size()] &#x3D; 0;</span><br><span class="line">    for (int i &#x3D; books.size() - 1; i &gt;&#x3D; 0; --i) &#123;</span><br><span class="line">        int max_book_height &#x3D; 0;</span><br><span class="line">        int left_width &#x3D; shelfWidth;</span><br><span class="line">        &#x2F;&#x2F; 把第 j 本书拿到第 i 本书后面</span><br><span class="line">        for (int j &#x3D; i; j &lt; books.size() &amp;&amp; left_width &gt;&#x3D; books[j][0]; ++j) &#123;</span><br><span class="line">            max_book_height &#x3D; max(max_book_height, books[j][1]);</span><br><span class="line">            dp[i] &#x3D; min(dp[i], max_book_height + dp[j+1]);</span><br><span class="line">            left_width -&#x3D; books[j][0];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    return dp[0];</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+        <ol start="64">
+<li>最小路径和<br>给定一个包含非负整数的 m x n 网格 grid ，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。</li>
+</ol>
+<p>说明：每次只能向下或者向右移动一步。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">minPathSum</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&gt; &amp;grid)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//好，我现在看什么都想动态规划，gan</span></span><br><span class="line">    <span class="comment">//假设我在最后一个格子了，那么比较到达左边需要的总数小还是上边的总数小</span></span><br><span class="line">    <span class="comment">//感觉就像穷举，没错，就是了</span></span><br><span class="line">    <span class="keyword">if</span> (!grid.<span class="built_in">size</span>())</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span> (!grid[<span class="number">0</span>].<span class="built_in">size</span>())</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> col = grid.<span class="built_in">size</span>(), row = grid[<span class="number">0</span>].<span class="built_in">size</span>();</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; dp(col * row);</span><br><span class="line">    dp[<span class="number">0</span>] = grid[<span class="number">0</span>][<span class="number">0</span>];</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; col; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; row; j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (i * col + j != <span class="number">0</span>)</span><br><span class="line">            &#123; <span class="comment">//跳过0，0</span></span><br><span class="line">                <span class="keyword">if</span> (i == <span class="number">0</span>)</span><br><span class="line">                &#123; <span class="comment">//第0列</span></span><br><span class="line">                    <span class="keyword">if</span>(j&gt;<span class="number">0</span>)</span><br><span class="line">                        dp[i * row + j] = grid[<span class="number">0</span>][j] + dp[i * row + j <span class="number">-1</span>];</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">else</span> <span class="keyword">if</span> (j == <span class="number">0</span>)</span><br><span class="line">                &#123; <span class="comment">//第0列</span></span><br><span class="line">                    dp[i * row + j] = grid[i][<span class="number">0</span>] + dp[(i<span class="number">-1</span>)*row];</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">else</span></span><br><span class="line">                &#123;</span><br><span class="line">                    dp[i * row + j] = <span class="built_in">min</span>(dp[(i - <span class="number">1</span>) * row + j] + grid[i][j], dp[i * row + j - <span class="number">1</span>] + grid[i][j]);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> dp[col * row - <span class="number">1</span>];</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p>###7. 整数反转<br>给你一个 32 位的有符号整数 x ，返回将 x 中的数字部分反转后的结果。</p>
+<p>如果反转后整数超过 32 位的有符号整数的范围 [−231,  231 − 1] ，就返回 0。</p>
+<p>假设环境不允许存储 64 位整数（有符号或无符号）。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">reverse</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(x == <span class="number">0</span>) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> ans = <span class="number">0</span>,temp = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span>(x!=<span class="number">0</span>)&#123;</span><br><span class="line">            temp = x%<span class="number">10</span>;</span><br><span class="line">            <span class="keyword">if</span>( ans &lt;= INT_MAX/<span class="number">10</span> &amp;&amp; ans &gt;= INT_MIN/<span class="number">10</span>)</span><br><span class="line">                ans = ans*<span class="number">10</span> + temp;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">            x/=<span class="number">10</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
-<hr>
-<p>###1822. 数组元素积的符号<br>已知函数 signFunc(x) 将会根据 x 的正负返回特定值：</p>
-<p>如果 x 是正数，返回 1 。<br>如果 x 是负数，返回 -1 。<br>如果 x 是等于 0 ，返回 0 。<br>给你一个整数数组 nums 。令 product 为数组 nums 中所有元素值的乘积。</p>
-<p>返回 signFunc(product) 。</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">arraySign</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> product = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> num : nums)&#123;</span><br><span class="line">            <span class="keyword">if</span>(num == <span class="number">0</span>)</span><br><span class="line">                <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">if</span>(num &lt; <span class="number">0</span>)</span><br><span class="line">                product *= <span class="number">-1</span>; </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> product;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
       
     </div>
     <div class="article-footer">
@@ -413,7 +418,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://spcablast.club/2021/11/08/20211108/" title="Dailycode" target="_blank" rel="external">http://spcablast.club/2021/11/08/20211108/</a>
+      <a href="http://spcablast.club/2021/11/26/20211127/" title="Dailycode" target="_blank" rel="external">http://spcablast.club/2021/11/26/20211127/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -460,14 +465,23 @@
   <ul class="pager pull-left">
     
     <li class="prev">
-      <a href="/2021/11/09/20211109/" title="Dailycode"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
+      <a href="/2021/11/26/20211126/" title="Dailycode"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
     </li>
     
     
     <li class="next">
-      <a href="/2021/11/07/20211107/" title="Dailycode"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/2021/11/25/20211125/" title="Dailycode"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
+    
+    <li class="toggle-toc">
+      <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false" title="文章目录" role="button">
+        <span>[&nbsp;</span><span>文章目录</span>
+        <i class="text-collapsed icon icon-anchor"></i>
+        <i class="text-in icon icon-close"></i>
+        <span>]</span>
+      </a>
+    </li>
     
   </ul>
   
