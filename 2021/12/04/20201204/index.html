@@ -18,20 +18,20 @@
   
   
   <title>Dailycode | Hexo</title>
-  <meta name="description" content="###48. 旋转图像给定一个 n × n 的二维矩阵 matrix 表示一个图像。请你将图像顺时针旋转 90 度。 你必须在 原地 旋转图像，这意味着你需要直接修改输入的二维矩阵。请不要 使用另一个矩阵来旋转图像。 题（吐）解（槽）：今天无力吐槽，干活 123456789101112131415161718192021class Solution &amp;#123;public:    void ro">
+  <meta name="description" content="###121. 买卖股票的最佳时机给定一个数组 prices ，它的第 i 个元素 prices[i] 表示一支给定股票第 i 天的价格。 你只能选择 某一天 买入这只股票，并选择在 未来的某一个不同的日子 卖出该股票。设计一个算法来计算你所能获取的最大利润。 返回你可以从这笔交易中获取的最大利润。如果你不能获取任何利润，返回 0 。 示例 1： 输入：[7,1,5,3,6,4]输出：5解释：在第">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Dailycode">
-<meta property="og:url" content="http://spcablast.club/2021/11/18/20211118/index.html">
+<meta property="og:url" content="http://spcablast.club/2021/12/04/20201204/index.html">
 <meta property="og:site_name" content="YP Blog">
-<meta property="og:description" content="###48. 旋转图像给定一个 n × n 的二维矩阵 matrix 表示一个图像。请你将图像顺时针旋转 90 度。 你必须在 原地 旋转图像，这意味着你需要直接修改输入的二维矩阵。请不要 使用另一个矩阵来旋转图像。 题（吐）解（槽）：今天无力吐槽，干活 123456789101112131415161718192021class Solution &amp;#123;public:    void ro">
+<meta property="og:description" content="###121. 买卖股票的最佳时机给定一个数组 prices ，它的第 i 个元素 prices[i] 表示一支给定股票第 i 天的价格。 你只能选择 某一天 买入这只股票，并选择在 未来的某一个不同的日子 卖出该股票。设计一个算法来计算你所能获取的最大利润。 返回你可以从这笔交易中获取的最大利润。如果你不能获取任何利润，返回 0 。 示例 1： 输入：[7,1,5,3,6,4]输出：5解释：在第">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-11-17T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-11-18T11:55:18.810Z">
+<meta property="article:published_time" content="2021-12-03T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-12-04T01:31:29.021Z">
 <meta property="article:author" content="YP">
-<meta property="article:tag" content="算法题">
+<meta property="article:tag" content="动态规划 - 算法题">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://spcablast.club/2021/11/18/20211118/index.html">
+  <link rel="canonical" href="http://spcablast.club/2021/12/04/20201204/index.html">
   
     <link rel="alternate" href="/atom.xml" title="YP Blog" type="application/atom+xml">
   
@@ -353,7 +353,7 @@
 
 <main class="main" role="main">
   <div class="content">
-  <article id="post-20211118" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-20201204" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
@@ -368,8 +368,8 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2021/11/18/20211118/" class="article-date">
-	  <time datetime="2021-11-17T16:00:00.000Z" itemprop="datePublished">2021-11-18</time>
+	<a href="/2021/12/04/20201204/" class="article-date">
+	  <time datetime="2021-12-03T16:00:00.000Z" itemprop="datePublished">2021-12-04</time>
 	</a>
 </span>
         
@@ -381,35 +381,40 @@
         
   <span class="article-tag">
     <i class="icon icon-tags"></i>
-	<a class="article-tag-link" href="/tags/%E7%AE%97%E6%B3%95%E9%A2%98/" rel="tag">算法题</a>
+	<a class="article-tag-link" href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92-%E7%AE%97%E6%B3%95%E9%A2%98/" rel="tag">动态规划 - 算法题</a>
   </span>
 
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/11/18/20211118/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/12/04/20201204/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 424(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 720(字)</span>
 	
 	
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 2(分)</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3(分)</span>
 	
 
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <p>###48. 旋转图像<br>给定一个 n × n 的二维矩阵 matrix 表示一个图像。请你将图像顺时针旋转 90 度。</p>
-<p>你必须在 原地 旋转图像，这意味着你需要直接修改输入的二维矩阵。请不要 使用另一个矩阵来旋转图像。</p>
-<p>题（吐）解（槽）：今天无力吐槽，干活</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    void rotate(vector&lt;vector&lt;int&gt;&gt;&amp; matrix) &#123;</span><br><span class="line">        &#x2F;&#x2F;外圈到内圈轮流换位置</span><br><span class="line">        &#x2F;&#x2F;圈数等于n&#x2F;2</span><br><span class="line">        &#x2F;&#x2F;1      1</span><br><span class="line">        &#x2F;&#x2F;      </span><br><span class="line">        &#x2F;&#x2F;3      4 </span><br><span class="line">        &#x2F;&#x2F;转起来（0+1，0）（0+1，n-1）(n-1,n-1-1)(0,n-1-1)</span><br><span class="line">        int n &#x3D; matrix.size();</span><br><span class="line">        for (int i &#x3D; 0; i &lt; n &#x2F; 2; ++i) &#123;</span><br><span class="line">            for (int j &#x3D; 0; j &lt; (n + 1) &#x2F; 2; ++j) &#123;</span><br><span class="line">                int temp &#x3D; matrix[i][j];</span><br><span class="line">                matrix[i][j] &#x3D; matrix[n - j - 1][i];</span><br><span class="line">                matrix[n - j - 1][i] &#x3D; matrix[n - i - 1][n - j - 1];</span><br><span class="line">                matrix[n - i - 1][n - j - 1] &#x3D; matrix[j][n - i - 1];</span><br><span class="line">                matrix[j][n - i - 1] &#x3D; temp;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<p>###771. 宝石与石头<br> 给你一个字符串 jewels 代表石头中宝石的类型，另有一个字符串 stones 代表你拥有的石头。 stones 中每个字符代表了一种你拥有的石头的类型，你想知道你拥有的石头中有多少是宝石。</p>
-<p>字母区分大小写，因此 “a” 和 “A” 是不同类型的石头。</p>
+        <p>###121. 买卖股票的最佳时机<br>给定一个数组 prices ，它的第 i 个元素 prices[i] 表示一支给定股票第 i 天的价格。</p>
+<p>你只能选择 某一天 买入这只股票，并选择在 未来的某一个不同的日子 卖出该股票。设计一个算法来计算你所能获取的最大利润。</p>
+<p>返回你可以从这笔交易中获取的最大利润。如果你不能获取任何利润，返回 0 。</p>
 <p>示例 1：</p>
-<p>输入：jewels = “aA”, stones = “aAAbbbb”<br>输出：3<br>示例 2：</p>
-<p>输入：jewels = “z”, stones = “ZZ”<br>输出：0</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    int numJewelsInStones(string jewels, string stones) &#123;</span><br><span class="line">        int ans &#x3D; 0;</span><br><span class="line">        for(int i &#x3D; 0;i&lt;jewels.size();i++)&#123;</span><br><span class="line">            int cur &#x3D; jewels[i] - &#39;0&#39;;</span><br><span class="line">            for(int j &#x3D; 0; j&lt;stones.size();j++)&#123;</span><br><span class="line">                if(stones[j] - &#39;0&#39; &#x3D;&#x3D; cur)&#123;</span><br><span class="line">                    ans++;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        return ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>输入：[7,1,5,3,6,4]<br>输出：5<br>解释：在第 2 天（股票价格 = 1）的时候买入，在第 5 天（股票价格 = 6）的时候卖出，最大利润 = 6-1 = 5 。<br>     注意利润不能是 7-1 = 6, 因为卖出价格需要大于买入价格；同时，你不能在买入前卖出股票。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">maxProfit</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; prices)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//我只需要将当前值减去过去最小的，比一比，就行了</span></span><br><span class="line">        <span class="keyword">int</span> cur = <span class="number">0</span>, <span class="built_in">min</span> = INT_MAX, <span class="built_in">max</span> = INT_MIN, index = <span class="number">0</span>;</span><br><span class="line">        cur = prices[<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; prices.<span class="built_in">size</span>(); ++i)&#123;</span><br><span class="line">            cur = prices[i];</span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">min</span> &gt; prices[i])&#123;</span><br><span class="line">                <span class="built_in">min</span> = prices[i];</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">max</span> &lt; cur - <span class="built_in">min</span>)&#123;</span><br><span class="line">                <span class="built_in">max</span> = cur - <span class="built_in">min</span>;</span><br><span class="line">                index = i;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">max</span>&gt;<span class="number">0</span>?<span class="built_in">max</span>:<span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>###413. 等差数列划分<br>如果一个数列 至少有三个元素 ，并且任意两个相邻元素之差相同，则称该数列为等差数列。</p>
+<p>例如，[1,3,5,7,9]、[7,7,7,7] 和 [3,-1,-5,-9] 都是等差数列。<br>给你一个整数数组 nums ，返回数组 nums 中所有为等差数组的 子数组 个数。</p>
+<p>子数组 是数组中的一个连续序列。</p>
+<p>示例 1：</p>
+<p>输入：nums = [1,2,3,4]<br>输出：3<br>解释：nums 中有三个子等差数组：[1, 2, 3]、[2, 3, 4] 和 [1,2,3,4] 自身。<br>示例 2：</p>
+<p>输入：nums = [1]<br>输出：0</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">numberOfArithmeticSlices</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//神秘，我需要判断出来当前是不是等差，如果是，在哪儿停止，下一个开始又计数</span></span><br><span class="line">        <span class="comment">//一通操作算出来了有几个</span></span><br><span class="line">        <span class="keyword">if</span>(nums.<span class="built_in">size</span>()&lt;<span class="number">3</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span> pre = INT_MIN, ppre, cur,cnt = <span class="number">0</span>, t = <span class="number">0</span>;</span><br><span class="line">        pre = nums[<span class="number">1</span>] - nums[<span class="number">0</span>];</span><br><span class="line">        cur = nums[<span class="number">2</span>] - nums[<span class="number">1</span>];</span><br><span class="line">        <span class="keyword">bool</span> last = <span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i =<span class="number">2</span>; i&lt; nums.<span class="built_in">size</span>();++i)&#123;</span><br><span class="line">            cur = nums[i] - nums[i<span class="number">-1</span>];</span><br><span class="line">            <span class="keyword">if</span>(pre != cur)&#123;<span class="comment">//说明上一个和这一个不相等,不在一个等差数列</span></span><br><span class="line">                t = <span class="number">0</span>;</span><br><span class="line">                last = <span class="literal">false</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> &#123;</span><br><span class="line">                t++;</span><br><span class="line">                last = <span class="literal">true</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>((!last) &amp;&amp; (pre == cur))&#123;<span class="comment">//如果上一个pre不等于cur但是这一个pre等于cur，说明进入一个等差数列</span></span><br><span class="line">                <span class="comment">//cnt++;</span></span><br><span class="line">            &#125;</span><br><span class="line">            pre = cur;</span><br><span class="line">            cnt += t;<span class="comment">//先找到有几个等差数列，再算每个等差数列里面有几个等差数列，好优化</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> cnt;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>今日吐槽：早睡早起身体好，食堂的辣白菜可太好吃了，今天又是不想营业的一天，该干活了。动态规划，不对劲，这题不对劲</p>
+
       
     </div>
     <div class="article-footer">
@@ -418,7 +423,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://spcablast.club/2021/11/18/20211118/" title="Dailycode" target="_blank" rel="external">http://spcablast.club/2021/11/18/20211118/</a>
+      <a href="http://spcablast.club/2021/12/04/20201204/" title="Dailycode" target="_blank" rel="external">http://spcablast.club/2021/12/04/20201204/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -464,13 +469,9 @@
   
   <ul class="pager pull-left">
     
-    <li class="prev">
-      <a href="/2021/11/18/%E8%AE%BA%E9%81%93%E5%BE%B7%E5%92%8C%E8%87%AA%E7%94%B1/" title="论意欲的自由"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
-    </li>
-    
     
     <li class="next">
-      <a href="/2021/11/18/ffmpeg%E6%93%8D%E4%BD%9C/" title="ffmpeg操作"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/2021/12/02/%E5%9C%A8%EF%BC%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%95%A5%E7%8E%A9%E6%84%8F%E5%84%BF%E5%95%8A/" title="在，机器学习啥玩意儿啊"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
     
