@@ -18,20 +18,21 @@
   
   
   <title>Dailycode | Hexo</title>
-  <meta name="description" content="###82. 删除排序链表中的重复元素 II存在一个按升序排列的链表，给你这个链表的头节点 head ，请你删除链表中所有存在数字重复情况的节点，只保留原始链表中 没有重复出现 的数字。 返回同样按升序排列的结果链表。示例 1：输入：head &#x3D; [1,2,3,3,4,4,5]输出：[1,2,5] 12345678910111213141516171819202122232425262728293">
+  <meta name="description" content="奇偶树如果一棵二叉树满足下述几个条件，则可以称为 奇偶树 ：  二叉树根节点所在层下标为 0 ，根的子节点所在层下标为 1 ，根的孙节点所在层下标为 2 ，依此类推。偶数下标 层上的所有节点的值都是 奇 整数，从左到右按顺序 严格递增奇数下标 层上的所有节点的值都是 偶 整数，从左到右按顺序 严格递减给你二叉树的根节点，如果二叉树为 奇偶树 ，则返回 true ，否则返回 false 。 123">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Dailycode">
-<meta property="og:url" content="http://spcablast.club/2021/11/06/20211106/index.html">
+<meta property="og:url" content="http://spcablast.club/2021/12/25/20211225/index.html">
 <meta property="og:site_name" content="YP Blog">
-<meta property="og:description" content="###82. 删除排序链表中的重复元素 II存在一个按升序排列的链表，给你这个链表的头节点 head ，请你删除链表中所有存在数字重复情况的节点，只保留原始链表中 没有重复出现 的数字。 返回同样按升序排列的结果链表。示例 1：输入：head &#x3D; [1,2,3,3,4,4,5]输出：[1,2,5] 12345678910111213141516171819202122232425262728293">
+<meta property="og:description" content="奇偶树如果一棵二叉树满足下述几个条件，则可以称为 奇偶树 ：  二叉树根节点所在层下标为 0 ，根的子节点所在层下标为 1 ，根的孙节点所在层下标为 2 ，依此类推。偶数下标 层上的所有节点的值都是 奇 整数，从左到右按顺序 严格递增奇数下标 层上的所有节点的值都是 偶 整数，从左到右按顺序 严格递减给你二叉树的根节点，如果二叉树为 奇偶树 ，则返回 true ，否则返回 false 。 123">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-11-05T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-11-17T08:48:43.077Z">
+<meta property="article:published_time" content="2021-12-24T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-12-26T01:04:07.171Z">
 <meta property="article:author" content="YP">
 <meta property="article:tag" content="算法题">
+<meta property="article:tag" content="树">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://spcablast.club/2021/11/06/20211106/index.html">
+  <link rel="canonical" href="http://spcablast.club/2021/12/25/20211225/index.html">
   
     <link rel="alternate" href="/atom.xml" title="YP Blog" type="application/atom+xml">
   
@@ -342,9 +343,18 @@
 
   
   
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <nav id="toc" class="article-toc">
+      <h3 class="toc-title">文章目录</h3>
+      
+    </nav>
+  </div>
+</aside>
+
 <main class="main" role="main">
   <div class="content">
-  <article id="post-20211106" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-20211225" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
@@ -359,8 +369,8 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2021/11/06/20211106/" class="article-date">
-	  <time datetime="2021-11-05T16:00:00.000Z" itemprop="datePublished">2021-11-06</time>
+	<a href="/2021/12/25/20211225/" class="article-date">
+	  <time datetime="2021-12-24T16:00:00.000Z" itemprop="datePublished">2021-12-25</time>
 	</a>
 </span>
         
@@ -372,37 +382,39 @@
         
   <span class="article-tag">
     <i class="icon icon-tags"></i>
-	<a class="article-tag-link" href="/tags/%E7%AE%97%E6%B3%95%E9%A2%98/" rel="tag">算法题</a>
+	<a class="article-tag-link" href="/tags/%E6%A0%91/" rel="tag">树</a>, <a class="article-tag-link" href="/tags/%E7%AE%97%E6%B3%95%E9%A2%98/" rel="tag">算法题</a>
   </span>
 
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/11/06/20211106/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/12/25/20211225/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 382(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 710(字)</span>
 	
 	
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 1(分)</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3(分)</span>
 	
 
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <p>###82. 删除排序链表中的重复元素 II<br>存在一个按升序排列的链表，给你这个链表的头节点 head ，请你删除链表中所有存在数字重复情况的节点，只保留原始链表中 没有重复出现 的数字。</p>
-<p>返回同样按升序排列的结果链表。<br>示例 1：<br>输入：head = [1,2,3,3,4,4,5]<br>输出：[1,2,5]</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * struct ListNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     ListNode *next;</span></span><br><span class="line"><span class="comment"> *     ListNode() : val(0), next(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x) : val(x), next(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x, ListNode *next) : val(x), next(next) &#123;&#125;</span></span><br><span class="line"><span class="comment"> * &#125;;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">deleteDuplicates</span><span class="params">( ListNode*  head)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(!head)</span><br><span class="line">        <span class="keyword">return</span> head;</span><br><span class="line">        ListNode* singleNode = <span class="keyword">new</span> ListNode(<span class="number">0</span>,head);</span><br><span class="line">        ListNode* flagHeader = singleNode;</span><br><span class="line">        <span class="keyword">while</span>(flagHeader-&gt;next &amp;&amp; flagHeader-&gt;next-&gt;next)&#123;</span><br><span class="line">            <span class="keyword">if</span>(flagHeader-&gt;next-&gt;val == flagHeader-&gt;next-&gt;next-&gt;val)&#123;</span><br><span class="line">                <span class="keyword">int</span> temp = flagHeader-&gt;next-&gt;val;</span><br><span class="line">                <span class="keyword">while</span>( flagHeader-&gt;next &amp;&amp; flagHeader-&gt;next-&gt;val == temp )&#123;</span><br><span class="line">                    flagHeader-&gt;next = flagHeader-&gt;next-&gt;next;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span>&#123;</span><br><span class="line">                flagHeader = flagHeader-&gt;next;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> singleNode-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>###剑指 Offer 39. 数组中出现次数超过一半的数字</p>
-<p><a href="https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof" target="_blank" rel="noopener">链接</a></p>
-<p>数组中有一个数字出现的次数超过数组长度的一半，请找出这个数字。</p>
-<p>你可以假设数组是非空的，并且给定的数组总是存在多数元素。</p>
-<p>示例 1:</p>
-<p>输入: [1, 2, 3, 2, 2, 2, 5, 4, 2]<br>输出: 2</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">majorityElement</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//来个map?</span></span><br><span class="line">        <span class="built_in">unordered_map</span>&lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt; myMap;</span><br><span class="line">        <span class="keyword">int</span> temp = <span class="number">0</span>, maxNum = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> num : nums)&#123;</span><br><span class="line">            ++myMap[num];</span><br><span class="line">            <span class="keyword">if</span>(myMap[num] &gt; maxNum)&#123;</span><br><span class="line">                temp = num;</span><br><span class="line">                maxNum = myMap[num];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+        <ol start="1609">
+<li>奇偶树<br>如果一棵二叉树满足下述几个条件，则可以称为 奇偶树 ：</li>
+</ol>
+<p>二叉树根节点所在层下标为 0 ，根的子节点所在层下标为 1 ，根的孙节点所在层下标为 2 ，依此类推。<br>偶数下标 层上的所有节点的值都是 奇 整数，从左到右按顺序 严格递增<br>奇数下标 层上的所有节点的值都是 偶 整数，从左到右按顺序 严格递减<br>给你二叉树的根节点，如果二叉树为 奇偶树 ，则返回 true ，否则返回 false 。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * struct TreeNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     TreeNode *left;</span></span><br><span class="line"><span class="comment"> *     TreeNode *right;</span></span><br><span class="line"><span class="comment"> *     TreeNode() : val(0), left(nullptr), right(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) &#123;&#125;</span></span><br><span class="line"><span class="comment"> * &#125;;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">bool</span> <span class="title">isEvenOddTree</span><span class="params">(TreeNode* root)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//层序遍历呗，奇数层偶数层分别不同的规则，判断一下就行</span></span><br><span class="line">        <span class="built_in">queue</span>&lt;TreeNode*&gt; qu;</span><br><span class="line">        <span class="keyword">int</span> level = <span class="number">0</span>;</span><br><span class="line">        qu.push(root);</span><br><span class="line">        <span class="keyword">while</span>(!qu.empty())&#123;</span><br><span class="line">            <span class="comment">//弹出根节点，压栈两个子节点</span></span><br><span class="line">            <span class="keyword">int</span> prev = level % <span class="number">2</span> == <span class="number">0</span> ? INT_MIN : INT_MAX;</span><br><span class="line">            <span class="keyword">int</span> <span class="built_in">size</span> = qu.<span class="built_in">size</span>();</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i&lt; <span class="built_in">size</span>;++i)&#123;</span><br><span class="line">                TreeNode * temp = qu.front();</span><br><span class="line">                qu.pop();</span><br><span class="line">                <span class="keyword">if</span>(level % <span class="number">2</span> == <span class="number">0</span>)&#123;<span class="comment">//偶数层</span></span><br><span class="line">                    <span class="keyword">if</span>(temp-&gt;val % <span class="number">2</span> == <span class="number">0</span> || temp-&gt;val &lt;= prev)&#123;</span><br><span class="line">                        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">if</span>(level % <span class="number">2</span> == <span class="number">1</span>)&#123;<span class="comment">//奇数层</span></span><br><span class="line">                    <span class="keyword">if</span>(temp-&gt;val % <span class="number">2</span> == <span class="number">1</span> || temp-&gt;val &gt;= prev)&#123;</span><br><span class="line">                        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">                prev = temp-&gt;val;</span><br><span class="line">                <span class="keyword">if</span> (temp-&gt;left != <span class="literal">nullptr</span>) &#123;</span><br><span class="line">                    qu.push(temp-&gt;left);</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">if</span> (temp-&gt;right != <span class="literal">nullptr</span>) &#123;</span><br><span class="line">                    qu.push(temp-&gt;right);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            level++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<ol start="1614">
+<li>括号的最大嵌套深度<br>如果字符串满足以下条件之一，则可以称之为 有效括号字符串（valid parentheses string，可以简写为 VPS）：</li>
+</ol>
+<p>字符串是一个空字符串 “”，或者是一个不为 “(“ 或 “)” 的单字符。<br>字符串可以写为 AB（A 与 B 字符串连接），其中 A 和 B 都是 有效括号字符串 。<br>字符串可以写为 (A)，其中 A 是一个 有效括号字符串 。<br>类似地，可以定义任何有效括号字符串 S 的 嵌套深度 depth(S)：</p>
+<p>depth(“”) = 0<br>depth(C) = 0，其中 C 是单个字符的字符串，且该字符不是 “(“ 或者 “)”<br>depth(A + B) = max(depth(A), depth(B))，其中 A 和 B 都是 有效括号字符串<br>depth(“(“ + A + “)”) = 1 + depth(A)，其中 A 是一个 有效括号字符串<br>例如：””、”()()”、”()(()())” 都是 有效括号字符串（嵌套深度分别为 0、1、2），而 “)(“ 、”(()” 都不是 有效括号字符串 。</p>
+<p>给你一个 有效括号字符串 s，返回该字符串的 s 嵌套深度 。</p>
+<p>示例 1：</p>
+<p>输入：s = “(1+(2*3)+((8)/4))+1”<br>输出：3<br>解释：数字 8 在嵌套的 3 层括号中。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">maxDepth</span><span class="params">(<span class="built_in">string</span> s)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//上栈,甚至不用</span></span><br><span class="line">        <span class="keyword">int</span> depth = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> _max = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">char</span> c : s)&#123;</span><br><span class="line">            <span class="keyword">if</span>( c ==<span class="string">'('</span>)&#123;</span><br><span class="line">                depth ++ ;</span><br><span class="line">                _max = depth &gt; _max?depth:_max;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(c == <span class="string">')'</span>)&#123;</span><br><span class="line">                depth --;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> _max;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
       
     </div>
     <div class="article-footer">
@@ -427,14 +439,23 @@
   <ul class="pager pull-left">
     
     <li class="prev">
-      <a href="/2021/11/07/20211107/" title="Dailycode"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
+      <a href="/2021/12/25/node%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/" title="有一个功能他加着加着就把站炸了"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
     </li>
     
     
     <li class="next">
-      <a href="/2021/08/28/%E6%8A%A5%E7%9A%84%E9%94%99/" title="报的错"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/2021/12/24/20211224/" title="Dailycode"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
+    
+    <li class="toggle-toc">
+      <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false" title="文章目录" role="button">
+        <span>[&nbsp;</span><span>文章目录</span>
+        <i class="text-collapsed icon icon-anchor"></i>
+        <i class="text-in icon icon-close"></i>
+        <span>]</span>
+      </a>
+    </li>
     
   </ul>
   
