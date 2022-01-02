@@ -18,20 +18,21 @@
   
   
   <title>Dailycode | Hexo</title>
-  <meta name="description" content="###419. 甲板上的战舰给你一个大小为 m x n 的矩阵 board 表示甲板，其中，每个单元格可以是一艘战舰 ‘X’ 或者是一个空位 ‘.’ ，返回在甲板 board 上放置的 战舰 的数量。 战舰 只能水平或者垂直放置在 board 上。换句话说，战舰只能按 1 x k（1 行，k 列）或 k x 1（k 行，1 列）的形状建造，其中 k 可以是任意大小。两艘战舰之间至少有一个水平或垂直">
+  <meta name="description" content="消除游戏列表 arr 由在范围 [1, n] 中的所有整数组成，并按严格递增排序。请你对 arr 应用下述算法：  从左到右，删除第一个数字，然后每隔一个数字删除一个，直到到达列表末尾。重复上面的步骤，但这次是从右到左。也就是，删除最右侧的数字，然后剩下的数字每隔一个删除一个。不断重复这两步，从左到右和从右到左交替进行，直到只剩下一个数字。给你整数 n ，返回 arr 最后剩下的数字。 示例 1">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Dailycode">
-<meta property="og:url" content="http://spcablast.club/2021/12/18/20211218/index.html">
+<meta property="og:url" content="http://spcablast.club/2022/01/02/20220102/index.html">
 <meta property="og:site_name" content="YP Blog">
-<meta property="og:description" content="###419. 甲板上的战舰给你一个大小为 m x n 的矩阵 board 表示甲板，其中，每个单元格可以是一艘战舰 ‘X’ 或者是一个空位 ‘.’ ，返回在甲板 board 上放置的 战舰 的数量。 战舰 只能水平或者垂直放置在 board 上。换句话说，战舰只能按 1 x k（1 行，k 列）或 k x 1（k 行，1 列）的形状建造，其中 k 可以是任意大小。两艘战舰之间至少有一个水平或垂直">
+<meta property="og:description" content="消除游戏列表 arr 由在范围 [1, n] 中的所有整数组成，并按严格递增排序。请你对 arr 应用下述算法：  从左到右，删除第一个数字，然后每隔一个数字删除一个，直到到达列表末尾。重复上面的步骤，但这次是从右到左。也就是，删除最右侧的数字，然后剩下的数字每隔一个删除一个。不断重复这两步，从左到右和从右到左交替进行，直到只剩下一个数字。给你整数 n ，返回 arr 最后剩下的数字。 示例 1">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-12-17T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-12-18T02:10:33.509Z">
+<meta property="article:published_time" content="2022-01-01T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-01-02T12:06:24.339Z">
 <meta property="article:author" content="YP">
 <meta property="article:tag" content="算法题">
+<meta property="article:tag" content="dfs">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://spcablast.club/2021/12/18/20211218/index.html">
+  <link rel="canonical" href="http://spcablast.club/2022/01/02/20220102/index.html">
   
     <link rel="alternate" href="/atom.xml" title="YP Blog" type="application/atom+xml">
   
@@ -353,7 +354,7 @@
 
 <main class="main" role="main">
   <div class="content">
-  <article id="post-20211218" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-20220102" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
@@ -368,8 +369,8 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2021/12/18/20211218/" class="article-date">
-	  <time datetime="2021-12-17T16:00:00.000Z" itemprop="datePublished">2021-12-18</time>
+	<a href="/2022/01/02/20220102/" class="article-date">
+	  <time datetime="2022-01-01T16:00:00.000Z" itemprop="datePublished">2022-01-02</time>
 	</a>
 </span>
         
@@ -381,16 +382,16 @@
         
   <span class="article-tag">
     <i class="icon icon-tags"></i>
-	<a class="article-tag-link" href="/tags/%E7%AE%97%E6%B3%95%E9%A2%98/" rel="tag">算法题</a>
+	<a class="article-tag-link" href="/tags/dfs/" rel="tag">dfs</a>, <a class="article-tag-link" href="/tags/%E7%AE%97%E6%B3%95%E9%A2%98/" rel="tag">算法题</a>
   </span>
 
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/12/18/20211218/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/01/02/20220102/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 492(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 560(字)</span>
 	
 	
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 2(分)</span>
@@ -400,14 +401,24 @@
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <p>###419. 甲板上的战舰<br>给你一个大小为 m x n 的矩阵 board 表示甲板，其中，每个单元格可以是一艘战舰 ‘X’ 或者是一个空位 ‘.’ ，返回在甲板 board 上放置的 战舰 的数量。</p>
-<p>战舰 只能水平或者垂直放置在 board 上。换句话说，战舰只能按 1 x k（1 行，k 列）或 k x 1（k 行，1 列）的形状建造，其中 k 可以是任意大小。两艘战舰之间至少有一个水平或垂直的空位分隔 （即没有相邻的战舰）。</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">countBattleships</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="built_in">vector</span>&lt;<span class="keyword">char</span>&gt;&gt;&amp; board)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//这题是检查有几行或者几列有超过2个X的嘛</span></span><br><span class="line">        <span class="comment">//o，不是，是一个战舰至少在同一行或同一列占2格，数有多少个战舰</span></span><br><span class="line">        <span class="comment">//那我只要统计每一行和每一列的，左边没有X，上边没有X的X的个数，就是答案</span></span><br><span class="line">        <span class="comment">//硬算的话，只需要把一个X后边的或者下边的X干掉，就不会干扰到下一个的计算</span></span><br><span class="line">        <span class="keyword">int</span> row = board.<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">int</span> col = board[<span class="number">0</span>].<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">int</span> ans = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; row; ++i) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; col; ++j) &#123; </span><br><span class="line">                <span class="keyword">if</span> (board[i][j] == <span class="string">'X'</span>) &#123;</span><br><span class="line">                    <span class="keyword">if</span> (i &gt; <span class="number">0</span> &amp;&amp; board[i - <span class="number">1</span>][j] == <span class="string">'X'</span>) &#123;</span><br><span class="line">                        <span class="keyword">continue</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="keyword">if</span> (j &gt; <span class="number">0</span> &amp;&amp; board[i][j - <span class="number">1</span>] == <span class="string">'X'</span>) &#123;</span><br><span class="line">                        <span class="keyword">continue</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    ans++;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<p>###434. 字符串中的单词数<br>统计字符串中的单词个数，这里的单词指的是连续的不是空格的字符。</p>
-<p>请注意，你可以假定字符串里不包括任何不可打印的字符。</p>
-<p>示例:</p>
-<p>输入: “Hello, my name is John”<br>输出: 5<br>解释: 这里的单词是指连续的不是空格的字符，所以 “Hello,” 算作 1 个单词。</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">countSegments</span><span class="params">(<span class="built_in">string</span> s)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(!s.<span class="built_in">size</span>()) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> ans = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; s.<span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">            <span class="keyword">if</span> ((i == <span class="number">0</span> || s[i - <span class="number">1</span>] == <span class="string">' '</span>) &amp;&amp; s[i] != <span class="string">' '</span>) &#123;</span><br><span class="line">                ans++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+        <ol start="390">
+<li>消除游戏<br>列表 arr 由在范围 [1, n] 中的所有整数组成，并按严格递增排序。请你对 arr 应用下述算法：</li>
+</ol>
+<p>从左到右，删除第一个数字，然后每隔一个数字删除一个，直到到达列表末尾。<br>重复上面的步骤，但这次是从右到左。也就是，删除最右侧的数字，然后剩下的数字每隔一个删除一个。<br>不断重复这两步，从左到右和从右到左交替进行，直到只剩下一个数字。<br>给你整数 n ，返回 arr 最后剩下的数字。</p>
+<p>示例 1：</p>
+<p>输入：n = 9<br>输出：6<br>解释：<br>arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]<br>arr = [2, 4, 6, 8]<br>arr = [2, 6]<br>arr = [6]</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">lastRemaining</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> num=n;<span class="comment">//记录剩下的数字数目</span></span><br><span class="line">        <span class="keyword">int</span> l=<span class="number">1</span>;<span class="comment">//记录最小值</span></span><br><span class="line">        <span class="keyword">int</span> r=n;<span class="comment">//记录最大值</span></span><br><span class="line">        <span class="keyword">int</span> d=<span class="number">0</span>;<span class="comment">//记录循环次数</span></span><br><span class="line">        <span class="keyword">int</span> lift=<span class="number">1</span>;<span class="comment">//记录公差</span></span><br><span class="line">        <span class="keyword">while</span>(num&gt;<span class="number">2</span>)&#123;</span><br><span class="line">            d++;</span><br><span class="line">            <span class="keyword">if</span>(num%<span class="number">2</span>==<span class="number">1</span>||num%<span class="number">2</span>==<span class="number">0</span>&amp;&amp;d%<span class="number">2</span>==<span class="number">1</span>)&#123;l+=lift;&#125;<span class="comment">//从右到左</span></span><br><span class="line">            <span class="keyword">if</span>(num%<span class="number">2</span>==<span class="number">1</span>||num%<span class="number">2</span>==<span class="number">0</span>&amp;&amp;d%<span class="number">2</span>==<span class="number">0</span>)&#123;r-=lift;&#125;<span class="comment">//从左到右</span></span><br><span class="line">            num/=<span class="number">2</span>;</span><br><span class="line">            lift*=<span class="number">2</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> num==<span class="number">2</span>&amp;&amp;d%<span class="number">2</span>==<span class="number">0</span>?r:l;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<ol start="392">
+<li>判断子序列<br>给定字符串 s 和 t ，判断 s 是否为 t 的子序列。</li>
+</ol>
+<p>字符串的一个子序列是原始字符串删除一些（也可以不删除）字符而不改变剩余字符相对位置形成的新字符串。（例如，”ace”是”abcde”的一个子序列，而”aec”不是）。</p>
+<p>进阶：</p>
+<p>如果有大量输入的 S，称作 S1, S2, … , Sk 其中 k &gt;= 10亿，你需要依次检查它们是否为 T 的子序列。在这种情况下，你会怎样改变代码？</p>
+<p>致谢：</p>
+<p>特别感谢 @pbrother 添加此问题并且创建所有测试用例。</p>
+<p>示例 1：</p>
+<p>输入：s = “abc”, t = “ahbgdc”<br>输出：true</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">bool</span> <span class="title">isSubsequence</span><span class="params">(<span class="built_in">string</span> s, <span class="built_in">string</span> t)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//那当然是一次循环建立一个hash表，数组都行，存哪些字母有，有几个啦</span></span><br><span class="line">        <span class="comment">//不能改位置啊，打扰了</span></span><br><span class="line">        <span class="keyword">int</span> n = s.length(), m = t.length();</span><br><span class="line">        <span class="keyword">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (i &lt; n &amp;&amp; j &lt; m) &#123;</span><br><span class="line">            <span class="keyword">if</span> (s[i] == t[j]) &#123;</span><br><span class="line">                i++;</span><br><span class="line">            &#125;</span><br><span class="line">            j++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> i == n;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
       
     </div>
     <div class="article-footer">
@@ -431,13 +442,9 @@
   
   <ul class="pager pull-left">
     
-    <li class="prev">
-      <a href="/2021/12/19/20211219/" title="Dailycode"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
-    </li>
-    
     
     <li class="next">
-      <a href="/2021/12/16/20211216/" title="Dailycode"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/2022/01/01/20220101/" title="Dailycode"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
     
