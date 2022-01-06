@@ -18,15 +18,15 @@
   
   
   <title>Dailycode | Hexo</title>
-  <meta name="description" content="1234567891011121314151617181920class Solution(object):    def simplifyPath(self, path):        &quot;&quot;&quot;        :type path: str        :rtype: str        &quot;&quot;&quot;        #用栈嘛，把规则写一写        #首先&#x2F;入栈        #如果&#x2F;后面有.">
+  <meta name="description" content="简化路径给你一个字符串 path ，表示指向某一文件或目录的 Unix 风格 绝对路径 （以 ‘&#x2F;‘ 开头），请你将其转化为更加简洁的规范路径。  在 Unix 风格的文件系统中，一个点（.）表示当前目录本身；此外，两个点 （..） 表示将目录切换到上一级（指向父目录）；两者都可以是复杂相对路径的组成部分。任意多个连续的斜杠（即，’&#x2F;&#x2F;‘）都被视为单个斜杠 ‘&#x2F;‘ 。 对于此问题，任何其他格式的">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Dailycode">
 <meta property="og:url" content="http://spcablast.club/2022/01/06/20220106/index.html">
 <meta property="og:site_name" content="YP Blog">
-<meta property="og:description" content="1234567891011121314151617181920class Solution(object):    def simplifyPath(self, path):        &quot;&quot;&quot;        :type path: str        :rtype: str        &quot;&quot;&quot;        #用栈嘛，把规则写一写        #首先&#x2F;入栈        #如果&#x2F;后面有.">
+<meta property="og:description" content="简化路径给你一个字符串 path ，表示指向某一文件或目录的 Unix 风格 绝对路径 （以 ‘&#x2F;‘ 开头），请你将其转化为更加简洁的规范路径。  在 Unix 风格的文件系统中，一个点（.）表示当前目录本身；此外，两个点 （..） 表示将目录切换到上一级（指向父目录）；两者都可以是复杂相对路径的组成部分。任意多个连续的斜杠（即，’&#x2F;&#x2F;‘）都被视为单个斜杠 ‘&#x2F;‘ 。 对于此问题，任何其他格式的">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-01-05T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-01-06T11:48:46.283Z">
+<meta property="article:modified_time" content="2022-01-06T12:35:11.909Z">
 <meta property="article:author" content="YP">
 <meta property="article:tag" content="算法题">
 <meta property="article:tag" content="字符串">
@@ -392,7 +392,7 @@
         <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/01/06/20220106/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 193(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 470(字)</span>
 	
 	
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 1(分)</span>
@@ -402,7 +402,15 @@
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span><span class="params">(object)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">simplifyPath</span><span class="params">(self, path)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        :type path: str</span></span><br><span class="line"><span class="string">        :rtype: str</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        <span class="comment">#用栈嘛，把规则写一写</span></span><br><span class="line">        <span class="comment">#首先/入栈</span></span><br><span class="line">        <span class="comment">#如果/后面有..   ./   ../    / 就去掉，</span></span><br><span class="line">        <span class="comment">#   ... 还得留下，</span></span><br><span class="line">        <span class="comment">#如果最后一位是 / 也去掉</span></span><br><span class="line">        names = path.split(<span class="string">"/"</span>)</span><br><span class="line">        stack = list()</span><br><span class="line">        <span class="keyword">for</span> name <span class="keyword">in</span> names:</span><br><span class="line">            <span class="keyword">if</span> name == <span class="string">".."</span>:</span><br><span class="line">                <span class="keyword">if</span> stack:</span><br><span class="line">                    stack.pop()</span><br><span class="line">            <span class="keyword">elif</span> name <span class="keyword">and</span> name != <span class="string">"."</span>:</span><br><span class="line">                stack.append(name)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">"/"</span> + <span class="string">"/"</span>.join(stack)</span><br></pre></td></tr></table></figure>
+        <ol start="71">
+<li>简化路径<br>给你一个字符串 path ，表示指向某一文件或目录的 Unix 风格 绝对路径 （以 ‘/‘ 开头），请你将其转化为更加简洁的规范路径。</li>
+</ol>
+<p>在 Unix 风格的文件系统中，一个点（.）表示当前目录本身；此外，两个点 （..） 表示将目录切换到上一级（指向父目录）；两者都可以是复杂相对路径的组成部分。任意多个连续的斜杠（即，’//‘）都被视为单个斜杠 ‘/‘ 。 对于此问题，任何其他格式的点（例如，’…’）均被视为文件/目录名称。</p>
+<p>请注意，返回的 规范路径 必须遵循下述格式：</p>
+<p>始终以斜杠 ‘/‘ 开头。<br>两个目录名之间必须只有一个斜杠 ‘/‘ 。<br>最后一个目录名（如果存在）不能 以 ‘/‘ 结尾。<br>此外，路径仅包含从根目录到目标文件或目录的路径上的目录（即，不含 ‘.’ 或 ‘..’）。<br>返回简化后得到的 规范路径 。</p>
+<p>示例 1：</p>
+<p>输入：path = “/home/“<br>输出：”/home”<br>解释：注意，最后一个目录名后面没有斜杠。 </p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span><span class="params">(object)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">simplifyPath</span><span class="params">(self, path)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        :type path: str</span></span><br><span class="line"><span class="string">        :rtype: str</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        <span class="comment">#用栈嘛，把规则写一写</span></span><br><span class="line">        <span class="comment">#首先/入栈</span></span><br><span class="line">        <span class="comment">#如果/后面有..   ./   ../    / 就去掉，</span></span><br><span class="line">        <span class="comment">#   ... 还得留下，</span></span><br><span class="line">        <span class="comment">#如果最后一位是 / 也去掉</span></span><br><span class="line">        names = path.split(<span class="string">"/"</span>)</span><br><span class="line">        stack = list()</span><br><span class="line">        <span class="keyword">for</span> name <span class="keyword">in</span> names:</span><br><span class="line">            <span class="keyword">if</span> name == <span class="string">".."</span>:</span><br><span class="line">                <span class="keyword">if</span> stack:</span><br><span class="line">                    stack.pop()</span><br><span class="line">            <span class="keyword">elif</span> name <span class="keyword">and</span> name != <span class="string">"."</span>:</span><br><span class="line">                stack.append(name)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">"/"</span> + <span class="string">"/"</span>.join(stack)</span><br></pre></td></tr></table></figure>
 <ol start="326">
 <li>3 的幂<br>给定一个整数，写一个函数来判断它是否是 3 的幂次方。如果是，返回 true ；否则，返回 false 。</li>
 </ol>
