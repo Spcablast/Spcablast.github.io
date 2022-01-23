@@ -18,21 +18,21 @@
   
   
   <title>Dailycode | Hexo</title>
-  <meta name="description" content="搜索旋转排序数组整数数组 nums 按升序排列，数组中的值 互不相同 。  在传递给函数之前，nums 在预先未知的某个下标 k（0 &lt;&#x3D; k &lt; nums.length）上进行了 旋转，使数组变为 [nums[k], nums[k+1], …, nums[n-1], nums[0], nums[1], …, nums[k-1]]（下标 从 0 开始 计数）。例如， [0,1,2,4">
+  <meta name="description" content="推文计数请你实现一个能够支持以下两种方法的推文计数类 TweetCounts：  recordTweet(string tweetName, int time)   记录推文发布情况：用户 tweetName 在 time（以 秒 为单位）时刻发布了一条推文。2. getTweetCountsPerFrequency(string freq, string tweetName, int star">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Dailycode">
-<meta property="og:url" content="http://spcablast.club/2021/12/24/20211224/index.html">
+<meta property="og:url" content="http://spcablast.club/2022/01/23/20220123/index.html">
 <meta property="og:site_name" content="YP Blog">
-<meta property="og:description" content="搜索旋转排序数组整数数组 nums 按升序排列，数组中的值 互不相同 。  在传递给函数之前，nums 在预先未知的某个下标 k（0 &lt;&#x3D; k &lt; nums.length）上进行了 旋转，使数组变为 [nums[k], nums[k+1], …, nums[n-1], nums[0], nums[1], …, nums[k-1]]（下标 从 0 开始 计数）。例如， [0,1,2,4">
+<meta property="og:description" content="推文计数请你实现一个能够支持以下两种方法的推文计数类 TweetCounts：  recordTweet(string tweetName, int time)   记录推文发布情况：用户 tweetName 在 time（以 秒 为单位）时刻发布了一条推文。2. getTweetCountsPerFrequency(string freq, string tweetName, int star">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-12-23T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-12-25T01:48:40.568Z">
+<meta property="article:published_time" content="2022-01-22T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-01-23T13:58:16.206Z">
 <meta property="article:author" content="YP">
 <meta property="article:tag" content="算法题">
 <meta property="article:tag" content="二分">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://spcablast.club/2021/12/24/20211224/index.html">
+  <link rel="canonical" href="http://spcablast.club/2022/01/23/20220123/index.html">
   
     <link rel="alternate" href="/atom.xml" title="YP Blog" type="application/atom+xml">
   
@@ -343,18 +343,9 @@
 
   
   
-<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
-  <div class="slimContent">
-    <nav id="toc" class="article-toc">
-      <h3 class="toc-title">文章目录</h3>
-      
-    </nav>
-  </div>
-</aside>
-
 <main class="main" role="main">
   <div class="content">
-  <article id="post-20211224" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-20220123" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
@@ -369,8 +360,8 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2021/12/24/20211224/" class="article-date">
-	  <time datetime="2021-12-23T16:00:00.000Z" itemprop="datePublished">2021-12-24</time>
+	<a href="/2022/01/23/20220123/" class="article-date">
+	  <time datetime="2022-01-22T16:00:00.000Z" itemprop="datePublished">2022-01-23</time>
 	</a>
 </span>
         
@@ -388,10 +379,10 @@
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/12/24/20211224/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/01/23/20220123/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 706(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 816(字)</span>
 	
 	
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3(分)</span>
@@ -401,26 +392,29 @@
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <ol start="33">
-<li>搜索旋转排序数组<br>整数数组 nums 按升序排列，数组中的值 互不相同 。</li>
+        <ol start="1348">
+<li><p>推文计数<br>请你实现一个能够支持以下两种方法的推文计数类 TweetCounts：</p>
+</li>
+<li><p>recordTweet(string tweetName, int time)</p>
+</li>
 </ol>
-<p>在传递给函数之前，nums 在预先未知的某个下标 k（0 &lt;= k &lt; nums.length）上进行了 旋转，使数组变为 [nums[k], nums[k+1], …, nums[n-1], nums[0], nums[1], …, nums[k-1]]（下标 从 0 开始 计数）。例如， [0,1,2,4,5,6,7] 在下标 3 处经旋转后可能变为 [4,5,6,7,0,1,2] 。</p>
-<p>给你 旋转后 的数组 nums 和一个整数 target ，如果 nums 中存在这个目标值 target ，则返回它的下标，否则返回 -1 。</p>
+<p>记录推文发布情况：用户 tweetName 在 time（以 秒 为单位）时刻发布了一条推文。<br>2. getTweetCountsPerFrequency(string freq, string tweetName, int startTime, int endTime)</p>
+<p>返回从开始时间 startTime（以 秒 为单位）到结束时间 endTime（以 秒 为单位）内，每 分 minute，时 hour 或者 日 day （取决于 freq）内指定用户 tweetName 发布的推文总数。<br>freq 的值始终为 分 minute，时 hour 或者 日 day 之一，表示获取指定用户 tweetName 发布推文次数的时间间隔。<br>第一个时间间隔始终从 startTime 开始，因此时间间隔为 [startTime, startTime + delta<em>1&gt;,  [startTime + delta<em>1, startTime + delta</em>2&gt;, [startTime + delta<em>2, startTime + delta</em>3&gt;, … , [startTime + delta*i, min(startTime + delta</em>(i+1), endTime + 1)&gt;，其中 i 和 delta（取决于 freq）都是非负整数。</p>
+<p>示例：</p>
+<p>输入：<br>[“TweetCounts”,”recordTweet”,”recordTweet”,”recordTweet”,”getTweetCountsPerFrequency”,”getTweetCountsPerFrequency”,”recordTweet”,”getTweetCountsPerFrequency”]<br>[[],[“tweet3”,0],[“tweet3”,60],[“tweet3”,10],[“minute”,”tweet3”,0,59],[“minute”,”tweet3”,0,60],[“tweet3”,120],[“hour”,”tweet3”,0,210]]</p>
+<p>输出：<br>[null,null,null,null,[2],[2,1],null,[4]]</p>
+<p>解释：<br>TweetCounts tweetCounts = new TweetCounts();<br>tweetCounts.recordTweet(“tweet3”, 0);<br>tweetCounts.recordTweet(“tweet3”, 60);<br>tweetCounts.recordTweet(“tweet3”, 10);                             // “tweet3” 发布推文的时间分别是 0, 10 和 60 。<br>tweetCounts.getTweetCountsPerFrequency(“minute”, “tweet3”, 0, 59); // 返回 [2]。统计频率是每分钟（60 秒），因此只有一个有效时间间隔 [0,60&gt; - &gt; 2 条推文。<br>tweetCounts.getTweetCountsPerFrequency(“minute”, “tweet3”, 0, 60); // 返回 [2,1]。统计频率是每分钟（60 秒），因此有两个有效时间间隔 1) [0,60&gt; - &gt; 2 条推文，和 2) [60,61&gt; - &gt; 1 条推文。<br>tweetCounts.recordTweet(“tweet3”, 120);                            // “tweet3” 发布推文的时间分别是 0, 10, 60 和 120 。<br>tweetCounts.getTweetCountsPerFrequency(“hour”, “tweet3”, 0, 210);  // 返回 [4]。统计频率是每小时（3600 秒），因此只有一个有效时间间隔 [0,211&gt; - &gt; 4 条推文。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TweetCounts</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">unordered_map</span>&lt;<span class="built_in">string</span>, <span class="built_in">set</span>&lt;<span class="keyword">int</span>&gt;&gt; <span class="built_in">list</span>;</span><br><span class="line">    TweetCounts() &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">recordTweet</span><span class="params">(<span class="built_in">string</span> tweetName, <span class="keyword">int</span> time)</span> </span>&#123;</span><br><span class="line">        <span class="built_in">list</span>[tweetName].insert(time);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; getTweetCountsPerFrequency(<span class="built_in">string</span> freq, <span class="built_in">string</span> tweetName, <span class="keyword">int</span> startTime, <span class="keyword">int</span> endTime) &#123;</span><br><span class="line">        <span class="comment">//以</span></span><br><span class="line">        <span class="keyword">int</span> length = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">if</span>(freq == <span class="string">"minute"</span>)&#123;</span><br><span class="line">            length = <span class="number">60</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(freq == <span class="string">"hour"</span>)&#123;</span><br><span class="line">            length = <span class="number">60</span>*<span class="number">60</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span>&#123;</span><br><span class="line">            length = <span class="number">60</span> * <span class="number">60</span> * <span class="number">24</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; ans((endTime - startTime)/length +<span class="number">1</span>);</span><br><span class="line">        <span class="keyword">auto</span> <span class="built_in">begin</span> = <span class="built_in">list</span>[tweetName].lower_bound(startTime);<span class="comment">//查询上下界，时间为log(n)l</span></span><br><span class="line">        <span class="keyword">auto</span> <span class="built_in">end</span> = <span class="built_in">list</span>[tweetName].upper_bound(endTime);</span><br><span class="line">        <span class="keyword">for</span>(;<span class="built_in">begin</span> != <span class="built_in">end</span>; <span class="built_in">begin</span>++)&#123;</span><br><span class="line">            ++ans[(*<span class="built_in">begin</span> - startTime)/length];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Your TweetCounts object will be instantiated and called as such:</span></span><br><span class="line"><span class="comment"> * TweetCounts* obj = new TweetCounts();</span></span><br><span class="line"><span class="comment"> * obj-&gt;recordTweet(tweetName,time);</span></span><br><span class="line"><span class="comment"> * vector&lt;int&gt; param_2 = obj-&gt;getTweetCountsPerFrequency(freq,tweetName,startTime,endTime);</span></span><br><span class="line"><span class="comment"> */</span></span><br></pre></td></tr></table></figure>
+<ol start="1351">
+<li>统计有序矩阵中的负数<br>给你一个 m * n 的矩阵 grid，矩阵中的元素无论是按行还是按列，都以非递增顺序排列。 </li>
+</ol>
+<p>请你统计并返回 grid 中 负数 的数目。</p>
 <p>示例 1：</p>
-<p>输入：nums = [4,5,6,7,0,1,2], target = 0<br>输出：4</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">search</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums, <span class="keyword">int</span> target)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//本来是升序排列，但是突然尾巴接头了，所以会突然有一个降序，所以直接判断目标和首尾的大小</span></span><br><span class="line">        <span class="comment">//如果target  &gt; head</span></span><br><span class="line">            <span class="comment">//往前二分</span></span><br><span class="line">            <span class="comment">//</span></span><br><span class="line">        <span class="comment">//如果target  &lt; tail</span></span><br><span class="line">            <span class="comment">//往后二分</span></span><br><span class="line">        <span class="comment">//否则找不到</span></span><br><span class="line">        <span class="keyword">if</span>(!nums.<span class="built_in">size</span>()) <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">        <span class="keyword">if</span>(nums.<span class="built_in">size</span>() == <span class="number">1</span>) <span class="keyword">return</span> nums[<span class="number">0</span>] == target? <span class="number">0</span> : <span class="number">-1</span>; </span><br><span class="line">        <span class="keyword">int</span> left = <span class="number">0</span>, right = nums.<span class="built_in">size</span>() - <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">int</span> mid;</span><br><span class="line">        <span class="keyword">while</span>(left &lt;= right)&#123;</span><br><span class="line">            mid = (left + right)/<span class="number">2</span>;</span><br><span class="line">            <span class="keyword">if</span>(nums[mid] == target) <span class="keyword">return</span> mid;</span><br><span class="line">            </span><br><span class="line">            <span class="keyword">if</span> (nums[<span class="number">0</span>] &lt;= nums[mid]) &#123;</span><br><span class="line">                <span class="keyword">if</span> (nums[<span class="number">0</span>] &lt;= target &amp;&amp; target &lt; nums[mid]) &#123;<span class="comment">//前半部分有序</span></span><br><span class="line">                    right = mid - <span class="number">1</span>;</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                    left = mid + <span class="number">1</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span>( nums[<span class="number">0</span>] &gt; nums[mid] )&#123;<span class="comment">//</span></span><br><span class="line">                <span class="keyword">if</span> (nums[mid] &lt; target &amp;&amp; target &lt;= nums[nums.<span class="built_in">size</span>() <span class="number">-1</span>]) &#123;<span class="comment">//</span></span><br><span class="line">                    left = mid +<span class="number">1</span>;</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">else</span>&#123;</span><br><span class="line">                    right = mid <span class="number">-1</span>;</span><br><span class="line">                &#125;</span><br><span class="line">                </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span>  <span class="number">-1</span>;<span class="comment">//找不到</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>输入：grid = [[4,3,2,-1],[3,2,1,-1],[1,1,-1,-2],[-1,-1,-2,-3]]<br>输出：8<br>解释：矩阵中共有 8 个负数。<br>示例 2：</p>
+<p>输入：grid = [[3,2],[1,0]]<br>输出：0</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">findZero</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &amp; col)</span></span>&#123;</span><br><span class="line">        <span class="keyword">int</span> left = <span class="number">0</span>, right = col.<span class="built_in">size</span>() - <span class="number">1</span>, mid, pos = <span class="number">-1</span>;</span><br><span class="line">        <span class="keyword">while</span>(left &lt;= right)&#123;</span><br><span class="line">            mid = (left + right)/<span class="number">2</span>; </span><br><span class="line">            <span class="keyword">if</span>(col[mid] &lt; <span class="number">0</span>)&#123;</span><br><span class="line">                right = mid - <span class="number">1</span>;</span><br><span class="line">                pos = mid;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span>&#123;</span><br><span class="line">                left = mid + <span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(pos != <span class="number">-1</span>) <span class="keyword">return</span> col.<span class="built_in">size</span>() - pos;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">countNegatives</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&gt;&amp; grid)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//那这不如每个都二分，快的</span></span><br><span class="line">        <span class="comment">//那这不如</span></span><br><span class="line">        <span class="keyword">int</span> ans = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; col: grid)&#123;</span><br><span class="line">            ans += findZero(col);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>今日吐槽：<br>写个二分写了半天，血压，biu</p>
 
-<p>###476. 数字的补数<br>对整数的二进制表示取反（0 变 1 ，1 变 0）后，再转换为十进制表示，可以得到这个整数的补数。</p>
-<p>例如，整数 5 的二进制表示是 “101” ，取反后得到 “010” ，再转回十进制表示得到补数 2 。<br>给你一个整数 num ，输出它的补数。</p>
-<p>示例 1：</p>
-<p>输入：num = 5<br>输出：2<br>解释：5 的二进制表示为 101（没有前导零位），其补数为 010。所以你需要输出 2 。</p>
-<ol start="476">
-<li>数字的补数<br>对整数的二进制表示取反（0 变 1 ，1 变 0）后，再转换为十进制表示，可以得到这个整数的补数。</li>
-</ol>
-<p>例如，整数 5 的二进制表示是 “101” ，取反后得到 “010” ，再转回十进制表示得到补数 2 。<br>给你一个整数 num ，输出它的补数。</p>
-<p>示例 1：</p>
-<p>输入：num = 5<br>输出：2<br>解释：5 的二进制表示为 101（没有前导零位），其补数为 010。所以你需要输出 2 。</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="comment">//位运算的题，这题可以整很多天了</span></span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">findComplement</span><span class="params">(<span class="keyword">int</span> num)</span> </span>&#123;<span class="comment">//前头补1，直接取反</span></span><br><span class="line">        uint t = <span class="number">1u</span> &lt;&lt; <span class="number">31</span>;</span><br><span class="line">        <span class="keyword">while</span> (! (t &amp; num)) &#123;</span><br><span class="line">            num |= t;</span><br><span class="line">            t &gt;&gt;= <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ~num;</span><br><span class="line">        <span class="comment">// long a = 1;</span></span><br><span class="line">        <span class="comment">// while(true)&#123;</span></span><br><span class="line">        <span class="comment">//     if(num &gt;= a)&#123;</span></span><br><span class="line">        <span class="comment">//         a &lt;&lt;= 1; // 等价于 a *= 2;</span></span><br><span class="line">        <span class="comment">//     &#125;else&#123;</span></span><br><span class="line">        <span class="comment">//         return a - num - 1;</span></span><br><span class="line">        <span class="comment">//     &#125;</span></span><br><span class="line">        <span class="comment">// &#125;</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
       
     </div>
     <div class="article-footer">
@@ -444,24 +438,11 @@
   
   <ul class="pager pull-left">
     
-    <li class="prev">
-      <a href="/2021/12/25/20211225/" title="Dailycode"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
-    </li>
-    
     
     <li class="next">
-      <a href="/2021/12/23/20211223/" title="Dailycode"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/2022/01/21/20220121/" title="Dailycode"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
-    
-    <li class="toggle-toc">
-      <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false" title="文章目录" role="button">
-        <span>[&nbsp;</span><span>文章目录</span>
-        <i class="text-collapsed icon icon-anchor"></i>
-        <i class="text-in icon icon-close"></i>
-        <span>]</span>
-      </a>
-    </li>
     
   </ul>
   
