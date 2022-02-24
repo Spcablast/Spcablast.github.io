@@ -17,20 +17,27 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>test | Hexo</title>
-  <meta name="description" content="test">
+  <title>Dailycode | Hexo</title>
+  <meta name="description" content="97. 交错字符串难度中等639 给定三个字符串 s1、s2、s3，请你帮忙验证 s3 是否是由 s1 和 s2 交错 组成的。 两个字符串 s 和 t 交错 的定义与过程如下，其中每个字符串都会被分割成若干 非空 子字符串：  s &#x3D; s1 + s2 + ... + sn t &#x3D; t1 + t2 + ... + tm |n - m| &lt;&#x3D; 1 交错 是 s1 + t1 + s2 + t2">
 <meta property="og:type" content="article">
-<meta property="og:title" content="test">
-<meta property="og:url" content="http://spcablast.club/2021/04/24/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/index.html">
+<meta property="og:title" content="Dailycode">
+<meta property="og:url" content="http://spcablast.club/2022/02/24/20220224/index.html">
 <meta property="og:site_name" content="YP Blog">
-<meta property="og:description" content="test">
+<meta property="og:description" content="97. 交错字符串难度中等639 给定三个字符串 s1、s2、s3，请你帮忙验证 s3 是否是由 s1 和 s2 交错 组成的。 两个字符串 s 和 t 交错 的定义与过程如下，其中每个字符串都会被分割成若干 非空 子字符串：  s &#x3D; s1 + s2 + ... + sn t &#x3D; t1 + t2 + ... + tm |n - m| &lt;&#x3D; 1 交错 是 s1 + t1 + s2 + t2">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-04-23T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-04-29T00:40:08.601Z">
+<meta property="og:image" content="https://assets.leetcode.com/uploads/2020/09/02/interleave.jpg">
+<meta property="og:image" content="https://assets.leetcode.com/uploads/2021/02/19/symtree1.jpg">
+<meta property="og:image" content="https://assets.leetcode.com/uploads/2021/02/19/symtree2.jpg">
+<meta property="article:published_time" content="2022-02-23T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-02-24T13:03:18.370Z">
 <meta property="article:author" content="YP">
+<meta property="article:tag" content="动态规划">
+<meta property="article:tag" content="算法题">
+<meta property="article:tag" content="树">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://assets.leetcode.com/uploads/2020/09/02/interleave.jpg">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://spcablast.club/2021/04/24/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/index.html">
+  <link rel="canonical" href="http://spcablast.club/2022/02/24/20220224/index.html">
   
     <link rel="alternate" href="/atom.xml" title="YP Blog" type="application/atom+xml">
   
@@ -343,14 +350,14 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="post-新建文本文档" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-20220224" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      test
+      Dailycode
     </h1>
   
 
@@ -358,29 +365,70 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2021/04/24/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/" class="article-date">
-	  <time datetime="2021-04-23T16:00:00.000Z" itemprop="datePublished">2021-04-24</time>
+	<a href="/2022/02/24/20220224/" class="article-date">
+	  <time datetime="2022-02-23T16:00:00.000Z" itemprop="datePublished">2022-02-24</time>
 	</a>
 </span>
         
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/Dailycode/">Dailycode</a>
+  </span>
+
         
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" rel="tag">动态规划</a>, <a class="article-tag-link" href="/tags/%E6%A0%91/" rel="tag">树</a>, <a class="article-tag-link" href="/tags/%E7%AE%97%E6%B3%95%E9%A2%98/" rel="tag">算法题</a>
+  </span>
+
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/04/24/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/02/24/20220224/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 1(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 693(字)</span>
 	
 	
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 1(分)</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3(分)</span>
 	
 
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <h3 id="test"><a href="#test" class="headerlink" title="test"></a>test</h3>
+        <h4 id="97-交错字符串"><a href="#97-交错字符串" class="headerlink" title="97. 交错字符串"></a><a href="https://leetcode-cn.com/problems/interleaving-string/" target="_blank" rel="noopener">97. 交错字符串</a></h4><p>难度中等639</p>
+<p>给定三个字符串 <code>s1</code>、<code>s2</code>、<code>s3</code>，请你帮忙验证 <code>s3</code> 是否是由 <code>s1</code> 和 <code>s2</code> <strong>交错</strong> 组成的。</p>
+<p>两个字符串 <code>s</code> 和 <code>t</code> <strong>交错</strong> 的定义与过程如下，其中每个字符串都会被分割成若干 <strong>非空</strong> 子字符串：</p>
+<ul>
+<li><code>s = s1 + s2 + ... + sn</code></li>
+<li><code>t = t1 + t2 + ... + tm</code></li>
+<li><code>|n - m| &lt;= 1</code></li>
+<li><strong>交错</strong> 是 <code>s1 + t1 + s2 + t2 + s3 + t3 + ...</code> 或者 <code>t1 + s1 + t2 + s2 + t3 + s3 + ...</code></li>
+</ul>
+<p><strong>注意：</strong><code>a + b</code> 意味着字符串 <code>a</code> 和 <code>b</code> 连接。</p>
+<p><strong>示例 1：</strong></p>
+<p><img src="https://assets.leetcode.com/uploads/2020/09/02/interleave.jpg" alt="img"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入：s1 &#x3D; &quot;aabcc&quot;, s2 &#x3D; &quot;dbbca&quot;, s3 &#x3D; &quot;aadbbcbcac&quot;</span><br><span class="line">输出：true</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 2：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入：s1 &#x3D; &quot;aabcc&quot;, s2 &#x3D; &quot;dbbca&quot;, s3 &#x3D; &quot;aadbbbaccc&quot;</span><br><span class="line">输出：false</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">bool</span> <span class="title">isInterleave</span><span class="params">(<span class="built_in">string</span> s1, <span class="built_in">string</span> s2, <span class="built_in">string</span> s3)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//欸，想到一个好主意，只要统计每个字符的个数，对比一下，不就有了</span></span><br><span class="line">        <span class="comment">// unordered_map&lt;char, int&gt; ab;</span></span><br><span class="line">        <span class="comment">// int cnt = 0;</span></span><br><span class="line">        <span class="comment">// for(char c: s1)&#123;</span></span><br><span class="line">        <span class="comment">//     ++ab[c];</span></span><br><span class="line">        <span class="comment">//     ++cnt;</span></span><br><span class="line">        <span class="comment">// &#125;</span></span><br><span class="line">        <span class="comment">// for(char c: s2)&#123;</span></span><br><span class="line">        <span class="comment">//     ++ab[c];</span></span><br><span class="line">        <span class="comment">//     ++cnt;</span></span><br><span class="line">        <span class="comment">// &#125;</span></span><br><span class="line">        <span class="comment">// for(char c:s3)&#123;</span></span><br><span class="line">        <span class="comment">//     if(ab.count(c)&gt;0)&#123;</span></span><br><span class="line">        <span class="comment">//         --ab[c];</span></span><br><span class="line">        <span class="comment">//         --cnt;</span></span><br><span class="line">        <span class="comment">//     &#125;</span></span><br><span class="line">        <span class="comment">//     else return false;</span></span><br><span class="line">        <span class="comment">// &#125;</span></span><br><span class="line">        <span class="comment">// return cnt == 0;</span></span><br><span class="line">        <span class="comment">//错了，海妖考虑顺序，啊我死了</span></span><br><span class="line">        <span class="comment">//那我还有一个主意，c开始遍历，ab看谁的开头和他一样，一样就指针前进，</span></span><br><span class="line">        <span class="comment">// int pointA = 0;</span></span><br><span class="line">        <span class="comment">// int pointB = 0, len1 = s1.size(), len2 = s2.size(), cnt = 0;</span></span><br><span class="line">        <span class="comment">// for(char c : s3)&#123;</span></span><br><span class="line">        <span class="comment">//     int temp = cnt;</span></span><br><span class="line">        <span class="comment">//     if(pointA&lt;len1)&#123;</span></span><br><span class="line">        <span class="comment">//         if(s1[pointA] == c)&#123;</span></span><br><span class="line">        <span class="comment">//             pointA++;</span></span><br><span class="line">        <span class="comment">//             cnt++;</span></span><br><span class="line">        <span class="comment">//             continue;</span></span><br><span class="line">        <span class="comment">//         &#125;</span></span><br><span class="line">        <span class="comment">//     &#125;</span></span><br><span class="line">        <span class="comment">//     if(pointB&lt;len2)&#123;</span></span><br><span class="line">        <span class="comment">//         if(s2[pointB] == c)&#123;</span></span><br><span class="line">        <span class="comment">//             pointB++;</span></span><br><span class="line">        <span class="comment">//             cnt++;</span></span><br><span class="line">        <span class="comment">//             continue;</span></span><br><span class="line">        <span class="comment">//         &#125;</span></span><br><span class="line">        <span class="comment">//     &#125;</span></span><br><span class="line">        <span class="comment">//     if(temp == cnt) return false;</span></span><br><span class="line">        <span class="comment">// &#125;</span></span><br><span class="line">        <span class="comment">// return cnt == s3.size() -1;</span></span><br><span class="line">        <span class="comment">//也有问题，有先取还是先取b的问题，哈哈哈哈哈哈哈给爷丝</span></span><br><span class="line">        <span class="comment">//看看题解</span></span><br><span class="line">        <span class="keyword">int</span>  m = s1.<span class="built_in">size</span>() ,  n = s2.<span class="built_in">size</span>() ,  t = s3.<span class="built_in">size</span>() ;</span><br><span class="line">        <span class="keyword">if</span>(m+n!=t) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">auto</span> f = <span class="built_in">vector</span>&lt;<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&gt;(m+<span class="number">1</span>, <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;(n+<span class="number">1</span>,<span class="literal">false</span>));</span><br><span class="line">        f[<span class="number">0</span>][<span class="number">0</span>] = <span class="literal">true</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i&lt;=m; i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>; j&lt;=n;j++)&#123;</span><br><span class="line">                <span class="keyword">if</span>(i&gt;<span class="number">0</span>)&#123;</span><br><span class="line">                    f[i][j] |= (f[i<span class="number">-1</span>][j] &amp;&amp; s1[i - <span class="number">1</span>] == s3[i+j<span class="number">-1</span>] );</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">if</span>(j&gt;<span class="number">0</span>)&#123;</span><br><span class="line">                    f[i][j] |= (f[i][j<span class="number">-1</span>] &amp;&amp; s2[j - <span class="number">1</span>] == s3[i+j<span class="number">-1</span>] );</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> f[m][n];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<h4 id="101-对称二叉树"><a href="#101-对称二叉树" class="headerlink" title="101. 对称二叉树"></a><a href="https://leetcode-cn.com/problems/symmetric-tree/" target="_blank" rel="noopener">101. 对称二叉树</a></h4><p>难度简单1752</p>
+<p>给你一个二叉树的根节点 <code>root</code> ， 检查它是否轴对称。</p>
+<p><strong>示例 1：</strong></p>
+<p><img src="https://assets.leetcode.com/uploads/2021/02/19/symtree1.jpg" alt="img"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入：root &#x3D; [1,2,2,3,4,4,3]</span><br><span class="line">输出：true</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 2：</strong></p>
+<p><img src="https://assets.leetcode.com/uploads/2021/02/19/symtree2.jpg" alt="img"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入：root &#x3D; [1,2,2,null,3,null,3]</span><br><span class="line">输出：false</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * struct TreeNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     TreeNode *left;</span></span><br><span class="line"><span class="comment"> *     TreeNode *right;</span></span><br><span class="line"><span class="comment"> *     TreeNode() : val(0), left(nullptr), right(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) &#123;&#125;</span></span><br><span class="line"><span class="comment"> * &#125;;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">bool</span> <span class="title">dfs</span><span class="params">(TreeNode* l, TreeNode* r)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(!l &amp;&amp; !r) <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        <span class="keyword">if</span>(!l || !r) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">if</span>(l-&gt;val == r-&gt;val)&#123;</span><br><span class="line">            <span class="keyword">return</span> dfs(l-&gt;left, r-&gt;right) &amp;&amp; dfs(r-&gt;right, l-&gt;left);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">bool</span> <span class="title">isSymmetric</span><span class="params">(TreeNode* root)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//中序遍历就好了</span></span><br><span class="line">        <span class="keyword">return</span> dfs(root, root);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
       
     </div>
     <div class="article-footer">
@@ -404,13 +452,9 @@
   
   <ul class="pager pull-left">
     
-    <li class="prev">
-      <a href="/2021/07/16/hello-world/" title="Hello World"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
-    </li>
-    
     
     <li class="next">
-      <a href="/2020/01/08/SLAM%E5%88%9D%E5%A7%8B%E5%8C%96%E7%82%B9%E4%BA%91%E4%BD%8D%E5%A7%BF%E6%B5%81%E7%A8%8B/" title="2021-4-29 ORB-SLAM2源码"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/2022/02/23/20220223/" title="Dailycode"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
     
