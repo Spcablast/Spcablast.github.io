@@ -17,18 +17,22 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>归档 | Hexo</title>
-  <meta name="description" content="Study without thinking is labour lost. Thinking without study is perilous.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="YP Blog">
-<meta property="og:url" content="http://spcablast.club/archives/page/8/index.html">
+  <title>Dailycode | Hexo</title>
+  <meta name="description" content="43. 字符串相乘难度中等853 给定两个以字符串形式表示的非负整数 num1 和 num2，返回 num1 和 num2 的乘积，它们的乘积也表示为字符串形式。 注意：不能使用任何内置的 BigInteger 库或直接将输入转换为整数。 示例 1: 12输入: num1 &#x3D; &quot;2&quot;, num2 &#x3D; &quot;3&quot;输出: &quot;6&amp;quot">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Dailycode">
+<meta property="og:url" content="http://spcablast.club/2022/03/09/20220309/index.html">
 <meta property="og:site_name" content="YP Blog">
-<meta property="og:description" content="Study without thinking is labour lost. Thinking without study is perilous.">
+<meta property="og:description" content="43. 字符串相乘难度中等853 给定两个以字符串形式表示的非负整数 num1 和 num2，返回 num1 和 num2 的乘积，它们的乘积也表示为字符串形式。 注意：不能使用任何内置的 BigInteger 库或直接将输入转换为整数。 示例 1: 12输入: num1 &#x3D; &quot;2&quot;, num2 &#x3D; &quot;3&quot;输出: &quot;6&amp;quot">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-03-08T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-03-09T14:00:33.124Z">
 <meta property="article:author" content="YP">
+<meta property="article:tag" content="算法题">
+<meta property="article:tag" content="字符串">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://spcablast.club/archives/page/8/index.html">
+  <link rel="canonical" href="http://spcablast.club/2022/03/09/20220309/index.html">
   
     <link rel="alternate" href="/atom.xml" title="YP Blog" type="application/atom+xml">
   
@@ -340,164 +344,175 @@
   
   
 <main class="main" role="main">
-  	<article class="content article article-archives article-type-list" itemscope="">
-	    <header class="article-header">
-	      <h1 itemprop="title">归档</h1>
-	      <p class="text-muted">共 10 篇文章</p>
-	    </header>
-	    <div class="article-body">
-	      
-  
-  
+  <div class="content">
+  <article id="post-20220309" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
-    
+    <div class="article-header">
       
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Dailycode
+    </h1>
+  
+
       
-      <section class="panel panel-default b-no">
-        <div class="panel-heading" role="tab">
-          <h3 class="panel-title">
-            <a data-toggle="collapse" href="#collapse2021" aria-expanded="true">
-              <i class="icon icon-calendar-plus text-active"></i><i class="icon icon-calendar-minus text"></i>
-              2021
-            </a>
-            <!-- <a href="/archives/2021" class="archive-year">2021</a> -->
-          </h3>
-        </div>
-        <div id="collapse2021" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2021">
-        <div class="panel-body">
-          <div class="collection">
-    
-    
-<a href="/2021/12/02/20211202/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2021-12-01T16:00:00.000Z" itemprop="datePublished">2021-12-02</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Dailycode
-</a>
+      <div class="article-meta">
+        <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2022/03/09/20220309/" class="article-date">
+	  <time datetime="2022-03-08T16:00:00.000Z" itemprop="datePublished">2022-03-09</time>
+	</a>
+</span>
+        
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/Dailycode/">Dailycode</a>
+  </span>
+
+        
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/" rel="tag">字符串</a>, <a class="article-tag-link" href="/tags/%E7%AE%97%E6%B3%95%E9%A2%98/" rel="tag">算法题</a>
+  </span>
 
 
+        
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/03/09/20220309/#comments" class="article-comment-link">评论</a></span>
+        
+	
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 607(字)</span>
+	
+	
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3(分)</span>
+	
+
+      </div>
+    </div>
+    <div class="article-entry marked-body" itemprop="articleBody">
+      
+        <h4 id="43-字符串相乘"><a href="#43-字符串相乘" class="headerlink" title="43. 字符串相乘"></a><a href="https://leetcode-cn.com/problems/multiply-strings/" target="_blank" rel="noopener">43. 字符串相乘</a></h4><p>难度中等853</p>
+<p>给定两个以字符串形式表示的非负整数 <code>num1</code> 和 <code>num2</code>，返回 <code>num1</code> 和 <code>num2</code> 的乘积，它们的乘积也表示为字符串形式。</p>
+<p><strong>注意：</strong>不能使用任何内置的 BigInteger 库或直接将输入转换为整数。</p>
+<p><strong>示例 1:</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入: num1 &#x3D; &quot;2&quot;, num2 &#x3D; &quot;3&quot;</span><br><span class="line">输出: &quot;6&quot;</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 2:</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入: num1 &#x3D; &quot;123&quot;, num2 &#x3D; &quot;456&quot;</span><br><span class="line">输出: &quot;56088&quot;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>提示：</strong></p>
+<ul>
+<li><code>1 &lt;= num1.length, num2.length &lt;= 200</code></li>
+<li><code>num1</code> 和 <code>num2</code> 只能由数字组成。</li>
+<li><code>num1</code> 和 <code>num2</code> 都不包含任何前导零，除了数字0本身。</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="built_in">string</span> <span class="title">multiply</span><span class="params">(<span class="built_in">string</span> num1, <span class="built_in">string</span> num2)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(num1 == <span class="string">"0"</span> || num2 == <span class="string">"0"</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="string">"0"</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//然后用加法</span></span><br><span class="line">        <span class="built_in">string</span> ans = <span class="string">"0"</span>;</span><br><span class="line">        <span class="keyword">int</span> m = num1.<span class="built_in">size</span>(), n = num2.<span class="built_in">size</span>();</span><br><span class="line">         <span class="keyword">for</span> (<span class="keyword">int</span> i = n - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--) &#123;</span><br><span class="line">            <span class="built_in">string</span> curr;</span><br><span class="line">            <span class="keyword">int</span> add = <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = n - <span class="number">1</span>; j &gt; i; j--) &#123;</span><br><span class="line">                curr.push_back(<span class="number">0</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">int</span> y = num2.at(i) - <span class="string">'0'</span>;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = m - <span class="number">1</span>; j &gt;= <span class="number">0</span>; j--) &#123;</span><br><span class="line">                <span class="keyword">int</span> x = num1.at(j) - <span class="string">'0'</span>;</span><br><span class="line">                <span class="keyword">int</span> product = x * y + add;</span><br><span class="line">                curr.push_back(product % <span class="number">10</span>);</span><br><span class="line">                add = product / <span class="number">10</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">while</span> (add != <span class="number">0</span>) &#123;</span><br><span class="line">                curr.push_back(add % <span class="number">10</span>);</span><br><span class="line">                add /= <span class="number">10</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            reverse(curr.<span class="built_in">begin</span>(), curr.<span class="built_in">end</span>());</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">auto</span> &amp;c : curr) &#123;</span><br><span class="line">                c += <span class="string">'0'</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            ans = addStrings(ans, curr);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="built_in">string</span> <span class="title">addStrings</span><span class="params">(<span class="built_in">string</span> num1, <span class="built_in">string</span> num2)</span> </span>&#123;</span><br><span class="line">        <span class="built_in">string</span> ans;</span><br><span class="line">        <span class="keyword">int</span> addflag = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> m = num1.<span class="built_in">size</span>() - <span class="number">1</span>, n = num2.<span class="built_in">size</span>() - <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">while</span>(m &gt;= <span class="number">0</span> || n &gt;= <span class="number">0</span>)&#123;</span><br><span class="line">            <span class="keyword">int</span> temp;</span><br><span class="line">            <span class="keyword">if</span>(m &gt;= <span class="number">0</span> &amp;&amp; n &gt;= <span class="number">0</span>)&#123;</span><br><span class="line">                 temp = num2[n] - <span class="string">'0'</span> + num1[m] - <span class="string">'0'</span> + addflag;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span>(m &gt;= <span class="number">0</span>)&#123;</span><br><span class="line">                 temp =  num1[m] - <span class="string">'0'</span> + addflag;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span>(n &gt;= <span class="number">0</span>)&#123;</span><br><span class="line">                 temp = num2[n] - <span class="string">'0'</span> + addflag;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(temp  &gt;= <span class="number">10</span>)&#123;</span><br><span class="line">                addflag = <span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> addflag = <span class="number">0</span>;</span><br><span class="line">            ans.push_back(temp % <span class="number">10</span> + <span class="string">'0'</span>);</span><br><span class="line">            m--;</span><br><span class="line">            n--;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(addflag) ans.push_back(<span class="string">'1'</span>);</span><br><span class="line">        reverse(ans.<span class="built_in">begin</span>(), ans.<span class="built_in">end</span>());</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<h4 id="415-字符串相加"><a href="#415-字符串相加" class="headerlink" title="415. 字符串相加"></a><a href="https://leetcode-cn.com/problems/add-strings/" target="_blank" rel="noopener">415. 字符串相加</a></h4><p>难度简单514</p>
+<p>给定两个字符串形式的非负整数 <code>num1</code> 和<code>num2</code> ，计算它们的和并同样以字符串形式返回。</p>
+<p>你不能使用任何內建的用于处理大整数的库（比如 <code>BigInteger</code>）， 也不能直接将输入的字符串转换为整数形式。</p>
+<p><strong>示例 1：</strong></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入：num1 = <span class="string">"11"</span>, num2 = <span class="string">"123"</span></span><br><span class="line">输出：<span class="string">"134"</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="built_in">string</span> <span class="title">addStrings</span><span class="params">(<span class="built_in">string</span> num1, <span class="built_in">string</span> num2)</span> </span>&#123;</span><br><span class="line">        <span class="built_in">string</span> ans;</span><br><span class="line">        <span class="keyword">int</span> addflag = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> m = num1.<span class="built_in">size</span>() - <span class="number">1</span>, n = num2.<span class="built_in">size</span>() - <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">while</span>(m &gt;= <span class="number">0</span> || n &gt;= <span class="number">0</span>)&#123;</span><br><span class="line">            <span class="keyword">int</span> temp;</span><br><span class="line">            <span class="keyword">if</span>(m &gt;= <span class="number">0</span> &amp;&amp; n &gt;= <span class="number">0</span>)&#123;</span><br><span class="line">                 temp = num2[n] - <span class="string">'0'</span> + num1[m] - <span class="string">'0'</span> + addflag;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span>(m &gt;= <span class="number">0</span>)&#123;</span><br><span class="line">                 temp =  num1[m] - <span class="string">'0'</span> + addflag;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span>(n &gt;= <span class="number">0</span>)&#123;</span><br><span class="line">                 temp = num2[n] - <span class="string">'0'</span> + addflag;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(temp  &gt;= <span class="number">10</span>)&#123;</span><br><span class="line">                addflag = <span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> addflag = <span class="number">0</span>;</span><br><span class="line">            ans.push_back(temp % <span class="number">10</span> + <span class="string">'0'</span>);</span><br><span class="line">            m--;</span><br><span class="line">            n--;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(addflag) ans.push_back(<span class="string">'1'</span>);</span><br><span class="line">        reverse(ans.<span class="built_in">begin</span>(), ans.<span class="built_in">end</span>());</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+
+      
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+  </div>
   
     
-    
-    
-<a href="/2021/12/01/20211201/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2021-11-30T16:00:00.000Z" itemprop="datePublished">2021-12-01</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Dailycode
-</a>
-
-
-  
-    
-    
-    
-<a href="/2021/12/01/%E9%BB%91%E7%BE%8A-%E5%8D%A1%E5%B0%94%E7%BB%B4%E8%AF%BA/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2021-11-30T16:00:00.000Z" itemprop="datePublished">2021-12-01</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> 《黑羊》
-</a>
-
-
-  
-    
-    
-    
-<a href="/2021/11/30/20211130/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2021-11-29T16:00:00.000Z" itemprop="datePublished">2021-11-30</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Dailycode
-</a>
-
-
-  
-    
-    
-    
-<a href="/2021/11/29/20211129/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2021-11-28T16:00:00.000Z" itemprop="datePublished">2021-11-29</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Dailycode
-</a>
-
-
-  
-    
-    
-    
-<a href="/2021/11/28/20211128/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2021-11-27T16:00:00.000Z" itemprop="datePublished">2021-11-28</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Dailycode
-</a>
-
-
-  
-    
-    
-    
-<a href="/2021/11/27/20211127/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2021-11-26T16:00:00.000Z" itemprop="datePublished">2021-11-27</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Dailycode
-</a>
-
-
-  
-    
-    
-    
-<a href="/2021/11/26/20211126/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2021-11-25T16:00:00.000Z" itemprop="datePublished">2021-11-26</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Dailycode
-</a>
-
-
-  
-    
-    
-    
-<a href="/2021/11/25/20211125/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2021-11-24T16:00:00.000Z" itemprop="datePublished">2021-11-25</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Dailycode
-</a>
-
-
-  
-    
-    
-    
-<a href="/2021/11/24/20211124/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2021-11-23T16:00:00.000Z" itemprop="datePublished">2021-11-24</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Dailycode
-</a>
-
-
-  
-  
-    </div></div></div></section>
-  
-
-	    </div>
-  	</article>
+  <section id="comments">
   	
+      <div id="vcomments"></div>
     
-    <nav class="bar bar-footer clearfix" data-stick-bottom>
-        <div class="bar-inner">
-        <ul class="pager pull-left">
-            
-            <li class="prev">
-                <a href="/archives/page/7/">
-                    <i class="icon icon-angle-left"></i>
-                    上一页
-                </a>
-            </li>
-            
-            
-            <li class="next">
-                <a href="/archives/page/9/">
-                    下一页
-                    <i class="icon icon-angle-right"></i>
-                </a>
-            </li>
-            
-        </ul>
-        <div class="total-article bar-right">Page 8 of 11</div>
+  </section>
+
+
+  
+</div>
+
+  <nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    
+    <li class="next">
+      <a href="/2022/03/08/20220308/" title="Dailycode"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+    
+  </ul>
+  
+  
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-fancy btn-donate pop-onhover bg-gradient-warning" data-toggle="modal" data-target="#donateModal"><span>赏</span></button>
+  <!-- <div class="wave-icon wave-icon-danger btn-donate" data-toggle="modal" data-target="#donateModal">
+    <div class="wave-circle"><span class="icon"><i class="icon icon-bill"></i></span></div>
+  </div> -->
+  
+  
+  <div class="bar-right">
+    
+    <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter" data-mobile-sites="weibo,qq,qzone"></div>
+    
+  </div>
+  </div>
+</nav>
+  
+<!-- Modal -->
+<div class="modal modal-center modal-small modal-xs-full fade" id="donateModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content donate">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <div class="modal-body">
+        <div class="donate-box">
+          <div class="donate-head">
+            <p>感谢您的支持，我会继续努力的!</p>
+          </div>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade active in" id="alipay">
+              <div class="donate-payimg">
+                <img src="/images/donate/alipayimg.png" alt="扫码支持" title="扫一扫" />
+              </div>
+              <p class="text-muted mv">扫码打赏，你说多少就多少</p>
+              <p class="text-grey">打开支付宝扫一扫，即可进行扫码打赏哦</p>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="wechatpay">
+              <div class="donate-payimg">
+                <img src="/images/donate/wechatpayimg.png" alt="扫码支持" title="扫一扫" />
+              </div>
+              <p class="text-muted mv">扫码打赏，你说多少就多少</p>
+              <p class="text-grey">打开微信扫一扫，即可进行扫码打赏哦</p>
+            </div>
+          </div>
+          <div class="donate-footer">
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+              <li role="presentation" class="active">
+                <a href="#alipay" id="alipay-tab" role="tab" data-toggle="tab" aria-controls="alipay" aria-expanded="true"><i class="icon icon-alipay"></i> 支付宝</a>
+              </li>
+              <li role="presentation" class="">
+                <a href="#wechatpay" role="tab" id="wechatpay-tab" data-toggle="tab" aria-controls="wechatpay" aria-expanded="false"><i class="icon icon-wepay"></i> 微信支付</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
-    
- 	
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 </main>
 
   <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
@@ -554,6 +569,36 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
+
+   
+
+
+
+
+   
+    
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/valine"></script>
+  <script type="text/javascript">
+  var GUEST = ['nick', 'mail', 'link'];
+  var meta = 'nick,mail,link';
+  meta = meta.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#vcomments',
+    verify: false,
+    notify: false,
+    appId: 'hsaJ5cJR7JeNndFXLpUut3Bj-gzGzoHsz',
+    appKey: 'VQQFVxzpopnD2jyMtgWLgwWL',
+    placeholder: 'Say you wanna dance',
+    avatar: 'mm',
+    meta: meta,
+    pageSize: '10' || 10,
+    visitor: false
+  });
+  </script>
+     
 
 
 
