@@ -1,3 +1,4 @@
+http://spcablast.club/2023/08/29/%E9%9A%8F%E7%AC%94/
 http://spcablast.club/2023/08/29/%E8%AE%BA%E7%BE%8E/
 http://spcablast.club/2023/08/26/%E8%AE%BA%E5%85%BB%E7%94%9F/
 http://spcablast.club/2023/08/25/%E6%97%B6%E9%97%B4%E7%9A%84%E6%9A%B4%E6%94%BF/
@@ -209,6 +210,7 @@ http://spcablast.club/tags/%E9%A5%AE%E9%A3%9F/
 http://spcablast.club/tags/%E5%A4%9A%E8%82%89%E6%A4%8D%E7%89%A9/
 http://spcablast.club/tags/%E9%95%BF%E5%AF%BF%E8%8A%B1/
 http://spcablast.club/tags/%E5%85%BB%E7%94%9F/
+http://spcablast.club/tags/%E5%8A%A8%E7%94%BB/
 http://spcablast.club/categories/Dailycode/
 http://spcablast.club/categories/VSCode/
 http://spcablast.club/categories/nvm/
@@ -221,3 +223,4 @@ http://spcablast.club/categories/%E6%96%87%E7%AB%A0/
 http://spcablast.club/categories/%E8%AE%A4%E8%AF%86%E8%87%AA%E5%B7%B1/
 http://spcablast.club/categories/%E5%81%A5%E5%BA%B7/
 http://spcablast.club/categories/%E6%A4%8D%E7%89%A9/
+http://spcablast.club/categories/%E9%9A%8F%E7%AC%94/
