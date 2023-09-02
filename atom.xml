@@ -6,7 +6,7 @@
   <link href="http://spcablast.club/atom.xml" rel="self"/>
   
   <link href="http://spcablast.club/"/>
-  <updated>2023-09-01T08:01:38.864Z</updated>
+  <updated>2023-09-02T23:45:10.007Z</updated>
   <id>http://spcablast.club/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>从零开始练写作</title>
+    <link href="http://spcablast.club/2023/09/02/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%86%99%E4%BD%9C/"/>
+    <id>http://spcablast.club/2023/09/02/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%86%99%E4%BD%9C/</id>
+    <published>2023-09-01T16:00:00.000Z</published>
+    <updated>2023-09-02T23:45:10.007Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h5 id="整体思想："><a href="#整体思想：" class="headerlink" title="整体思想："></a>整体思想：</h5><p>类比学英语，上手语法书不如背背单词跟人家用英语简单聊聊天，类比到写作就是仿写！</p><p>新手通过模仿成熟写法，快速写出高质量文章</p><p>操作方式：</p><p>拆解，</p><p>句子段落仿写，语言节奏修辞手法，</p><p>仿写不是同义词替换！</p><h5 id="实际操作："><a href="#实际操作：" class="headerlink" title="实际操作："></a>实际操作：</h5><p>1、选择模仿对象</p><blockquote><p>喜欢的</p></blockquote><p>3、拆解模仿对象</p><blockquote><p>带着写作者的眼光，看这个作品，分析作者是怎么推进故事的，怎么描述的人物，这个人物为什么会有这个结局，如果是我，我会怎么写。<br>比如，具体段落：<br>长短句结合，短句给人的感觉急促，节奏快，长句沉稳悠长，二者结合，能有节奏感。<br>比如长篇故事<br>先总结整体故事，再总结每一部每一章<br>故事转场，故事线是怎么配合的，起点冲突高潮结尾是怎么设计的<br>故事的对话安排，人物形象设计，场景描写</p></blockquote><p>3、根据拆解结果模仿写作</p><p>写，就硬写，反正就自己看，写就完了，不要管的</p><p>4、对比，看看哪里好哪里不好</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="文章" scheme="http://spcablast.club/categories/%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="写作" scheme="http://spcablast.club/tags/%E5%86%99%E4%BD%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>大文件切片</title>
@@ -479,30 +503,6 @@
     <category term="dfs" scheme="http://spcablast.club/tags/dfs/"/>
     
     <category term="并查集" scheme="http://spcablast.club/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>心理学定义和一种分类</title>
-    <link href="http://spcablast.club/2022/04/06/%E4%BA%BA%E6%A0%BC-Personality/"/>
-    <id>http://spcablast.club/2022/04/06/%E4%BA%BA%E6%A0%BC-Personality/</id>
-    <published>2022-04-05T16:00:00.000Z</published>
-    <updated>2022-04-06T01:18:39.166Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2>心理学</h2><h3>定义</h3>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="书" scheme="http://spcablast.club/categories/%E4%B9%A6/"/>
-    
-    
-    <category term="心理学" scheme="http://spcablast.club/tags/%E5%BF%83%E7%90%86%E5%AD%A6/"/>
     
   </entry>
   
