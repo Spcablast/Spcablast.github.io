@@ -6,7 +6,7 @@
   <link href="http://spcablast.club/atom.xml" rel="self"/>
   
   <link href="http://spcablast.club/"/>
-  <updated>2023-09-05T14:51:30.268Z</updated>
+  <updated>2023-09-06T14:16:22.176Z</updated>
   <id>http://spcablast.club/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《自己动手写编译系统》</title>
+    <link href="http://spcablast.club/2023/09/06/%E7%BC%96%E8%AF%91%E5%99%A8/"/>
+    <id>http://spcablast.club/2023/09/06/%E7%BC%96%E8%AF%91%E5%99%A8/</id>
+    <published>2023-09-05T16:00:00.000Z</published>
+    <updated>2023-09-06T14:16:22.176Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h4><hr><p>首先，编译是什么？</p><p>是把编程语言翻译成机器语言。</p><p>源代码-》编译器-》汇编代码-》汇编器-》二进制目标文件-》链接器-》可执行文件</p><p>最初使用二进制指令控制计算机，太慢了，程序猿封装成了汇编语言，</p><p>程序越写越大，可以复用的东西越来越多，把重复的内容拿出来，放到多个文件里面，那么最后就需要把这些文件拼接起来，形成完整的可执行代码。这是链接器的功能。</p><blockquote><p>既然要链接了，那怎么链呢？链接分静态和动态，静态就是把引用的代码拷到你的可执行文件里，动态就是留个地址信息，运行前缺什么就到留的地址里去找，也可以运行的时候缺什么找什么。</p></blockquote><h4 id="预编译，编译，汇编，链接"><a href="#预编译，编译，汇编，链接" class="headerlink" title="预编译，编译，汇编，链接"></a>预编译，编译，汇编，链接</h4><hr><p>==以GCC为例==</p><ul><li><h5 id="预编译"><a href="#预编译" class="headerlink" title="预编译"></a>预编译</h5></li></ul><p>处理宏定义和文件包含</p><p>会把.h文件拷过去，宏定义进行替换</p><p>hello.c-&gt;hello.i</p><ul><li><h5 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h5></li></ul><p>hello.i-&gt;hello.s</p><p>编译成AT&amp;T格式的汇编代码(Intel有Intel的格式)</p><p>操作符，源操作数，目标操作数</p><ul><li><h5 id="汇编"><a href="#汇编" class="headerlink" title="汇编"></a>汇编</h5></li></ul><p>helo.s-&gt;hello.o</p><p>成为了汇编代码，但是很多符号没有有效的地址信息，随便赋的值</p><ul><li><h5 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h5></li></ul><p>hello.o-&gt;hello</p><p>链接之后符号地址信息已经修正为正确的符号地址，</p><hr><h3 id="2-1编译"><a href="#2-1编译" class="headerlink" title="2.1编译"></a>2.1编译</h3><p>包括词法分析，语法分析，语义分析，代码生成</p><h5 id="2-1-1词法分析"><a href="#2-1-1词法分析" class="headerlink" title="2.1.1词法分析"></a>2.1.1词法分析</h5><p>先上示例：</p><p>假设，已经有了一段程序，要对其进行词法分析，分析过程如下：</p><p>比如：<br>var2 = var1 + 100;</p><p>分析的结果：6个词法记号：“var2”“=”“var1”“+”“100””;”</p><p>工具：<br>有限自动机。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="计算机" scheme="http://spcablast.club/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    
+    <category term="编译" scheme="http://spcablast.club/tags/%E7%BC%96%E8%AF%91/"/>
+    
+  </entry>
   
   <entry>
     <title>《艺术创造学》</title>
@@ -109,11 +133,11 @@
   </entry>
   
   <entry>
-    <title>随笔</title>
+    <title>随笔(一)</title>
     <link href="http://spcablast.club/2023/08/29/%E9%9A%8F%E7%AC%94/"/>
     <id>http://spcablast.club/2023/08/29/%E9%9A%8F%E7%AC%94/</id>
     <published>2023-08-28T16:00:00.000Z</published>
-    <updated>2023-08-29T16:47:45.938Z</updated>
+    <updated>2023-09-06T14:14:16.679Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天推荐一个动画，来自公众号动画学术趴的推荐，</p><p>动画名字是《缝制爱》（Sewing Love）是来自个人作者许愿的2023年学生毕设动画短片。</p><p>评价是给了它的观众对于亲密关系的一种最坏的想象，也让观众开始对亲密关系产生提防和自省。</p><p><a href="https://mp.weixin.qq.com/s/BuHW3ow7bP8UqDff-fOZ5Q" target="_blank" rel="noopener">推文链接</a></p><p><a href="https://b23.tv/dShrqob" target="_blank" rel="noopener">动画链接</a></p><p>想必看到标题就开始浑身难受了，放两张图感受一下：</p><p><a href="https://imgse.com/i/pPdwLLV" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2023/08/30/pPdwLLV.png" alt="pPdwLLV.png"></a><br><a href="https://imgse.com/i/pPdwXZT" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2023/08/30/pPdwXZT.png" alt="pPdwXZT.png"></a></p><p>作者介绍他的创作思路和历程的时候给我一种感觉-这就是热爱吧，用心在做了，是调动了自己生命的全部，感觉、精神、和智力以及体力来完成这件事，<br>作者在制作的过程中在不断推倒重来，螺旋上升，最终完成这一版，作者通过这部动画也在表达自己，<br>他在学习知识，使用知识，总结知识。想到一句很老套的话，做任何事都要用心，用心就有做好的可能，不一定成功，但是一定会有收获。</p>]]></content>
     
@@ -475,30 +499,6 @@
     
     
     <category term="摘选" scheme="http://spcablast.club/tags/%E6%91%98%E9%80%89/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>好用的小工具（持续更新）</title>
-    <link href="http://spcablast.club/2022/09/26/%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B0%8F%E5%B7%A5%E5%85%B7/"/>
-    <id>http://spcablast.club/2022/09/26/%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B0%8F%E5%B7%A5%E5%85%B7/</id>
-    <published>2022-09-25T16:00:00.000Z</published>
-    <updated>2022-12-20T01:35:51.417Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>话不多说直接上网站</p><table><thead><tr><th align="center"></th><th align="center"></th><th></th></tr></thead><tbody><tr><td align="center">网址</td><td align="center">内容</td><td></td></tr><tr><td align="center"><a href="https://codetop.cc/home" target="_blank" rel="noopener">https://codetop.cc/home</a></td><td align="center">按面试出现的频率排序力扣题</td><td></td></tr><tr><td align="center"><a href="https://tool.chinaz.com/dns/?type=1&amp;host=aka.ms&amp;ip=" target="_blank" rel="noopener">https://tool.chinaz.com/dns/?type=1&amp;host=aka.ms&amp;ip=</a></td><td align="center">根据域名查ip地址</td><td></td></tr><tr><td align="center"><a href="https://zh.z-lib.org/" target="_blank" rel="noopener">https://zh.z-lib.org/</a></td><td align="center">数字图书馆（谁用谁知道）</td><td>2022-03-18</td></tr><tr><td align="center"><a href="https://www.allhistory.com/" target="_blank" rel="noopener">https://www.allhistory.com/</a></td><td align="center">我觉得拿来搜相关内容挺好的，人或者事或者物</td><td>2022-09-23</td></tr><tr><td align="center">使用示例：</td><td align="center"></td><td></td></tr><tr><td align="center"><a href="https://imgse.com/i/xkNqbV" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2022/09/23/xkNqbV.jpg" alt="xkNqbV.jpg"></a></td><td align="center"></td><td></td></tr><tr><td align="center">这张图片是我搜索康德得到的结果，可以看到他和其他人的关系有：影响/被影响，批判/被批判，评价/被评价，甚至还有埋葬于，这样就可以简单地了解与他相关的历史人物有哪些，然后去挑感兴趣的查查。</td><td align="center"></td><td></td></tr></tbody></table><p>2022-09-26<br>来一个软件，可以下载youtube上的视频：Gihosoft TubeGet<br>直接复制youtube某个视频的网址，贴到软件里就可以下载，含内购，免费版只能每天下载5个视频</p><p>2022-10-08</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="工具" scheme="http://spcablast.club/categories/%E5%B7%A5%E5%85%B7/"/>
-    
-    
-    <category term="网站" scheme="http://spcablast.club/tags/%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
