@@ -6,7 +6,7 @@
   <link href="http://spcablast.club/atom.xml" rel="self"/>
   
   <link href="http://spcablast.club/"/>
-  <updated>2023-09-06T14:16:22.176Z</updated>
+  <updated>2023-09-07T14:59:21.990Z</updated>
   <id>http://spcablast.club/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>运动强度与运动量量化</title>
+    <link href="http://spcablast.club/2023/09/07/%E9%9A%8F%E7%AC%94%20copy/"/>
+    <id>http://spcablast.club/2023/09/07/%E9%9A%8F%E7%AC%94%20copy/</id>
+    <published>2023-09-06T16:00:00.000Z</published>
+    <updated>2023-09-07T14:59:21.990Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="运动强度分级"><a href="#运动强度分级" class="headerlink" title="运动强度分级"></a>运动强度分级</h4><table><thead><tr><th align="left">强度分级</th><th align="left">相当于最大心率百分比/%</th><th align="left">相当于最大吸氧量百分比/%</th><th align="left">自觉疲劳程度</th><th align="left">代谢当量</th></tr></thead><tbody><tr><td align="left">低</td><td align="left">&lt;57</td><td align="left">&lt;37</td><td align="left">很轻松</td><td align="left">&lt;2</td></tr><tr><td align="left">较低</td><td align="left">57-63</td><td align="left">&lt;37-45</td><td align="left">轻松</td><td align="left">2-2.9</td></tr><tr><td align="left">中</td><td align="left">64-76</td><td align="left">46-63</td><td align="left">有点费力</td><td align="left">3-5.9</td></tr><tr><td align="left">高</td><td align="left">77-95</td><td align="left">64-90</td><td align="left">费力</td><td align="left">6-8.7</td></tr><tr><td align="left">极高</td><td align="left">&gt;96</td><td align="left">&gt;90</td><td align="left">很费力</td><td align="left">&gt;8.8</td></tr></tbody></table><h4 id="什么是经常参加体育锻炼："><a href="#什么是经常参加体育锻炼：" class="headerlink" title="什么是经常参加体育锻炼："></a>什么是经常参加体育锻炼：</h4><p>每周参加体育锻炼或活动3次及以上，每次持续30分钟及以上，运动强度达到中等及以上，称为”经常参加体育锻炼“</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="运动" scheme="http://spcablast.club/categories/%E8%BF%90%E5%8A%A8/"/>
+    
+    
+    <category term="运动强度" scheme="http://spcablast.club/tags/%E8%BF%90%E5%8A%A8%E5%BC%BA%E5%BA%A6/"/>
+    
+    <category term="运动量" scheme="http://spcablast.club/tags/%E8%BF%90%E5%8A%A8%E9%87%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>《自己动手写编译系统》</title>
@@ -475,30 +501,6 @@
     <category term="指针" scheme="http://spcablast.club/tags/%E6%8C%87%E9%92%88/"/>
     
     <category term="c语言" scheme="http://spcablast.club/tags/c%E8%AF%AD%E8%A8%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>热知识（持续更新）</title>
-    <link href="http://spcablast.club/2022/10/08/%E7%83%AD%E7%9F%A5%E8%AF%86/"/>
-    <id>http://spcablast.club/2022/10/08/%E7%83%AD%E7%9F%A5%E8%AF%86/</id>
-    <published>2022-10-07T16:00:00.000Z</published>
-    <updated>2022-12-29T05:20:05.988Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>心理学家Eder（1978）在一项儿童友谊关系的长期研究中发现，男孩子通过玩耍交朋友时往往是一群人一起玩，而女孩子是一对一对地玩；对成年人来说，男性之间的关系发展往往取决于他们是否参加了共同的活动，如一起踢足球等；而成年女性要想成为朋友，一起聊聊天就有可能。Wright（1982）把男性交友的倾向称为面对面（face to face）方式，而把成年女性交友的方式叫做肩并肩（side by side）方式。                                                                《社会心理学第三版第七章第二节》</p><p>皮肤拥有很多隐含着各种信息的指示色，甚至蓝色也属于皮肤色谱之一，它反映的是血液循环减弱而产生的体寒，或是由肺病、血栓（Thrombose）导致的血液性缺氧，缺氧会阻碍血液循环，使得血液无法及时流回心脏。蓝色的静脉血属于正常现象，它会从心脏流到肺部被人体重新回收利用。有一种青紫色的皮肤病叫作发绀（Zyanose），其希腊语本意为“蓝色”；皮肤发黑通常是由于老旧的血液堆积在一起，但也有可能是组织坏死，医学上称之为坏疽（Nekrose）。《皮肤的秘密》</p><p>从事科学研究的人，一定要坚信任何事情的发生，决不会是无缘无故的。</p><p>一般而言，套套逻辑并不是「四足动物有四只脚」那么简单，那么一目了然。空泛而没有内容的，而又不可能错的「理论」多的是，然而很多时就是大学博士也不易察觉。</p><p>在经济学上，一个不可或缺的基本假设是：每个人的任何行为都是为自己争取最大利益。但一个人抽烟或跳楼，对自己的身体是有害的。假若我们说抽烟或跳楼的行为，是因为「争取个人最大利益」，那就是套套逻辑了。在那个假设下，任何行为都算在其内，以「争取个人利益」来「解释」抽烟或跳楼，不可能错，因为假设的本身是一般地包括了人的所有行为。但如果所有人的行为都是定义地、空泛地被解释了，那么整个经济学就没有什么内容。</p><p>举另一个例子。有一位经济学者，试图以事实考证，私营企业的生产成本是否那企业所能做到的最低成本。但根据经济学的定义，所有私营企业，为了要图私利，必定会尽可能减低生产成本。于是，这位学者所试图的考证是套套逻辑，不可能错，但也没有内容，因为定义本身不容许有可以减低生产成本而又故意不减低的行为。</p><p>套套逻辑有一点很可取的特色：它有极大的一般性。假若我们能把范围加以约束、收窄，有时可以促成一个有内容的－－可能错的－－理论，其解释能力之强，令人拍案叫绝。</p><p>为什么音阶是八度，是为什么是十二平均律</p><p>十二平均律是指八度的音程按波长比例平均分成十二等份，每一等份称为一个半音（小二度）。一个大二度则是两等份，称为全音。将一个八度分成12等份有着惊人的一些巧合。这是因为它的纯五度音程的两个音的波长比（即1/2的7/12次方）约为0.6674，与2/3，约为0.6667，非常接近。</p><p>由于波长与弦长之间存在正比关系，因此波长关系可以转化为弦的长短关系。所以即使在16世纪，那个西方物理学才刚刚起步，还没有发现机械波的时代，中国明朝皇族世子朱载堉就利用他精湛的数学计算能力，发现了这一近似值规律，这也是一件十分伟大和令人赞叹的事。<br>-百度百科<br>2022-03-19</p><p>####标题：震惊！人类竟能用这个部位呼吸，你绝对想不到<br>论文题目：<br>#####Mammalian enteral ventilation ameliorates respiratory failure<br>发布时间：2021 年 5 月 14 日<br>DOI：https ://doi.org/10.1016/j.medj.2021.04.004<br><a href="https://www.cell.com/med/fulltext/S2666-6340(21)00153-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666634021001537%3Fshowall%3Dtrue" target="_blank" rel="noopener">论文链接</a><br>根据日本科学家2021年的一项实验表明，哺乳动物可以使用直肠进行呼吸，这个神奇的想法是从泥鳅身上学到的，泥鳅进化出了独特的肠道呼吸机制，可以在广泛    的缺氧环境下生存。于是，于是啊，很快啊，他们通过直肠内通气实验了哺乳动物的肠道呼吸能力。实验对象有小鼠和猪，结果十分amazing啊，在其呼吸衰竭之后直肠内通O2气体和含氧液体都可以改善存活率和全身O2水平，缓解呼吸衰竭。<br>20220921</p><p>呼吸对静脉压的影响：<br>胸膜腔内压通常低于大气压，是为负压，故胸腔内大静脉的跨壁压较大，常处于充盈扩张状态。吸气时，胸腔容积增大，胸膜腔负压增大，    使胸腔内的大静脉和右心房更加扩张从而有利于外周静脉回流至右心房，呼气时，胸膜腔负压减小，则静脉回心血量相应减少。因此，呼吸运动对静脉回流也起着“泵”的作用，称为呼吸泵。《生理学第八版》</p><blockquote><p>这么说深呼吸还能促进血液循环，把肢端的静脉血吸回来？</p></blockquote><p>短路血管：<br>血管床中的小静脉和小动脉之间的直接吻合支。他们主要分布在手指、足趾、耳廓等处的皮肤中，当短路血管开放时，小动脉内的血液可不经毛细血管直接进入小静脉，在功能上与体温调节有关。《生理学第八版》</p><blockquote><p>当短路血管开放时,皮肤血流量增加，皮肤温度升高，散热量增加，相反则减少散热量。另外短路血管开放会相对减少组织对血氧的摄取，某些条件下可能造成组织缺氧</p></blockquote><p>皮肤创伤愈合过程<br>皮肤创伤分：表皮层创伤、皮肤和皮下组织断裂并出现伤口、肌肉肌腱神经骨骼断裂<br>以皮肤手术切口为例，叙述创伤愈合的基本过程如下：<br>1、伤口早期变化<br>伤口局部不同程度组织坏死和血管断裂出血，数小时内出现炎症反应，充血，局部红肿。血液和渗出液中的纤维蛋白凝固形成凝块，有的凝块表面干燥形成痂皮，凝块及痂皮起着保护伤口的作用。<br>2、伤口收缩<br>2<del>3日后边缘的整块皮肤及皮下组织向中心移动，于是伤口迅速缩小，直到14天后左右停止。伤口收缩的意义在于缩小创面。伤口收缩是伤口边缘新生的肌成纤维细胞的牵拉作用引起的，而与胶原无关。因为伤口收缩的时间恰好是肌成纤维细胞增生的时间。<br>3、肉芽组织增生和瘢痕形成<br>大约从第三天开始从伤口底部和边缘长出肉芽组织填平伤口。毛细血管大约以每日延长0.1到0.6mm的速度增长。其方向大多垂直于创面。肉芽组织中并无神经，所以没有感觉。第5</del>6日起纤维细胞产生胶原纤维，其后一周胶原纤维形成甚为活跃，以后逐渐慢下来。随着胶原纤维越来越多，出现瘢痕形成过程，大约在伤后一个月瘢痕完全形成。可能由于局部张力的原因，瘢痕中的胶原纤维始终与皮肤平面平行。<br>4、表皮及其他组织再生<br>创伤发生24小时内，伤口边缘的基地细胞即开始增生，并在凝块下面向伤口中心迁移，形成单层上皮，覆盖于肉芽组织的表面。当这些细胞相遇时，他们停止迁移，并增生分化成鳞状上皮。若伤口过大（大于20cm）再生表皮难以覆盖伤口，往往需要植皮    。<br>皮肤附属器（毛囊汗腺皮脂腺）如遭完全破坏，则不能完全再生，而出现瘢痕修复。肌腱断裂之后，刚开始也是瘢痕修复，随着功能锻炼而不断改建，胶原纤维可按原来肌腱方向排列，达到完全再生。《病理学第八版》</p><blockquote><p>那这么说挑断手筋脚筋还可以练回来啊，不够严谨，还是截肢吧<br>20220923</p></blockquote><p>胡萝卜是被子植物门、双子叶植物纲、伞形目、伞形科、胡萝卜属<br>萝卜是被子植物门、双子叶植物纲、罂粟目、十字花科、萝卜属<br>所以胡萝卜不是萝卜<br>20220926</p><p>千叶豆腐是豆制品但是不是豆腐<br>千页豆腐是素食新产品，以大豆分离蛋白和水为主要原料，食用植物油、淀粉等为辅料，添加或不添加稳定剂和凝固剂、增稠剂，经斩拌乳化、调味、蒸煮、冷却、切块或再速冻等全部或部分工艺制成的大豆蛋白制品。虽然属于豆制品产品，但不是豆腐及豆腐制品，其生产原料、生产工艺、产品理化指标、内部组织结构、产品口感和营养成分与豆腐有本质的区别。<br>大豆分离蛋白<br>大豆分离蛋白是在低温条件下将豆粕（除去油和水溶性非蛋白成分）放入碱性溶液中浸提，然后沉淀、洗涤、干燥得到蛋白含量大于 90%的蛋白粉，其结构和性质基本代替纯的大豆蛋白。 [6]  大豆分离蛋白氨基酸种类有近20种，并含有人体必需氨基酸。其营养丰富，不含胆固醇，是植物蛋白中为数不多的可替代动物蛋白的品种之一。<br>所以如果世界末日了，只需要吃大豆分离蛋白和饭就行了，活下去的方式又增加了<br>20221008</p><p>交通学有“当斯定律”，1962年提出，分析高峰期交通拥堵以及交通拥堵与交通平衡理论之间的关系时提出。<br>定律内容：都市区通勤高速公路上高峰期交通拥堵的提高可满足最大的道路容量。<br>说人话就是新增的道路设施会诱发新的交通量，交通需求总是倾向于超过交通供给。<br>结论就是光修路没用，除非全是路，够用就行，再加政策。<br>20221215</p><p>喉发育因素（变声期喉的结构变化）<br>1、喉的位置在变声期后，喉的位置由第五颈椎下降至第六颈椎下缘的平面，咽喉腔拉长，声带距鼻咽顶壁距离增大，此时声音粗厚低沉。<br>2、喉前庭变化随着喉的发育，会厌由卷曲状“婴儿型”变得舒展平坦，喉咽管腔共鸣作用增大，也是音调变粗变低，但音响较洪亮之原因。<br>3、喉神经肌肉的变化喉软骨支架的变化伴随或带动神经支配的喉内外肌发育。如发育迟缓或不正常，可导致变声障碍。<br>20221220   来自<a href="https://baike.baidu.com/item/%E5%96%89/1917656?fromModule=lemma_inlink" target="_blank" rel="noopener">百度百科</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="书" scheme="http://spcablast.club/categories/%E4%B9%A6/"/>
-    
-    
-    <category term="摘选" scheme="http://spcablast.club/tags/%E6%91%98%E9%80%89/"/>
     
   </entry>
   
