@@ -6,7 +6,7 @@
   <link href="http://spcablast.club/atom.xml" rel="self"/>
   
   <link href="http://spcablast.club/"/>
-  <updated>2023-09-09T14:33:38.399Z</updated>
+  <updated>2023-09-10T14:53:37.865Z</updated>
   <id>http://spcablast.club/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《孤注一掷》</title>
+    <link href="http://spcablast.club/2023/09/10/%E3%80%8A%E5%AD%A4%E6%B3%A8%E4%B8%80%E6%8E%B7%E3%80%8B/"/>
+    <id>http://spcablast.club/2023/09/10/%E3%80%8A%E5%AD%A4%E6%B3%A8%E4%B8%80%E6%8E%B7%E3%80%8B/</id>
+    <published>2023-09-09T16:00:00.000Z</published>
+    <updated>2023-09-10T14:53:37.865Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>看了看《孤注一掷》，片名和剧中举例的那位受害者的心理状态是很符合的，贪心和不甘心，还有一丝丝的愧疚，组合成了他孤注一掷的疯狂。</p><p>电影整体节奏比较快，可以说是扣人心弦了，配乐也很符合情景。</p><p>印象比较深刻的画面是那个老哥用棍子打了那么多下没打断腿，胫骨这么不容易断吗？他敲的是垂直方向呀，他还那么胖，蓄力一下就能打断然后送下去休息了吧，敲了那么多下，看着都疼。</p><p>对于本剧被诈骗的小哥的经历，观众以第三人称视角可能会想：他为什么不收手呢“收手吧，阿祖，外面全是成龙(混入奇怪的东西)”，但是于他本人来说，他已经深陷其中，他的所思所想，接收到的诈骗方的信息、他自己的幻想、已经投入的成本和亲人朋友的期望让他无法自拔，满脑子都是赢回来，而不是停下来，从头开始。在这个状态下他已经回不去了，这里建议直接送精神病院每天打镇静剂或者可以让他没有力气的药物，缓上几个月，物理隔离一段时间也许还好点。<br>这个例子应该是比较典型且将经历快进过的一个缩影，或者是比较极端的例子，因为普通人输完几万几十万可能就一无所有了。只能从头再来。贷款，贷不了一点。</p><p>一些电影表达的内容：</p><ol><li>中国警方在国外没有执法权；</li><li>越南当地官匪勾结；</li><li>国内的人贩子、打印社、洗钱团伙为虎作伥</li><li>警方努力侦破诈骗案，鲜有成效</li><li>境外救回来的、逃回来的人、受害者的家人参与反诈宣传；</li><li>受骗人员家破人亡、从头再来；</li></ol><p>总感觉有人会跟着这个学去怎么诈骗，emmmm</p><p>这部剧的反诈宣传很到位了，希望多出一点这样的精品。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="影视" scheme="http://spcablast.club/categories/%E5%BD%B1%E8%A7%86/"/>
+    
+    
+    <category term="影评" scheme="http://spcablast.club/tags/%E5%BD%B1%E8%AF%84/"/>
+    
+  </entry>
   
   <entry>
     <title>饥饿感的产生</title>
@@ -469,34 +493,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>MachineLearning问题记录</title>
-    <link href="http://spcablast.club/2022/12/14/ML%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
-    <id>http://spcablast.club/2022/12/14/ML%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/</id>
-    <published>2022-12-13T16:00:00.000Z</published>
-    <updated>2022-12-20T01:35:51.415Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>一、配置清华源<br>报错提示：Conda<br>经典配环境报错<br>来官网就完了<a href="https://mirror.tuna.tsinghua.edu.cn/help/anaconda/" target="_blank" rel="noopener">清华镜像官网</a><br>配清华镜像源三步：<br>1、conda config –set show_channel_urls yes<br>运行上述命令在c盘user目录下生成.condarc文件<br>2、在.condarc文件中输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">channels:</span><br><span class="line">  - defaults</span><br><span class="line">show_channel_urls: true</span><br><span class="line">default_channels:</span><br><span class="line">  - https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;anaconda&#x2F;pkgs&#x2F;main</span><br><span class="line">  - https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;anaconda&#x2F;pkgs&#x2F;r</span><br><span class="line">  - https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;anaconda&#x2F;pkgs&#x2F;msys2</span><br><span class="line">custom_channels:</span><br><span class="line">  conda-forge: https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;anaconda&#x2F;cloud</span><br><span class="line">  msys2: https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;anaconda&#x2F;cloud</span><br><span class="line">  bioconda: https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;anaconda&#x2F;cloud</span><br><span class="line">  menpo: https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;anaconda&#x2F;cloud</span><br><span class="line">  pytorch: https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;anaconda&#x2F;cloud</span><br><span class="line">  pytorch-lts: https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;anaconda&#x2F;cloud</span><br><span class="line">  simpleitk: https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;anaconda&#x2F;cloud</span><br></pre></td></tr></table></figure><p>3、运行 conda clean -i 清除索引缓存，保证用的是镜像站提供的索引。<br>  行了。<br>  注意：如https可能会导致连接出错，报错了，改成http就行了</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="报错记录" scheme="http://spcablast.club/categories/%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%95/"/>
-    
-    
-    <category term="python" scheme="http://spcablast.club/tags/python/"/>
-    
-    <category term="windows" scheme="http://spcablast.club/tags/windows/"/>
-    
-    <category term="anaconda" scheme="http://spcablast.club/tags/anaconda/"/>
     
   </entry>
   
