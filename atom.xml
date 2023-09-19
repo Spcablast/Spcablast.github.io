@@ -6,7 +6,7 @@
   <link href="http://spcablast.club/atom.xml" rel="self"/>
   
   <link href="http://spcablast.club/"/>
-  <updated>2023-09-18T15:14:08.089Z</updated>
+  <updated>2023-09-19T14:49:26.713Z</updated>
   <id>http://spcablast.club/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>随笔（四）</title>
+    <link href="http://spcablast.club/2023/09/19/%E9%9A%8F%E7%AC%94%EF%BC%88%E5%9B%9B%EF%BC%89/"/>
+    <id>http://spcablast.club/2023/09/19/%E9%9A%8F%E7%AC%94%EF%BC%88%E5%9B%9B%EF%BC%89/</id>
+    <published>2023-09-18T16:00:00.000Z</published>
+    <updated>2023-09-19T14:49:26.713Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天看到个说早睡早起的视频，我最近也在实验早睡早起，已经早睡早起三周了吧，大概是10点半到11点半睡觉，11点前居多，每天睡7个半小时左右就能醒来。整体感觉良好。</p><p>有时候6个小时多一点的时候就会醒，但是太早了，就会继续睡会儿。醒的时候有点困，但是站起来开个灯一分钟之内就不困了。十分的清醒。</p></br>以昨天为例，昨晚吃多了睡不了，到11点半才躺下，手环记录11点50入睡，6点52醒来，今天中午休息30分钟，一直都很有精神，久坐也不累不困。</br>为什么要早睡早起？我已经忘了我为什么要早睡早起了，难道是之前熬夜然后8点多起白天没精神么？还是熬夜伤消化系统来着？<p>先给早起下一个定义，在上班/开始自己的活动前两个小时起床。</p><p>好的，为什么是两个小时，肯定是随便定的啦~大概是把通勤、吃早饭、洗漱算了一个小时，再往前推一个小时，在人经过一个夜晚的长时间睡眠之后，这段时间适合进行有创造性的活动，效率也会很高，这不比晚上熬夜多玩了一个小时更开心（并没有）？</p><p>行吧，不早睡早起身体好状态好也没事，这就当做一个在身体报警之后的恢复手段就行，开心就好。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="随笔" scheme="http://spcablast.club/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="睡眠" scheme="http://spcablast.club/tags/%E7%9D%A1%E7%9C%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>随笔（三）</title>
@@ -45,9 +69,9 @@
     <link href="http://spcablast.club/2023/09/12/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86GDT/"/>
     <id>http://spcablast.club/2023/09/12/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86GDT/</id>
     <published>2023-09-11T16:00:00.000Z</published>
-    <updated>2023-09-12T13:28:26.561Z</updated>
+    <updated>2023-09-19T14:49:32.290Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="1"><a href="#1" class="headerlink" title=" 1 "></a><center> 1 </center></h3><h6 id="今天看了看张老板的公众号，诶，排版不错，抄一下"><a href="#今天看了看张老板的公众号，诶，排版不错，抄一下" class="headerlink" title="今天看了看张老板的公众号，诶，排版不错，抄一下"></a><center>今天看了看张老板的公众号，诶，排版不错，抄一下</center></h6><hr><p>整体思想是，</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h6 id="今天看了看张老板的公众号，诶，排版不错，抄一下"><a href="#今天看了看张老板的公众号，诶，排版不错，抄一下" class="headerlink" title="今天看了看张老板的公众号，诶，排版不错，抄一下"></a>今天看了看张老板的公众号，诶，排版不错，抄一下</h6><h3 id="1"><a href="#1" class="headerlink" title=" 1 "></a><center> 1 </center></h3><hr><p>抄就要抄的像，奈何工具不够，精简一下。整体思想是：<strong>要有标题，封面，要分段，每部分讲不同的内容</strong></br></p><p>首先是<strong>标题和封面</strong>，要相关，要吸引人，要突出重点。比如我这个标题，就应该放一张时间管理大师的表情包，然后一段总结性的语言，老板还放了音乐。</p><p>其次是<strong>分段</strong>，把主要内容一部分一部分进行叙述。比如我今天的主题，其实是两个不太相关的内容。第一部分会将今天文章结构的来源，第二部分才会是标题的GDT方法的介绍。还有就是<strong>不要用太长的段落</strong>，应该说一句话或者说一段相关内容的话之后就分段；以及段落中重要的文字<strong>加粗</strong>。</p><p> 每个部分又应该分为，<strong>总领全文，详细描述，最后总结自己的感悟</strong>，麻了，怎么有种回到高中写作文的感觉了。</p><p><a href="https://mp.weixin.qq.com/s/WCi3qn-yWXmGSdFV-bYusg" target="_blank" rel="noopener">抄的公众号的链接</a></p><h3 id="2"><a href="#2" class="headerlink" title=" 2 "></a><center> 2 </center></h3><hr><p>第二部分是分享一个工具，起因是我今天想了想，最近更的这些东西目录和标签有点多，我都不知道有多少，以后还会加多少，所以应该总结一下，整理一下。</p><p>整理的目的应该是将所有的类别做到<strong>无交叉，无遗漏</strong>。但是我没有查到相关知识。只能根据自己的经验分了，备选方案是图书馆的《中国图书馆分类法》</p><p>在搜索的时候看到了GDT，觉得不错，开一篇记录一下。</p><p><strong>GTD（Getting Things Done）</strong> 是当前最先进也最流行的个人时间管理方法，也是作者大卫·艾伦 (David Allen) 所著畅销书《Getting Things Done》（中文译名《搞定》）的书名。</p><p>这本书的目的是帮助人们<strong>将想法转移到外部系统，通过整理和安排，将他们分解为可操作性的步骤，并在合适的时间或者场合完成他们</strong>。很好，我就需要一个这样的工具。</p><h5 id="方法步骤"><a href="#方法步骤" class="headerlink" title="方法步骤:"></a>方法步骤:</h5><ul><li><p>收集自己的想法<br>这些想法可以是任何事情，你在工作、娱乐、发呆的时候产生的任何想法都可以使用纸片、电子便签将他们记录下来。</p></li><li><p>整理<br> 将这些想法记录下来之后，找一个单独的时间，明确这些想法是什么，评估可行性，将可执行的事情分解成更小、更易管理的操作。</p></li><li><p>管理任务<br> 上一步的操作确定了，需要对事情的优先级进行排序，人是有限的，时间和精力也是有限的。<br> 这里提出来的优先级很有意思，如果有两三分钟就能完成的事，那么立刻马上去完成。剩下的再排个序，安排到未来再做,排序和分类参考下面：</p><blockquote><p>不可操作分类<br>垃圾箱：不值得你花时间且不需要任何关注的项目将移至垃圾箱列表中<br>参考资料：此列表包含不需要任何操作但在不久的将来某个时候可能需要的所有有用信息<br>某天/也许列表：您不确定是否应该立即完成的所有任务的类别。把它们收起来，但要定期检查它们，看看是否需要采取任何行动<br>可操作分类<br>如果任务是可操作的，你还需要确定下一个操作是否可以在 2 分钟内完成。如果可以在 2 分钟内完成，请立即执行。如果不能，请将其放在“项目”列表中。在 GTD 上下文中，“项目”是指需要多个步骤才能完成的任何事情。如果任务需要多个步骤才能完成，请将它们归入以下三类之一：<br>等待列表：您委派给其他人执行的所有任务<br>下一步行动清单：需要完成但没有截止日期的行动<br>日历：要在特定日期或时间完成的操作</p></blockquote></li></ul><ul><li><p>查看任务<br>不能写完就不管了，需要经常回顾：</p><blockquote><p>查看项目进度<br>  确定下一步需要做什么<br>  待办事项中是不是需要调整</p></blockquote></li><li><p>完成任务<br>经过上面四步的操作，每一次整理都能获得一张待办事项的清单，包含截止日期和优先级。所以该动手完成他们了。</p></li></ul>]]></content>
     
     
       
@@ -236,8 +260,8 @@
   
   <entry>
     <title>随笔(二)</title>
-    <link href="http://spcablast.club/2023/09/04/%E9%9A%8F%E7%AC%94(%E4%BA%8C)/"/>
-    <id>http://spcablast.club/2023/09/04/%E9%9A%8F%E7%AC%94(%E4%BA%8C)/</id>
+    <link href="http://spcablast.club/2023/09/04/%E9%9A%8F%E7%AC%94%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+    <id>http://spcablast.club/2023/09/04/%E9%9A%8F%E7%AC%94%EF%BC%88%E4%BA%8C%EF%BC%89/</id>
     <published>2023-09-03T16:00:00.000Z</published>
     <updated>2023-09-08T08:17:49.951Z</updated>
     
@@ -471,32 +495,6 @@
     
     <category term="认识自己" scheme="http://spcablast.club/categories/%E8%AE%A4%E8%AF%86%E8%87%AA%E5%B7%B1/"/>
     
-    
-    <category term="人" scheme="http://spcablast.club/tags/%E4%BA%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>幸福才是检验奋斗的标准</title>
-    <link href="http://spcablast.club/2022/12/27/%E5%BB%89%E6%80%9D-%E5%B9%B8%E7%A6%8F%E6%89%8D%E6%98%AF%E6%A3%80%E9%AA%8C%E5%A5%8B%E6%96%97%E7%9A%84%E6%A0%87%E5%87%86/"/>
-    <id>http://spcablast.club/2022/12/27/%E5%BB%89%E6%80%9D-%E5%B9%B8%E7%A6%8F%E6%89%8D%E6%98%AF%E6%A3%80%E9%AA%8C%E5%A5%8B%E6%96%97%E7%9A%84%E6%A0%87%E5%87%86/</id>
-    <published>2022-12-26T16:00:00.000Z</published>
-    <updated>2023-08-10T02:25:23.904Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>节选自《廉思：从蚁族、骑手到码农，青年应当被涵养而不是被消耗｜正午访谈》<br><a href="https://baijiahao.baidu.com/s?id=1709308208478376853&wfr=spider&for=pc" target="_blank" rel="noopener">原文链接</a><br>界面新闻：最近关于996、内卷的讨论很多，你怎么看待这种现象？对加班、奋斗和成功，你有什么思考？</p><p>廉思：我们制度的立足点，是让人民更幸福。无节制地去赞美透支健康乃至生命的奋斗，能得到真正的幸福么？奋斗和幸福是什么关系？我们提倡奋斗成就未来，但奋斗的内涵和逻辑要讲清楚。</p><p>我们赞美奋斗，但反感996，说明“奋斗”有个边界，一旦突破了这个边界，奋斗就变成了对人的榨取，反而会激发奋斗者的反感。过度的奋斗，感受不到成就和意义，只会沦为单纯的消耗和痛苦。年轻人谈到“内卷”“躺平”，很多人听到很着急，说年轻人怎么不想奋斗了？其实，青年不是不想奋斗，而是想知道自己为谁奋斗，奋斗的价值和意义何在。</p><p>这要从奋斗的本质谈起。奋斗其实是一种劳动，而996是过劳的一种表现。一般认为，劳动是美德，而过劳是一种“恶”。这里面要区分几个概念。首先要区分被迫过劳和自愿过劳。尽管被迫过劳大量存在，但应被批评，应被禁止，也是法律所不允许的。在现实生活中，我们还能看到很多自愿过劳——心甘情愿的超时工作。自愿过劳所能带来的价值，通常体现为个人事业的成功。必须承认，自愿过劳付出更多的努力，确有可能带来更多事业成功的机会。此外，自愿过劳还可以带来一种特殊的成就感、价值感和自豪感。但我们要注意的是，事业是生活的全部么？事业确实是生活的重要组成部分，但事业成功并不等于生活幸福。生活幸福是一个内涵丰富的概念，它应当包含更多美好的事物。</p><p>还有一部分自愿过劳者并不是为了追求自己事业的成功，而是为了谋求其他人的幸福。谋求他人幸福的自愿过劳者与追求个人幸福的自愿过劳者相比，他们更看重他人的幸福、社会的幸福、国家的幸福甚至人类的幸福。在需要时，他们更愿意为了他人、社会、国家、人类而牺牲自己。比如抗疫斗争中的医护人员、驻守边疆的解放军战士等。</p><p>这种高尚的行为理应受到全社会的赞扬，给予高度的肯定和表彰。但是，没有这种行为的人也不应受到谴责，毕竟不可能人人都具备这种高尚的情操，我们不能强求，更不能强迫任何人都做出这样的行为。</p><p>我们之所以批判资本，是因为资本偷换了上述概念。他们把为企业工作的被迫过劳美化为国家倡导的、为他人幸福的自愿过劳，并以此鼓励青年人不断加班，美其名曰“奋斗”。实际上，国家提倡的奋斗，里面有个人意义的价值，但更包含了为国家、为社会这种为他人幸福的内涵。而资本提倡的所谓“奋斗”，把其中为国家、为社会的部分，偷换为企业自己。一旦青年感觉到自己奋斗的结果，最终成就的对象不是国家和社会，而是资本，对他而言，奋斗的动力就完全不同了。在这种情况下，抱怨年轻人躺平，其实症结并不在年轻人那里。</p><p>当然，任何形式的劳动，本质上都应指向幸福，所以，什么才是检验奋斗的标准？我认为应当是——幸福。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="文章" scheme="http://spcablast.club/categories/%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="青年" scheme="http://spcablast.club/tags/%E9%9D%92%E5%B9%B4/"/>
     
     <category term="人" scheme="http://spcablast.club/tags/%E4%BA%BA/"/>
     
