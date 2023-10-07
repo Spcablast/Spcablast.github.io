@@ -6,7 +6,7 @@
   <link href="http://spcablast.club/atom.xml" rel="self"/>
   
   <link href="http://spcablast.club/"/>
-  <updated>2023-09-27T15:26:06.457Z</updated>
+  <updated>2023-10-07T15:23:46.874Z</updated>
   <id>http://spcablast.club/</id>
   
   <author>
@@ -17,13 +17,63 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>王小波联动林语堂</title>
+    <link href="http://spcablast.club/2023/09/28/%E5%85%B3%E4%BA%8E%E3%80%8A%E6%B2%89%E9%BB%98%E7%9A%84%E5%A4%A7%E5%A4%9A%E6%95%B0%E3%80%8B/"/>
+    <id>http://spcablast.club/2023/09/28/%E5%85%B3%E4%BA%8E%E3%80%8A%E6%B2%89%E9%BB%98%E7%9A%84%E5%A4%A7%E5%A4%9A%E6%95%B0%E3%80%8B/</id>
+    <published>2023-09-27T16:00:00.000Z</published>
+    <updated>2023-10-07T15:23:46.874Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>上一次看到沉默的大多数，序言里这么说：</p><p>伦理问题虽难，但却不是不能讨论。罗素先生云，真正的伦理原则把人人同看待。考虑伦理问题时，想替每个人都想一遍是不可能的事，但你可以说，这是我的一得之见，然后说出自已的意见，把是非交付公论。讨论伦理地问题时也可以保持良心的清白–这是我最近的体会，但不是我打破沉默的动机。假设有一个领域，谦虚的人、明理的人以为它太困难、太暧昧，不肯说话，那么开口说话的就必然是浅薄之徒、狂妄之辈… …我认识很多明理的人，但他们都在沉默中，因为他们都珍视自己的清白。但我以为，伦理问题太过重要，已经不容我顾及自身的清白。</p><p>我对自己的要求很低：我活在世上，无非想要明白些道理，遇见些有趣的事。倘能如我所愿，我的一生就算成功。为此也要去论是非，否则道理不给你明白，有趣的事也不让你遇到。我开始得太晚了，很可能做不成什么，但我总得申明我的态度，所以就有了这本书——为我自己，也代表沉默的大多数。</p><p>说了一个现象，在伦理问题方面，大家似乎要么觉得难以说明白所以不说，珍惜名声所以不说，导致说的人大都是利益相关。这种情况似乎确实存在，那么是怎么发生的呢？为什么会这样呢？</p><p>正巧几周后我又看到林语堂先生的《吾国与吾民》中有类似的表述：<br>当个人权利有保障，人就可变成关心公益的人。而人之所以兢兢自危者，实为诽谤之罪之滥施。当此等权利无保，我们自存的本能告诉我们，不管闲事是个人自由最好的保障… …盖中国之盗匪，他们不需要依赖法律的保障，故遂不具此种冷淡消极之品性而成为中国人心目中最侠义，最关心社会公众的人。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="书" scheme="http://spcablast.club/categories/%E4%B9%A6/"/>
+    
+    
+    <category term="林语堂" scheme="http://spcablast.club/tags/%E6%9E%97%E8%AF%AD%E5%A0%82/"/>
+    
+    <category term="王小波" scheme="http://spcablast.club/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>台式机机箱相关内容</title>
+    <link href="http://spcablast.club/2023/09/28/%E5%8F%B0%E5%BC%8F%E6%9C%BA%E6%9C%BA%E7%AE%B1%E7%9B%B8%E5%85%B3%E5%86%85%E5%AE%B9/"/>
+    <id>http://spcablast.club/2023/09/28/%E5%8F%B0%E5%BC%8F%E6%9C%BA%E6%9C%BA%E7%AE%B1%E7%9B%B8%E5%85%B3%E5%86%85%E5%AE%B9/</id>
+    <published>2023-09-27T16:00:00.000Z</published>
+    <updated>2023-10-07T14:18:48.334Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>台式机机箱组成：</p><ol><li><p>板材（外壳）：<br>合金、钢材，用于保护内部设备，参考指标：厚度，其决定重量和安全性，太厚了重，太薄了emmm，没事儿吧，总不会裂开吧</p></li><li><p>风道：<br>设计进气和出气口，在风扇的作用下使得冷空气进入并排出热空气，注意机箱6个面，不能全闷着吧</p></li><li><p>防尘：<br>空气流通的时候就会带着灰尘，防尘网用一段时间就能看到了，尤其是养猫的时候，全是猫毛！</p></li><li><p>尺寸：<br>scale很重要，小机箱肯定塞不进大设备，比如显卡长度，电池大小，散热器、水冷啥的</p></li><li></li></ol><p>主板接口：<br>1、主电源，辅助电源接口　　<br>2、处理器插口　　<br>3、内存插槽，一般2到4个插槽或更多;　　<br>5、PCI-E接口：独立显卡插槽;　<br>6、PCI接口：独立网卡，独立声卡等其它外设接口　　<br>7、硬盘接口：stat接口接stat接口的硬盘或光驱，Ｍ.２接口，接M.2接口的固态硬盘。<br>(参考链接)[<a href="https://zhuanlan.zhihu.com/p/336651100]" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/336651100]</a></p><p>主板分类：大概就是说不同的主板配不同的CPU</p><ul><li>十代i3系列搭配H410主板即可。</li><li>十代i5搭配B460或H470，如果是后缀“K”的，最好是搭配Z490</li><li>十代i7，后缀不带K的可以用B460/H470，也可以用Z490。带K的一律用Z490</li><li>十代i9，一律用Z490。</li></ul><p>6.声卡：<br>1、红色是插麦克风的，用来接麦克风输入声音。在四声道与六声道的喇叭设置模式时，本接口是做为连接重低音/中央声道喇叭之用。<br>2、蓝色代表的是音频输入，用于接音源输入设备。在四声道与六声道的喇叭设置模式时，本接口是做为后置喇叭之用。<br>3、绿色的就是音频输出了，音箱，耳机等就是插在绿色口里。在四声道与六声道的喇叭设置模式时，本接口是做为前置喇叭之用。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="计算机" scheme="http://spcablast.club/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    
+    <category term="硬件" scheme="http://spcablast.club/tags/%E7%A1%AC%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>睡眠质量评估</title>
     <link href="http://spcablast.club/2023/09/27/%E7%9D%A1%E7%9C%A0%E8%B4%A8%E9%87%8F/"/>
     <id>http://spcablast.club/2023/09/27/%E7%9D%A1%E7%9C%A0%E8%B4%A8%E9%87%8F/</id>
     <published>2023-09-26T16:00:00.000Z</published>
-    <updated>2023-09-27T15:26:06.457Z</updated>
+    <updated>2023-09-28T01:12:41.429Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>评价指标：长度、深度、效果<br>成年人睡眠时长在7-8小时；</p><p>1.能在10-20分钟入睡；</p><p>2.睡眠中不醒或偶尔醒来又能很快入睡；</p><p>3.夜间睡眠无惊梦，做梦醒后很快忘记；</p><p>4.早晨睡醒后精力充沛，无疲劳感；</p><p>5.睡眠中没有或很少噩梦、异常行为等。</p><p>说明睡眠质量良好。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>评价指标：长度、深度、效果<br>成年人睡眠时长在7-8小时；</p><p>1.能在10-20分钟入睡；</p><p>2.睡眠中不醒或偶尔醒来又能很快入睡；</p><p>3.夜间睡眠无惊梦，做梦醒后很快忘记；</p><p>4.早晨睡醒后精力充沛，无疲劳感；</p><p>5.睡眠中没有或很少噩梦、异常行为等。</p><p>说明睡眠质量良好。</p><p>标准的评价指标有：</p><p>匹兹堡睡眠指数（PSQI）</p><p>·睡眠个人信念与态度量表（DBAS）</p><p>·睡眠-觉醒模式自评问卷（MEQ）</p><p>·Epworth嗜睡量表(ESS)</p><p>·睡眠呼吸暂停初筛量表(STOP-Bang)</p><p>·症状自评量表（SCL-90）</p><p>·焦虑/抑郁自评量表（SAS/SDS）</p><p>·感知压力量表（PSS）</p><p>·康奈尔医学指数（CMI)</p>]]></content>
     
     
       
@@ -443,58 +493,6 @@
     
     
     <category term="动画" scheme="http://spcablast.club/tags/%E5%8A%A8%E7%94%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>论养生</title>
-    <link href="http://spcablast.club/2023/08/26/%E8%AE%BA%E5%85%BB%E7%94%9F/"/>
-    <id>http://spcablast.club/2023/08/26/%E8%AE%BA%E5%85%BB%E7%94%9F/</id>
-    <published>2023-08-25T16:00:00.000Z</published>
-    <updated>2023-08-26T15:39:46.464Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>健康之道是一门学问，不是医学的规则所能涵盖的。一个人的自我观察是他保持健康的灵丹妙药，因为这些自我观察里包含着什么是对他有益的，什么是对他有害的体验。<br>不过更稳妥的结论是“这个不适合我，所以我不会继续这样做”，而不是“我发现这个对我没什么害处，所以我会用它”。<strong>这个就像庖丁解牛，不去用刀剁骨头，刀就不会钝</strong><br>年轻时体质强韧，可以承受一些过度的行为，但这些行为到人年老时终将产生不良的后果，就像欠的债务总要归还一样。要清醒地意识到自己年岁的增长，并且应明确不能再做和年轻时候一样的事情，因为变老的趋势是不容藐视的。</p></br>要注意在饮食这一重要环节不可突然改变，如果是迫不得已必须如此，也应使其他方面与之相适应。因为其奥妙在于，不论是在自然界还是在国家之中，改变多方面的事物比改变单独一个事物要更为安全可靠。对饮食、睡眠、锻炼、穿着等方面的习惯进行一一审视，看有哪些方面对你的健康是会造成损害的，一点一点地逐步将其戒除。如果改变后你觉得并不适应，就恢复原来的习惯，因为很难在如下两者之间进行区分，即一般人普遍认为是好的和有益健康的习惯，以及适合自己身体状况的特殊习惯。</br><p>在吃饭的时候、睡觉的时候及锻炼的时候，保持轻松愉悦的心情，把烦恼放在一边，这是延年益寿的要诀之一。至于头脑中的情绪和思虑，应避免妒忌、焦虑恐惧、内在的愤怒烦躁、过于敏感以及绞尽脑汁的冥思苦想、过度的喜悦和兴奋、压抑心底的悲伤。怀抱希望，尽情欢笑，而不是狂喜，享受各种喜悦而不是过度地沉浸其中，有好奇心和赞美之心（从而对生活保持新鲜感），用辉煌灿烂的事物充实心灵（如历史、寓言及对自然的沉思等）。<strong>喜怒哀乐之未发，谓之中，发而中节，谓之和。情绪也要顺其自然，不去压抑，也不要太过</strong></p><p>如果你在健康状况方面从来不求医问药，当你不得不需要这样做的时候，你的身体就会很不适应。如果你在求医问药上过于频繁，当疾病来临之时，医药就不会有特别的效果了。我推荐的是，随季节变换调整饮食，而不是常常求助于医药，除非药物的使用已经变成一种习惯，因为日常饮食对身体的补益更大，且不会对身体造成不良影响。不要对身体产生的新问题视而不见，而是要询问医生相关的建议。若身体抱恙，要多遵从有助恢复健康的准则；如果身体康健，则应多活动以保持良好的状态。因为对于那些身体较为强健的人来说，倘若染上的不是重症急病，大多数情况下只需调节饮食和多加休养就能痊愈。</p><p>塞尔苏斯兼医生和智者于一身，单纯作为医生和单纯作为智者的塞尔苏斯都很难道出他曾说过的如下这番健康长寿之道，他说，一个人应该尝试各种，甚至截然相反的习惯，不过应更倾向对自己有益的那一种：在禁食和饱食之间，更偏重饱食；在不眠与睡眠之间，更侧重睡眠；在不锻炼与锻炼之间，更注重锻炼，诸如此类。</p><p>这样做，会使体质得以增强，体魄更强健。一些医生对病人的性情十分理解和包容，以至于他们对疾病无法实施真正有治愈效果的措施；还有一种医生严格地遵守治疗的程序，而没有充分地考虑病人的具体情况。看病时，应选取介于两种类型医生之间的那一种或者，如果不能找到同时调和这两种类型的医生，那就各找一位然后将两者的优点结合起来。并且就医时，除了去找德高望重以技艺扬名的医生，也不要忘记去找那位最熟悉你身体状况的医生。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="书" scheme="http://spcablast.club/categories/%E4%B9%A6/"/>
-    
-    
-    <category term="人" scheme="http://spcablast.club/tags/%E4%BA%BA/"/>
-    
-    <category term="养生" scheme="http://spcablast.club/tags/%E5%85%BB%E7%94%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>时间的暴政</title>
-    <link href="http://spcablast.club/2023/08/25/%E6%97%B6%E9%97%B4%E7%9A%84%E6%9A%B4%E6%94%BF/"/>
-    <id>http://spcablast.club/2023/08/25/%E6%97%B6%E9%97%B4%E7%9A%84%E6%9A%B4%E6%94%BF/</id>
-    <published>2023-08-24T16:00:00.000Z</published>
-    <updated>2023-09-03T23:34:53.151Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>有学者认为，小孩的思想和行动大多指向现在，中年和老年的思想和行动更多地指向过去，只有青年的思想和行动指向未来。</p><p>这种内生于青年本身的指向未来的时间观，使人在青年时期更倾向于追求一个美好的明天，那么以未来的利益为诱饵，资本就可以精心策划一套支配青年的制度。在这种制度的设计下，资本有意无意地鼓励青年对时间进行榨取，并经常树立牺牲当前时间来实现未来价值的时间幻象。</p><p>==当一个人既沉浸于当下，又抬头望见梦想时，他就超越了时间，也超越了自己。当有一天，青年不再为速度所困扰，不再为过时所慌张，亦不再为未来所忧虑的时候，他的创造力就会自然开启，他的活力就会自动迸发，并随之而来一份精神的馈赠—幸福感。我们希望青年能够多一些自由的时间去放空自己，这种放空不是放纵，而是充分体验生活的快乐、工作的快乐以及社会关系带来的快乐。==</p><p><em>是嘛，我感觉我老是被死去的回忆攻击，很少想到未来，基本都是想着现在手头的事情</em></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="文章" scheme="http://spcablast.club/categories/%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="青年" scheme="http://spcablast.club/tags/%E9%9D%92%E5%B9%B4/"/>
-    
-    <category term="人" scheme="http://spcablast.club/tags/%E4%BA%BA/"/>
     
   </entry>
   
