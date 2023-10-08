@@ -6,7 +6,7 @@
   <link href="http://spcablast.club/atom.xml" rel="self"/>
   
   <link href="http://spcablast.club/"/>
-  <updated>2023-10-07T15:23:46.874Z</updated>
+  <updated>2023-10-08T14:59:16.392Z</updated>
   <id>http://spcablast.club/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>本地部署chatgpt</title>
+    <link href="http://spcablast.club/2023/10/08/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2chatgpt/"/>
+    <id>http://spcablast.club/2023/10/08/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2chatgpt/</id>
+    <published>2023-10-07T16:00:00.000Z</published>
+    <updated>2023-10-08T14:59:16.392Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>前天我突然想用离线的chatgpt做一个备忘录，然后搜了搜，真的有，找到一个可行的方案：<br>转载自：<a href="https://zhuanlan.zhihu.com/p/622337838?utm_id=0" target="_blank" rel="noopener">链接</a></p><p>根据ChatGPT-4的评估结果，700亿参数的LLaMA-2已经达到了ChatGPT-4的97.25%语言交互水平，而2bit量化后的LLaMA-2已经可以纯CPU推理运行，或利用offloading技术在低配显卡上运行，因此本文将介绍如何在你自己的电脑上安装运行2bit量化后的LLaMA-2大模型。</p><p>(还有2bit的量化的，真行啊)</p><p>新建文件夹llama.cpp，下载<a href="https://github.com/ggerganov/llama.cpp/releases/" target="_blank" rel="noopener">llama.cpp的github仓库release的二进制文件</a>（使用<a href="https://www.cpuid.com/downloads/cpu-z/cpu-z_2.05-en.zip" target="_blank" rel="noopener">CPUZ</a>查看你的CPU是否支持AVX512，如果支持，请下载对应的版本），将其中的exe文件解压到llama.cpp文件夹中，下载<a href="https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML" target="_blank" rel="noopener">LLaMA-2（700亿参数2bit量化ggml权重）</a> 到此文件夹中，并在其中新建run_llama2_70b_2bit.bat 文件，用记事本打开，粘贴以下内容（将filename.bin改为你下载的文件名）：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\&quot;main.exe&quot; --ctx_size 4096 --temp 0.7 --top_k 40 --top_p 0.5 --repeat_last_n 256 --batch_size 1024 --repeat_penalty 1.17647    --model &quot;filename.bin&quot;   --n_predict 2048   --color --interactive   --reverse-prompt &quot;### User:&quot;   --prompt &quot;### User: Please do not talk to yourself, if you understand, say yes. ### Assistant:&quot;</span><br></pre></td></tr></table></figure><p>之后即可双击run_llama2_70b_2bit.bat文件开始对话</p><p>如果想要配合webui使用ggml权重的话，请将上述命令替换为以下命令：<br><code>&quot;server.exe&quot; --ctx-size 4096 --threads 6 --model filename.bin</code></p><p>以上模型权重需要30GB的内存和支持AVX512的CPU才能流畅运行，如果你的电脑配置较低，可以使用130亿参数的LLaMA-2权重：</p><p><a href="https://huggingface.co/TheBloke/Llama-2-13B-chat-GGML" target="_blank" rel="noopener">TheBloke/Llama-2-13B-chat-GGML · Hugging Face</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="工具" scheme="http://spcablast.club/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="chatgpt" scheme="http://spcablast.club/tags/chatgpt/"/>
+    
+  </entry>
   
   <entry>
     <title>王小波联动林语堂</title>
@@ -469,30 +493,6 @@
     
     
     <category term="人" scheme="http://spcablast.club/tags/%E4%BA%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>随笔(一)</title>
-    <link href="http://spcablast.club/2023/08/29/%E9%9A%8F%E7%AC%94/"/>
-    <id>http://spcablast.club/2023/08/29/%E9%9A%8F%E7%AC%94/</id>
-    <published>2023-08-28T16:00:00.000Z</published>
-    <updated>2023-09-06T14:14:16.679Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天推荐一个动画，来自公众号动画学术趴的推荐，</p><p>动画名字是《缝制爱》（Sewing Love）是来自个人作者许愿的2023年学生毕设动画短片。</p><p>评价是给了它的观众对于亲密关系的一种最坏的想象，也让观众开始对亲密关系产生提防和自省。</p><p><a href="https://mp.weixin.qq.com/s/BuHW3ow7bP8UqDff-fOZ5Q" target="_blank" rel="noopener">推文链接</a></p><p><a href="https://b23.tv/dShrqob" target="_blank" rel="noopener">动画链接</a></p><p>想必看到标题就开始浑身难受了，放两张图感受一下：</p><p><a href="https://imgse.com/i/pPdwLLV" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2023/08/30/pPdwLLV.png" alt="pPdwLLV.png"></a><br><a href="https://imgse.com/i/pPdwXZT" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2023/08/30/pPdwXZT.png" alt="pPdwXZT.png"></a></p><p>作者介绍他的创作思路和历程的时候给我一种感觉-这就是热爱吧，用心在做了，是调动了自己生命的全部，感觉、精神、和智力以及体力来完成这件事，<br>作者在制作的过程中在不断推倒重来，螺旋上升，最终完成这一版，作者通过这部动画也在表达自己，<br>他在学习知识，使用知识，总结知识。想到一句很老套的话，做任何事都要用心，用心就有做好的可能，不一定成功，但是一定会有收获。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="随笔" scheme="http://spcablast.club/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="动画" scheme="http://spcablast.club/tags/%E5%8A%A8%E7%94%BB/"/>
     
   </entry>
   
