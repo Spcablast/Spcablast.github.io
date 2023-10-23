@@ -6,7 +6,7 @@
   <link href="http://spcablast.club/atom.xml" rel="self"/>
   
   <link href="http://spcablast.club/"/>
-  <updated>2023-10-08T14:59:16.392Z</updated>
+  <updated>2023-10-23T14:31:00.189Z</updated>
   <id>http://spcablast.club/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>上下楼梯怎么不伤膝盖</title>
+    <link href="http://spcablast.club/2023/10/23/%E7%BD%91%E4%BC%A0%E4%B8%8A%E4%B8%8B%E6%A5%BC%E6%A2%AF%E4%BC%A4%E8%86%9D%E7%9B%96%E7%9A%84%E5%8E%9F%E5%9B%A0/"/>
+    <id>http://spcablast.club/2023/10/23/%E7%BD%91%E4%BC%A0%E4%B8%8A%E4%B8%8B%E6%A5%BC%E6%A2%AF%E4%BC%A4%E8%86%9D%E7%9B%96%E7%9A%84%E5%8E%9F%E5%9B%A0/</id>
+    <published>2023-10-22T16:00:00.000Z</published>
+    <updated>2023-10-23T14:31:00.189Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>1、膝盖内扣，就是膝盖晃了，晃的时候关节就以不正常的姿势磨损了<br>2、上楼梯小腿和大腿夹角太小，，也就是大概像膝盖超过脚尖这个表达的意思，这样膝盖压力会比较大<br>3、 上半身过度挺直，就像与地垂直了，这样也会导致膝关节过度使用，建议根据自身感受上半身稍微前倾一些。</p><p>总的来说就是膝盖要以正确的幅度活动，在他的工作空间活动，他只能屈伸，不能往两边扭转，以及就是身体的整体要协调，不能让某个位置过度使用。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="运动" scheme="http://spcablast.club/categories/%E8%BF%90%E5%8A%A8/"/>
+    
+    
+    <category term="爬楼梯" scheme="http://spcablast.club/tags/%E7%88%AC%E6%A5%BC%E6%A2%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>电脑控制手机工具</title>
+    <link href="http://spcablast.club/2023/10/15/%E7%94%B5%E8%84%91%E6%8E%A7%E5%88%B6%E6%89%8B%E6%9C%BA/"/>
+    <id>http://spcablast.club/2023/10/15/%E7%94%B5%E8%84%91%E6%8E%A7%E5%88%B6%E6%89%8B%E6%9C%BA/</id>
+    <published>2023-10-14T16:00:00.000Z</published>
+    <updated>2023-10-15T14:54:23.732Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>问题：<br>手机触屏坏了下半部分。想使用远程软件远程，或者插USB线通过电脑控制。<br>但是开了开发者模式，usb调试，依然无法连接上手机，试过total control，试过anlink，试过手机一键链接<br>向日葵居然需要点一下确定才能使用，而且那个去顶不能随着屏幕移动，就只能在右下角，点不着啊</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="工具" scheme="http://spcablast.club/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="Anlink" scheme="http://spcablast.club/tags/Anlink/"/>
+    
+  </entry>
   
   <entry>
     <title>本地部署chatgpt</title>
@@ -449,50 +497,6 @@
     
     
     <category term="写作" scheme="http://spcablast.club/tags/%E5%86%99%E4%BD%9C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>大文件切片</title>
-    <link href="http://spcablast.club/2023/09/01/%E5%A4%A7%E6%96%87%E4%BB%B6%E5%88%87%E7%89%87/"/>
-    <id>http://spcablast.club/2023/09/01/%E5%A4%A7%E6%96%87%E4%BB%B6%E5%88%87%E7%89%87/</id>
-    <published>2023-09-01T07:51:48.322Z</published>
-    <updated>2023-09-03T14:23:12.793Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><hr><p>layout:     post<br>title:      Windows大文件切片<br>subtitle:   Git<br>date:       2023-09-02<br>author:     YP<br>header-img:<br>catalog: true<br>toc: true # 是否启用内容索引<br>categories:<br>    - 工具<br>tags:<br>    - Git</p><hr><h4 id="起因："><a href="#起因：" class="headerlink" title="起因："></a>起因：</h4><p>git推文件推不上去<br>原因是文件内容大于100M</p><h4 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h4><p>1、文件切片<br>2、用Git LFS</p><p>这里使用的是第一个办法</p><h4 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h4><p>系统：Windows<br>使用git bash的split命令（前置条件，安装了Git）<br>split -b 200m xxxx.log -d -a 3</p><p>以下是该命令的help文件</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line">$ split --help</span><br><span class="line">Usage: split [OPTION]... [FILE [PREFIX]]</span><br><span class="line">Output pieces of FILE to PREFIXaa, PREFIXab, ...;</span><br><span class="line"><span class="keyword">default</span> <span class="built_in">size</span> is <span class="number">1000</span> lines, <span class="keyword">and</span> <span class="keyword">default</span> PREFIX is <span class="string">'x'</span>.</span><br><span class="line"></span><br><span class="line">With no FILE, <span class="keyword">or</span> when FILE is -, <span class="built_in">read</span> standard input.</span><br><span class="line"></span><br><span class="line">Mandatory arguments to <span class="keyword">long</span> options are mandatory <span class="keyword">for</span> short options too.</span><br><span class="line">  -a, --suffix-length=N   generate suffixes of length N (<span class="keyword">default</span> <span class="number">2</span>)</span><br><span class="line">      --additional-suffix=SUFFIX  append an additional SUFFIX to file names</span><br><span class="line">  -b, --bytes=SIZE        <span class="built_in">put</span> SIZE bytes per output file</span><br><span class="line">  -C, --<span class="built_in">line</span>-bytes=SIZE   <span class="built_in">put</span> at most SIZE bytes of records per output file</span><br><span class="line">  -d                      use numeric suffixes starting at <span class="number">0</span>, <span class="keyword">not</span> alphabetic</span><br><span class="line">      --numeric-suffixes[=FROM]  same as -d, but allow setting the start value</span><br><span class="line">  -x                      use hex suffixes starting at <span class="number">0</span>, <span class="keyword">not</span> alphabetic</span><br><span class="line">      --hex-suffixes[=FROM]  same as -x, but allow setting the start value</span><br><span class="line">  -e, --elide-empty-files  do not generate empty output files with '-n'</span><br><span class="line">      --filter=COMMAND    <span class="built_in">write</span> to shell COMMAND; file name is $FILE</span><br><span class="line">  -l, --lines=NUMBER      <span class="built_in">put</span> NUMBER lines/records per output file</span><br><span class="line">  -n, --number=CHUNKS     generate CHUNKS output files; see explanation below</span><br><span class="line">  -t, --separator=SEP     use SEP instead of newline as the record separator;</span><br><span class="line">                            <span class="string">'\0'</span> (zero) specifies the NUL character</span><br><span class="line">  -u, --unbuffered        immediately copy input to output with '-n r/...'</span><br><span class="line">      --verbose           <span class="built_in">print</span> a diagnostic just before each</span><br><span class="line">                            output file is opened</span><br><span class="line">      --help     <span class="built_in">display</span> <span class="keyword">this</span> help <span class="keyword">and</span> <span class="built_in">exit</span></span><br><span class="line">      --version  output version information <span class="keyword">and</span> <span class="built_in">exit</span></span><br><span class="line"></span><br><span class="line">The SIZE argument is an integer and optional unit (example: 10K is 10*1024).</span><br><span class="line">Units are K,M,G,T,P,E,Z,Y (powers of <span class="number">1024</span>) <span class="keyword">or</span> KB,MB,... (powers of <span class="number">1000</span>).</span><br><span class="line">Binary prefixes can be used, too: KiB=K, MiB=M, <span class="keyword">and</span> so on.</span><br><span class="line"></span><br><span class="line">CHUNKS may be:</span><br><span class="line">  N       split into N files based on <span class="built_in">size</span> of input</span><br><span class="line">  K/N     output Kth of N to <span class="built_in">stdout</span></span><br><span class="line">  l/N     split into N files without splitting lines/records</span><br><span class="line">  l/K/N   output Kth of N to <span class="built_in">stdout</span> without splitting lines/records</span><br><span class="line">  r/N     like <span class="string">'l'</span> but use round robin distribution</span><br><span class="line">  r/K/N   likewise but only output Kth of N to <span class="built_in">stdout</span></span><br><span class="line"></span><br><span class="line">GNU coreutils online help: &lt;https:<span class="comment">//www.gnu.org/software/coreutils/&gt;</span></span><br><span class="line">Report any translation bugs to &lt;https:<span class="comment">//translationproject.org/team/&gt;</span></span><br><span class="line">Full documentation &lt;https:<span class="comment">//www.gnu.org/software/coreutils/split&gt;</span></span><br><span class="line">or available locally via: info '(coreutils) split invocation'</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>论美</title>
-    <link href="http://spcablast.club/2023/08/29/%E8%AE%BA%E7%BE%8E/"/>
-    <id>http://spcablast.club/2023/08/29/%E8%AE%BA%E7%BE%8E/</id>
-    <published>2023-08-28T16:00:00.000Z</published>
-    <updated>2023-08-28T14:08:04.763Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>美德就好比一块宝石，朴素的装饰最能映衬它的价值。无疑，美德存在于外表动人者身上最好不过，不过若没有精致的容貌，在气质方面展现出的庄重大方也会胜过容貌的姣美。<br>此外，拥有俊俏容颜者也拥有杰出的德行是不多见的，仿佛大自然太过于繁忙只求没有差错而已，而不愿意在塑造卓越上花费更多的工夫，因此这些人虽然拥有标致的外貌，却没有优秀的精神气质，对行为举止的钻研热情要高于对德行的追求。<br>但情况也不总是如此，因为奥古斯都·恺撒、提图斯·维斯帕西亚努斯[74]、法国国王美男子菲利普[75]、英国国王爱德华四世[76]、雅典的亚西比德[77]、波斯统治者伊斯梅尔，都志存高远、气宇轩昂，并且也是他们所处时代中第一等的美男子。<br>就美而言，容貌之美要胜过肤色之美，而优雅得体的举止之美又胜过容貌之美。美最摄人心魄之处，是用图画也难以表达的，是第一眼难以发现的。任何一种精妙绝伦的美在其比例上都会有一些独特和奇妙之处。一个人很难说出阿佩里斯[78]和阿尔伯特·丢勒[79]谁更为不明智。<br>他们中的一位，用几何比例来画人；另外一位，取若干面孔的最佳部分来构造一张完美的脸庞。这样画出来的人，我想，除了能取悦画家自己，谁也取悦不了。<br>我不是认为一位画家不能描绘出一张前所未有的俊美面孔，而是认为他应该在创作时运用一种巧妙的画法（就如音乐家在谱曲时蕴涵的神韵），而不是依据规则来创作。<br>如果你对人的脸进行一部分一部分的仔细观察，那你是找不到一张能视为美的面庞的，人应该将面孔作为整体来看，这样才能发现其动人之处。如果美的主要部分是存在于端庄的举止中这句话是真的，那么确实不会令人惊奇的是，有些人历经岁月风霜后却似乎更为可爱了，“<br>“美之迟暮也是美的”。[80]因为如若不宽容，并且将青春年少本身视为对美的弥补，就没有青年人能算是美丽的。美就像是夏日的水果，容易腐坏，不易长久保持；并且大多数情况下，美造就了放荡不羁的青年人，也造成了悔恨的老年时代。但仍然确定无疑的是，如果美能适当地起作用的话，它会使美德闪耀，使恶习赧颜。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="书" scheme="http://spcablast.club/categories/%E4%B9%A6/"/>
-    
-    
-    <category term="人" scheme="http://spcablast.club/tags/%E4%BA%BA/"/>
     
   </entry>
   
